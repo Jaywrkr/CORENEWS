@@ -6,6 +6,7 @@ function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
     day: "2-digit",
     month: "short",
+    year: "numeric",
   });
 }
 
@@ -24,25 +25,27 @@ export function NewsCard({
     <button
       type="button"
       onClick={() => onSelect(item)}
-      className="group block w-full border-b border-ink-100 py-05 text-left first:pt-0"
+      className={`card group w-full text-left ${featured ? "p-07" : "p-05"}`}
     >
-      <div className="flex items-center gap-03 text-xs text-ink-400">
-        <span className="kicker text-ink-500">{category?.short ?? "Core"}</span>
+      <div className="flex items-center gap-02">
+        <span className="kicker text-navy-700">{category?.short ?? "Core"}</span>
         <SeverityBadge severity={item.severity} />
-        <span className="ml-auto font-mono">{formatDate(item.publishedAt)}</span>
+        <time className="ml-auto font-mono text-xs text-ink-400">{formatDate(item.publishedAt)}</time>
       </div>
 
       <h3
-        className={`mt-02 font-semibold leading-snug text-ink-900 group-hover:text-navy-950 ${
-          featured ? "text-xl" : "text-base"
+        className={`mt-03 font-semibold leading-snug text-ink-900 group-hover:text-navy-950 ${
+          featured ? "text-2xl" : "text-base"
         }`}
       >
         {item.title}
       </h3>
 
-      <p className="mt-02 text-sm text-ink-500 line-clamp-2">{item.summary}</p>
+      <p className={`mt-03 text-ink-600 ${featured ? "text-base" : "text-sm"} line-clamp-2`}>
+        {item.summary}
+      </p>
 
-      <p className="mt-02 text-xs text-ink-400">{item.source}</p>
+      <p className="mt-03 text-xs text-ink-500">{item.source}</p>
     </button>
   );
 }
