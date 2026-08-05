@@ -7,7 +7,6 @@ import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
-    weekday: "long",
     day: "2-digit",
     month: "long",
     year: "numeric",
@@ -44,70 +43,56 @@ export function NewsDrawer({
         type="button"
         aria-label="Cerrar"
         onClick={onClose}
-        className="absolute inset-0 bg-navy-950/50 backdrop-blur-[1px]"
+        className="absolute inset-0 bg-black/20"
       />
 
       <aside
         role="dialog"
         aria-modal="true"
-        className="relative flex h-full w-full max-w-md flex-col overflow-y-auto border-l border-ink-200 bg-white shadow-2xl animate-[slide-in_0.2s_ease-out]"
+        className="relative flex h-full w-full max-w-md flex-col overflow-y-auto border-l border-ink-100 bg-white animate-[slide-in_0.2s_ease-out]"
       >
-        <div className="flex items-center justify-between border-b border-ink-200 px-06 py-05">
-          <div className="flex items-center gap-02">
-            <span className="kicker text-navy-700">{category?.label ?? "Core"}</span>
+        <div className="flex items-start justify-between px-06 pt-06">
+          <div className="flex items-center gap-03 text-xs">
+            <span className="kicker text-ink-500">{category?.label ?? "Core"}</span>
             <SeverityBadge severity={item.severity} />
           </div>
           <button
             type="button"
             onClick={onClose}
             aria-label="Cerrar panel"
-            className="flex h-8 w-8 items-center justify-center border border-ink-200 text-ink-600 transition-colors hover:border-navy-950 hover:text-navy-950"
+            className="text-ink-400 transition-colors hover:text-navy-950"
           >
             ✕
           </button>
         </div>
 
-        <div className="flex-1 px-06 py-06">
-          <time className="font-mono text-xs text-ink-500">{formatDate(item.publishedAt)}</time>
+        <div className="flex-1 px-06 py-04">
+          <time className="font-mono text-xs text-ink-400">{formatDate(item.publishedAt)}</time>
 
-          <h2 className="mt-03 font-serif text-2xl font-semibold leading-tight text-navy-950">
+          <h2 className="mt-02 font-serif text-2xl font-semibold leading-tight text-navy-950">
             {item.title}
           </h2>
 
-          <p className="mt-02 text-sm text-ink-500">
-            Fuente: <span className="font-medium text-ink-700">{item.source}</span>
-          </p>
+          <p className="mt-02 text-sm text-ink-500">{item.source}</p>
 
-          <div className="mt-05 flex flex-wrap gap-02">
-            {item.tags.map((tag) => (
-              <span key={tag} className="pill">
-                {tag}
-              </span>
-            ))}
+          <p className="mt-05 text-base leading-relaxed text-ink-800">{item.summary}</p>
+
+          <div className="mt-05 border-l-2 border-ink-200 pl-04">
+            <p className="kicker mb-01 text-ink-400">Por qué le importa a Core</p>
+            <p className="text-sm leading-relaxed text-ink-700">{item.relevance}</p>
           </div>
 
-          <div className="mt-06 border-t border-ink-100 pt-06">
-            <p className="kicker mb-02 text-ink-400">Resumen</p>
-            <p className="text-base leading-relaxed text-ink-800">{item.summary}</p>
-          </div>
-
-          <div className="mt-06 border-l-2 border-navy-950 bg-navy-50 p-05">
-            <p className="kicker mb-02 text-navy-700">Por qué le importa a Core</p>
-            <p className="text-sm leading-relaxed text-navy-950">{item.relevance}</p>
-          </div>
-
-          <p className="mt-05 text-xs text-ink-500">
-            Resumen curado automáticamente a partir de la fuente original. Para el
-            artículo completo, con todo el contexto, visita el enlace a continuación.
-          </p>
+          {item.tags.length > 0 && (
+            <p className="mt-05 text-xs text-ink-400">{item.tags.join(" · ")}</p>
+          )}
         </div>
 
-        <div className="border-t border-ink-200 px-06 py-05">
+        <div className="px-06 py-06">
           <a
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary w-full"
+            className="text-sm font-semibold text-navy-950 hover:underline"
           >
             Ver noticia original →
           </a>

@@ -24,13 +24,10 @@ export default async function CategoryPage({
   const filtered = filterByCategory(items, category.slug);
 
   return (
-    <div className="container-content py-07">
-      <div className="mb-07 border-b border-ink-200 pb-06">
-        <span className="kicker text-navy-700">Categoría</span>
-        <h1 className="mt-02 font-serif text-3xl font-semibold text-navy-950 md:text-4xl">
-          {category.label}
-        </h1>
-        <p className="mt-02 max-w-2xl text-ink-600">{category.description}</p>
+    <div className="container-content py-08">
+      <div className="mb-07">
+        <h1 className="text-2xl font-semibold text-navy-950">{category.label}</h1>
+        <p className="mt-02 text-sm text-ink-500">{category.description}</p>
       </div>
 
       <CategoryTabs active={category.slug} />
@@ -40,7 +37,7 @@ export default async function CategoryPage({
           <EmptyState />
         </div>
       ) : (
-        <div className="mt-07">
+        <div className="mt-06">
           <NewsExplorer items={filtered} />
         </div>
       )}

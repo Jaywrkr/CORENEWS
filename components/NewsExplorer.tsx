@@ -50,24 +50,26 @@ export function NewsExplorer({
 
   return (
     <>
-      <div className="mb-06 flex flex-col gap-04 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mb-06 space-y-03">
         <input
           type="search"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Buscar por título, fabricante o palabra clave…"
-          className="hairline w-full max-w-sm bg-white px-05 py-03 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none"
+          placeholder="Buscar…"
+          className="w-full max-w-xs border-b border-ink-200 bg-transparent py-02 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none"
         />
         {vendorChips.length > 0 && (
-          <div className="flex flex-wrap gap-02">
+          <div className="flex flex-wrap gap-x-04 gap-y-02 text-xs">
             {vendorChips.map((tag) => (
               <button
                 key={tag}
                 type="button"
                 onClick={() => setVendor(vendor === tag ? null : tag)}
-                className={`pill transition-colors ${
-                  vendor === tag ? "border-navy-950 bg-navy-950 text-white" : "hover:border-navy-950"
-                }`}
+                className={
+                  vendor === tag
+                    ? "font-semibold text-navy-950 underline underline-offset-4"
+                    : "plain-link"
+                }
               >
                 {tag}
               </button>
@@ -77,30 +79,20 @@ export function NewsExplorer({
       </div>
 
       {filtered.length === 0 ? (
-        <div className="hairline flex flex-col items-center gap-03 bg-ink-50 px-06 py-10 text-center">
-          <span className="font-mono text-xs uppercase tracking-wide text-ink-500">Sin resultados</span>
-          <p className="max-w-md text-ink-600">
-            Ningún artículo coincide con “{query || vendor}”. Prueba con otra palabra clave o quita el filtro.
+        <div className="py-10 text-center">
+          <p className="text-sm text-ink-500">
+            Ningún artículo coincide con “{query || vendor}”.
           </p>
         </div>
       ) : useFeaturedLayout && featured ? (
-        <div className="space-y-09">
-          <div>
-            <p className="kicker mb-03 text-navy-700">Destacado</p>
-            <NewsCard item={featured} featured onSelect={setSelected} />
-          </div>
-
-          <div>
-            <p className="kicker mb-03 text-navy-700">Últimas noticias</p>
-            <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
-              {rest.map((item) => (
-                <NewsCard key={item.id} item={item} onSelect={setSelected} />
-              ))}
-            </div>
-          </div>
+        <div>
+          <NewsCard item={featured} featured onSelect={setSelected} />
+          {rest.map((item) => (
+            <NewsCard key={item.id} item={item} onSelect={setSelected} />
+          ))}
         </div>
       ) : (
-        <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
+        <div>
           {filtered.map((item) => (
             <NewsCard key={item.id} item={item} onSelect={setSelected} />
           ))}
