@@ -3,6 +3,8 @@
 import { useEffect } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
+import { CategoryIcon } from "./icons";
+import { CategoryThumb } from "./CategoryThumb";
 import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
@@ -51,23 +53,30 @@ export function NewsDrawer({
         aria-modal="true"
         className="relative flex h-full w-full max-w-md flex-col overflow-y-auto border-l border-ink-200 bg-white animate-[slide-in_0.2s_ease-out]"
       >
-        <div className="flex items-center justify-between px-06 pt-06">
-          <div className="flex items-center gap-02">
-            <span className="kicker text-navy-700">{category?.label ?? "Core"}</span>
-            <SeverityBadge severity={item.severity} />
-          </div>
+        <div className="relative">
+          <CategoryThumb
+            variant={category?.thumb ?? "navy"}
+            icon={category?.icon ?? "shield"}
+            className="aspect-[16/9] w-full"
+          />
           <button
             type="button"
             onClick={onClose}
             aria-label="Cerrar panel"
-            className="text-ink-500 transition-colors hover:text-navy-950"
+            className="absolute right-05 top-05 flex h-8 w-8 items-center justify-center bg-white/90 text-ink-700 transition-colors hover:bg-white"
           >
             ✕
           </button>
         </div>
 
         <div className="flex-1 px-06 py-05">
-          <time className="font-mono text-xs text-ink-500">{formatDate(item.publishedAt)}</time>
+          <div className="flex items-center gap-02 text-ink-500">
+            <CategoryIcon name={category?.icon ?? "shield"} className="h-4 w-4 shrink-0" />
+            <span className="kicker">{category?.label ?? "Core"}</span>
+            <SeverityBadge severity={item.severity} />
+          </div>
+
+          <time className="mt-03 block font-mono text-xs text-ink-500">{formatDate(item.publishedAt)}</time>
 
           <h2 className="mt-02 font-serif text-2xl font-semibold leading-tight text-navy-950">
             {item.title}

@@ -37,14 +37,10 @@
   }
 
   .pill {
-    @apply inline-flex items-center rounded-pill border border-ink-200 px-03 py-02 text-xs font-medium uppercase tracking-wide text-ink-600;
+    @apply inline-flex items-center rounded-pill bg-navy-50 px-03 py-02 text-xs font-medium text-navy-700;
   }
 
   .kicker {
     @apply font-mono text-xs uppercase tracking-[0.14em] text-ink-500;
-  }
-
-  .card {
-    @apply hairline flex flex-col bg-white transition-colors duration-150 hover:border-navy-950;
   }
 }

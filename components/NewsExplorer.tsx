@@ -66,7 +66,7 @@ export function NewsExplorer({
                 type="button"
                 onClick={() => setVendor(vendor === tag ? null : tag)}
                 className={`pill transition-colors ${
-                  vendor === tag ? "border-navy-950 bg-navy-950 text-white" : "hover:border-navy-950"
+                  vendor === tag ? "bg-navy-950 text-white" : "hover:bg-navy-100"
                 }`}
               >
                 {tag}
