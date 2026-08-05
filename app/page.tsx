@@ -1,5 +1,5 @@
 import { getNews } from "@/lib/getNews";
-import { NewsCard } from "@/components/NewsCard";
+import { NewsExplorer } from "@/components/NewsExplorer";
 import { CategoryTabs } from "@/components/CategoryTabs";
 import { EmptyState } from "@/components/EmptyState";
 import { CATEGORIES } from "@/data/categories";
@@ -8,7 +8,6 @@ export const revalidate = 3600;
 
 export default async function HomePage() {
   const { items, generatedAt } = await getNews();
-  const [featured, ...rest] = items;
 
   return (
     <div>
@@ -37,22 +36,8 @@ export default async function HomePage() {
             <EmptyState />
           </div>
         ) : (
-          <div className="mt-07 space-y-09">
-            {featured && (
-              <div>
-                <p className="kicker mb-03 text-navy-700">Destacado</p>
-                <NewsCard item={featured} featured />
-              </div>
-            )}
-
-            <div>
-              <p className="kicker mb-03 text-navy-700">Últimas noticias</p>
-              <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
-                {rest.map((item) => (
-                  <NewsCard key={item.id} item={item} />
-                ))}
-              </div>
-            </div>
+          <div className="mt-07">
+            <NewsExplorer items={items} showFeatured />
           </div>
         )}
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { getNews, filterByCategory } from "@/lib/getNews";
-import { NewsCard } from "@/components/NewsCard";
+import { NewsExplorer } from "@/components/NewsExplorer";
 import { CategoryTabs } from "@/components/CategoryTabs";
 import { EmptyState } from "@/components/EmptyState";
 import { CATEGORIES, getCategory } from "@/data/categories";
@@ -40,10 +40,8 @@ export default async function CategoryPage({
           <EmptyState />
         </div>
       ) : (
-        <div className="mt-07 grid gap-05 md:grid-cols-2 lg:grid-cols-3">
-          {filtered.map((item) => (
-            <NewsCard key={item.id} item={item} />
-          ))}
+        <div className="mt-07">
+          <NewsExplorer items={filtered} />
         </div>
       )}
     </div>

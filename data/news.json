@@ -1,34 +1,318 @@
 {
-  "generatedAt": "2026-08-05T15:29:48.670Z",
-  "count": 2,
+  "generatedAt": "2026-08-05T16:15:05.911Z",
+  "count": 20,
   "items": [
     {
-      "id": "aHR0cHM6Ly9ibG9ncy5taWNy",
-      "title": "Rethinking security for the age of AI",
-      "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-      "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog.",
-      "source": "Microsoft Security Blog",
-      "sourceId": "microsoft-security",
+      "id": "aHR0cHM6Ly9teC5pbnZlc3Rp",
+      "title": "Broadcom pierde en la UE una batalla legal por documentos de la adquisición de VMware",
+      "link": "https://mx.investing.com/news/company-news/broadcom-pierde-batalla-legal-en-la-ue-por-documentos-de-vmware-93CH-3713841",
+      "summary": "El Tribunal General de Luxemburgo falló en contra de Broadcom, que buscaba frenar la entrega de documentos que la Comisión Europea exige como parte de su revisión de la compra de VMware por 61.000 millones de dólares.",
+      "source": "Investing.com",
+      "sourceId": "investing",
       "category": "fabricantes",
       "tags": [
-        "Microsoft"
+        "VMware",
+        "Broadcom"
       ],
-      "publishedAt": "2026-07-27T16:40:00.000Z",
-      "fetchedAt": "2026-08-05T15:29:48.201Z"
+      "publishedAt": "2026-08-03T09:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
     },
     {
-      "id": "aHR0cHM6Ly93d3cubWljcm9z",
-      "title": "Real world incident response: Microsoft and AXA XL strengthen cyber resilience",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/07/22/real-world-incident-response-microsoft-and-axa-xl-strengthen-cyber-resilience/",
-      "summary": "Our collaboration with AXA XL brings Microsoft Incident Response services directly to cyber insurance policyholders, helping organizations coordinate technical, business, and insurance decisions. The post Real world…",
-      "source": "Microsoft Security Blog",
-      "sourceId": "microsoft-security",
+      "id": "aHR0cHM6Ly9pbmZvc2VydGVj",
+      "title": "El ransomware crece 16,5% a nivel global en el primer semestre de 2026",
+      "link": "https://infosertecla.com/2026/08/01/ransomware-crece-16-y-apunta-a-empresas-de-tecnologia-y-manufactura/",
+      "summary": "Se registraron 4.699 ataques de ransomware confirmados en el primer semestre del año. Qilin, The Gentlemen y Akira lideran la actividad, con tecnología, manufactura y servicios como los sectores más golpeados.",
+      "source": "Infosertecla",
+      "sourceId": "infosertecla",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ransomware"
+      ],
+      "publishedAt": "2026-08-01T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly92ZXJhY3J1emVu",
+      "title": "Una pyme mexicana debe reconstruir su infraestructura tras un ataque de ransomware de tres meses",
+      "link": "https://veracruzenred.mx/ataque-de-ransomware-obliga-a-pyme-mexicana-a-reconstruir-infraestructura-digital/",
+      "summary": "Los atacantes permanecieron tres meses dentro de la red antes de exfiltrar información y cifrar entre cinco y seis servidores. La empresa terminó pagando un rescate y reconstruyendo su plataforma de respaldo desde cero.",
+      "source": "Veracruz en Red",
+      "sourceId": "veracruz-en-red",
+      "category": "storage-backup",
+      "tags": [
+        "Ransomware",
+        "Backup",
+        "Continuidad Operativa"
+      ],
+      "publishedAt": "2026-08-01T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9jb21lcmNpby50",
+      "title": "Azure supera los 100.000 millones de dólares en ingresos y crece 43% en el último trimestre",
+      "link": "https://comercio.tv/2026/07/30/microsoft-despeja-las-dudas-sobre-la-inteligencia-artificial-azure-supera-los-100000-millones/",
+      "summary": "Microsoft cerró su año fiscal 2026 con ingresos trimestrales récord de 90.000 millones de dólares. Azure aceleró su crecimiento a 43% y la compañía mantiene un plan de inversión de 41.000 millones de dólares en centros de datos e IA.",
+      "source": "Comercio TV",
+      "sourceId": "comercio-tv",
+      "category": "virtualizacion-cloud",
+      "tags": [
+        "Microsoft",
+        "Azure",
+        "Cloud"
+      ],
+      "publishedAt": "2026-07-30T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
+      "title": "Broadcom corrige tres fallas críticas en VMware ESXi que permiten ejecución de código y escape de máquina virtual",
+      "link": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "summary": "Broadcom publicó parches para cinco vulnerabilidades en ESXi, vCenter, Workstation y Fusion; tres de severidad crítica permiten bypass de autenticación, ejecución remota de código y escape del hipervisor. Se recomienda actualizar de inmediato en entornos con VMware.",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "VMware",
+        "Vulnerabilidad",
+        "Broadcom"
+      ],
+      "publishedAt": "2026-07-29T12:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cucXVlLmVz",
+      "title": "El ransomware se duplica en España y golpea a Inditex y Endesa",
+      "link": "https://www.que.es/2026/07/28/ransomware-inditex-espana-2026/",
+      "summary": "Los ataques de ransomware en España pasaron de 176 a 392 en un año. Inditex y Endesa sufrieron incidentes originados en proveedores tecnológicos externos, evidenciando el riesgo de la cadena de suministro.",
+      "source": "Qué.es",
+      "sourceId": "que-es",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ransomware"
+      ],
+      "publishedAt": "2026-07-28T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly90aHJlYXQtbW9k",
+      "title": "El grupo ShinyHunters explota en cadena dos vulnerabilidades de Oracle PeopleSoft",
+      "link": "https://threat-modeling.com/oracle-july-2026-critical-patch-update/",
+      "summary": "CVE-2026-35278 combinada con CVE-2026-35273 permite ejecución remota de código en PeopleSoft y ya está siendo explotada activamente por el grupo ShinyHunters, según confirmó Oracle en su boletín de julio.",
+      "source": "Threat-Modeling.com",
+      "sourceId": "threat-modeling",
+      "category": "ciberseguridad",
+      "tags": [
+        "Oracle",
+        "Ciberataque",
+        "CVE"
+      ],
+      "publishedAt": "2026-07-25T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
+      "title": "IBM presenta el servidor Power S1112 y un agente de IA que resuelve incidentes de capacidad en minutos",
+      "link": "https://www.datacenterdynamics.com/es/noticias/ibm-presenta-la-nueva-generaci%C3%B3n-de-servidores-ibm-power-que-permiten-tener-una-nube-h%C3%ADbrida-escalable-y-sin-fricciones/",
+      "summary": "El nuevo Power S1112 duplica el rendimiento por núcleo del Power S914 con hasta 69% más eficiencia energética. IBM lo acompaña de Power Autonomous Operations, un agente de IA que en pruebas internas resolvió incidentes de capacidad en 3,3 minutos frente a los 52,6 minutos de la intervención manual.",
+      "source": "Data Center Dynamics",
+      "sourceId": "dcd",
+      "category": "servidores-hardware",
+      "tags": [
+        "IBM",
+        "IBM Power",
+        "Servidores"
+      ],
+      "publishedAt": "2026-07-24T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9tYXJpdXNob3N0",
+      "title": "Synology lanza DSM 7.4.1, actualización de estabilidad para sus NAS",
+      "link": "https://mariushosting.com/synology-huge-docker-container-updates-july-2026/",
+      "summary": "La nueva versión de DSM corrige, entre otros temas, un problema que impedía reconocer un UPS por USB tras actualizar, además de mejoras en contenedores Docker/Container Manager para los equipos NAS de Synology.",
+      "source": "Marius Hosting",
+      "sourceId": "marius-hosting",
+      "category": "storage-backup",
+      "tags": [
+        "Synology",
+        "NAS"
+      ],
+      "publishedAt": "2026-07-23T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9nLmVsaGFj",
+      "title": "Check Point corrige vulnerabilidad crítica en SmartConsole ya explotada activamente",
+      "link": "https://blog.elhacker.net/2026/07/check-point-corrige-vulnerabilidad-en.html",
+      "summary": "La CVE-2026-16232 permite a un atacante remoto sin autenticación eludir el login de SmartConsole y obtener un token con privilegios administrativos completos si el servidor de gestión es accesible desde internet. CISA la sumó a su catálogo de vulnerabilidades explotadas el 22 de julio.",
+      "source": "elhacker.NET",
+      "sourceId": "elhacker-net",
+      "category": "ciberseguridad",
+      "tags": [
+        "Check Point",
+        "CVE",
+        "Vulnerabilidad"
+      ],
+      "publishedAt": "2026-07-22T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cubW9uY2xv",
+      "title": "Oracle publica su actualización de parches más grande de la historia: 1.449 correcciones",
+      "link": "https://www.moncloa.com/2026/07/23/incibe-oracle-parche-seguridad-julio-2026-3404352/",
+      "summary": "El Critical Patch Update de julio 2026 de Oracle corrige más de 1.200 vulnerabilidades, seis de severidad crítica, en Database Server, Fusion Middleware, MySQL, E-Business Suite y JD Edwards. Gran parte son explotables remotamente sin autenticación.",
+      "source": "INCIBE / Moncloa",
+      "sourceId": "incibe-moncloa",
+      "category": "ciberseguridad",
+      "tags": [
+        "Oracle",
+        "CVE",
+        "Parche"
+      ],
+      "publishedAt": "2026-07-22T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9uZXdzLmJyb2Fk",
+      "title": "VMware Explore 2026 se confirma en Las Vegas del 31 de agosto al 3 de septiembre",
+      "link": "https://news.broadcom.com/releases/vmware-explore-2026",
+      "summary": "Broadcom confirmó la agenda de VMware Explore 2026 en The Venetian, con paradas adicionales de \"Explore on Tour\" en Mumbai, Singapur, Fráncfort, Tokio, Londres y Washington D.C. durante el resto del año.",
+      "source": "Broadcom Newsroom",
+      "sourceId": "broadcom-news",
       "category": "fabricantes",
       "tags": [
-        "Microsoft"
+        "VMware",
+        "Broadcom"
       ],
-      "publishedAt": "2026-07-22T16:00:00.000Z",
-      "fetchedAt": "2026-08-05T15:29:48.201Z"
+      "publishedAt": "2026-07-20T10:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuaW5jaWJl",
+      "title": "Check Point parchea bypass de autenticación crítico en Security Management (CVSS 9.3)",
+      "link": "https://www.incibe.es/empresas/avisos/omision-de-autenticacion-en-productos-de-check-point",
+      "summary": "La CVE-2026-62144 en Check Point Security Management y Multi-Domain Security Management permite a un atacante remoto no autenticado ejecutar comandos administrativos en el servidor de gestión. INCIBE recomienda aplicar el parche sin demora.",
+      "source": "INCIBE",
+      "sourceId": "incibe",
+      "category": "ciberseguridad",
+      "tags": [
+        "Check Point",
+        "CVE",
+        "Vulnerabilidad"
+      ],
+      "publishedAt": "2026-07-18T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9kcGxuZXdzLmNv",
+      "title": "Lenovo amplía su planta en Carolina del Norte para acelerar la producción de servidores de IA",
+      "link": "https://dplnews.com/lenovo-planta-carolina-del-norte-servidores-ia/",
+      "summary": "La ampliación, preparada para soportar hasta 20 MW y las próximas dos generaciones de sistemas HPC, suma más de 400 empleos y refuerza la estrategia de manufactura regional de Lenovo para acortar tiempos de entrega.",
+      "source": "DPL News",
+      "sourceId": "dpl-news",
+      "category": "servidores-hardware",
+      "tags": [
+        "Lenovo",
+        "Servidores"
+      ],
+      "publishedAt": "2026-07-15T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly94LmNvbS9Nc2Z0",
+      "title": "Microsoft corrige \"Certighost\", falla crítica de escalamiento de privilegios en Active Directory Certificate Services",
+      "link": "https://x.com/MsftSecIntel/status/2081902547728515535",
+      "summary": "La CVE-2026-54121 permite a un atacante autenticado con bajos privilegios manipular la inscripción de certificados para hacerse pasar por un controlador de dominio, comprometiendo todo el dominio de Active Directory. No requiere interacción del usuario.",
+      "source": "Microsoft Threat Intelligence",
+      "sourceId": "microsoft-threat-intel",
+      "category": "ciberseguridad",
+      "tags": [
+        "Microsoft",
+        "Active Directory",
+        "CVE"
+      ],
+      "publishedAt": "2026-07-14T14:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cubnV0YW5p",
+      "title": "Nutanix ofrece un año de licenciamiento gratuito para migrar desde VMware",
+      "link": "https://www.nutanix.com/es/vmware-alternative/vmware-to-nutanix-migration-promotion",
+      "summary": "La promoción, vigente hasta el 31 de julio, busca capturar clientes que evalúan alternativas tras los cambios de licenciamiento de Broadcom/VMware, apoyada en las herramientas de migración Nutanix Move.",
+      "source": "Nutanix",
+      "sourceId": "nutanix",
+      "category": "virtualizacion-cloud",
+      "tags": [
+        "Nutanix",
+        "VMware",
+        "HCI"
+      ],
+      "publishedAt": "2026-07-01T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9hcmN0aWN3b2xm",
+      "title": "FortiBleed: más de 73.000 firewalls FortiGate expuestos por credenciales filtradas",
+      "link": "https://arcticwolf.com/resources/blog/active-fortibleed-campaign-impacting-fortinet-devices-across-194-countries/",
+      "summary": "Una campaña activa está explotando credenciales por defecto y fallas conocidas para comprometer decenas de miles de firewalls FortiGate expuestos a internet en 194 países. Arctic Wolf recomienda auditar credenciales y exposición pública de inmediato.",
+      "source": "Arctic Wolf",
+      "sourceId": "arctic-wolf",
+      "category": "ciberseguridad",
+      "tags": [
+        "Fortinet",
+        "Firewall",
+        "Ciberataque"
+      ],
+      "publishedAt": "2026-06-20T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuaGVscG5l",
+      "title": "Cisco confirma explotación activa de una vulnerabilidad en Catalyst SD-WAN Manager",
+      "link": "https://www.helpnetsecurity.com/2026/06/16/cisco-sd-wan-cve-2026-20262-exploited/",
+      "summary": "La CVE-2026-20262 es un fallo de path traversal en Catalyst SD-WAN Manager que permite a un atacante autenticado escribir archivos en el sistema y escalar a root. CISA la sumó a su catálogo KEV y exigió parchear antes del 29 de junio.",
+      "source": "Help Net Security",
+      "sourceId": "helpnetsecurity",
+      "category": "redes",
+      "tags": [
+        "Cisco",
+        "SD-WAN",
+        "CVE",
+        "Vulnerabilidad"
+      ],
+      "publishedAt": "2026-06-16T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
+      "title": "Veeam corrige falla crítica que permitía a usuarios de dominio ejecutar código remoto en servidores de backup",
+      "link": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html",
+      "summary": "La vulnerabilidad en Veeam Backup & Replication permitía a cualquier usuario autenticado del dominio ejecutar código arbitrario en el servidor de respaldo, un blanco cada vez más buscado por grupos de ransomware para sabotear la recuperación.",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "storage-backup",
+      "tags": [
+        "Veeam",
+        "Backup",
+        "CVE"
+      ],
+      "publishedAt": "2026-06-10T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cudGhlcmVn",
+      "title": "HPE Aruba Networking presenta puntos de acceso Wi-Fi 7 \"self-driving\" con IA",
+      "link": "https://www.theregister.com/networks/2026/05/08/hpe-drops-first-juniper-x-aruba-collab-self-driving-wi-fi/5235463",
+      "summary": "Primer fruto de la integración con Juniper: los nuevos access points Wi-Fi 7 se gestionan desde Aruba Central o Mist y usan IA para operar de forma semi-autónoma. El HPE Networking 723H apunta a hotelería, sucursales y teletrabajo.",
+      "source": "The Register",
+      "sourceId": "the-register",
+      "category": "redes",
+      "tags": [
+        "Aruba (HPE)",
+        "Redes Wi-Fi"
+      ],
+      "publishedAt": "2026-05-08T08:00:00.000Z",
+      "fetchedAt": "2026-08-05T16:15:05.911Z"
     }
   ]
 }

@@ -9,15 +9,22 @@ function formatDate(iso: string) {
   });
 }
 
-export function NewsCard({ item, featured = false }: { item: NewsItem; featured?: boolean }) {
+export function NewsCard({
+  item,
+  featured = false,
+  onSelect,
+}: {
+  item: NewsItem;
+  featured?: boolean;
+  onSelect: (item: NewsItem) => void;
+}) {
   const category = getCategory(item.category);
 
   return (
-    <a
-      href={item.link}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`card group ${featured ? "p-07" : "p-05"}`}
+    <button
+      type="button"
+      onClick={() => onSelect(item)}
+      className={`card group w-full text-left ${featured ? "p-07" : "p-05"}`}
     >
       <div className="flex items-center justify-between gap-03">
         <span className="kicker text-navy-700">{category?.short ?? "Core"}</span>
@@ -46,8 +53,8 @@ export function NewsCard({ item, featured = false }: { item: NewsItem; featured?
 
       <div className="mt-03 flex items-center justify-between border-t border-ink-100 pt-03 text-xs text-ink-500">
         <span>{item.source}</span>
-        <span className="font-medium text-navy-700 group-hover:underline">Leer fuente →</span>
+        <span className="font-medium text-navy-700 group-hover:underline">Ver resumen →</span>
       </div>
-    </a>
+    </button>
   );
 }
