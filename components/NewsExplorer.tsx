@@ -59,13 +59,13 @@ export function NewsExplorer({
           className="hairline h-11 w-full max-w-sm bg-white px-05 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
         />
         {vendorChips.length > 0 && (
-          <div className="flex flex-wrap items-center gap-02">
+          <div className="flex max-w-full gap-02 overflow-x-auto py-01 [-ms-overflow-style:none] [scrollbar-width:none] sm:max-w-md [&::-webkit-scrollbar]:hidden">
             {vendorChips.map((tag) => (
               <button
                 key={tag}
                 type="button"
                 onClick={() => setVendor(vendor === tag ? null : tag)}
-                className={`pill transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
+                className={`pill shrink-0 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
                   vendor === tag ? "bg-navy-950 text-white" : "hover:bg-navy-100"
                 }`}
               >
