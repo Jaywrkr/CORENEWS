@@ -6,7 +6,7 @@ export function CategoryTabs({ active }: { active?: string }) {
     <div className="flex flex-wrap gap-02 border-b border-ink-200 pb-05">
       <Link
         href="/"
-        className={`px-05 py-03 text-sm font-medium transition-colors ${
+        className={`px-05 py-03 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
           !active ? "bg-navy-950 text-white" : "border border-ink-200 text-ink-700 hover:border-navy-950"
         }`}
       >
@@ -16,7 +16,7 @@ export function CategoryTabs({ active }: { active?: string }) {
         <Link
           key={c.slug}
           href={`/categoria/${c.slug}`}
-          className={`px-05 py-03 text-sm font-medium transition-colors ${
+          className={`px-05 py-03 text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
             active === c.slug
               ? "bg-navy-950 text-white"
               : "border border-ink-200 text-ink-700 hover:border-navy-950"

@@ -46,3 +46,8 @@ export function pickMeshColors(tags: string[], category: CategorySlug): [string,
   const [a, b] = CATEGORY_FALLBACK_COLORS[category];
   return [a, b, "#01095C"];
 }
+
+/** Tags que corresponden a marcas/fabricantes que Core vende e implementa. */
+export function getCoreVendorTags(tags: string[]): string[] {
+  return tags.filter((t) => t in VENDOR_COLORS);
+}

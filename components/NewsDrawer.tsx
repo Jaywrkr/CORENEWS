@@ -3,9 +3,11 @@
 import { useEffect } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
+import { getCoreVendorTags } from "@/data/vendorColors";
 import { CategoryIcon } from "./icons";
 import { MeshThumb } from "./MeshThumb";
 import { SeverityBadge } from "./SeverityBadge";
+import { VendorTag } from "./VendorTag";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
@@ -38,6 +40,8 @@ export function NewsDrawer({
   if (!item) return null;
 
   const category = getCategory(item.category);
+  const vendorTags = getCoreVendorTags(item.tags);
+  const otherTags = item.tags.filter((t) => !vendorTags.includes(t));
 
   return (
     <div className="fixed inset-0 z-50 flex justify-end">
@@ -59,7 +63,7 @@ export function NewsDrawer({
             type="button"
             onClick={onClose}
             aria-label="Cerrar panel"
-            className="absolute right-05 top-05 flex h-8 w-8 items-center justify-center bg-white/90 text-ink-700 transition-colors hover:bg-white"
+            className="absolute right-05 top-05 flex h-8 w-8 items-center justify-center bg-white/90 text-ink-700 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
           >
             ✕
           </button>
@@ -87,9 +91,20 @@ export function NewsDrawer({
             <p className="text-sm leading-relaxed text-ink-800">{item.relevance}</p>
           </div>
 
-          {item.tags.length > 0 && (
+          {vendorTags.length > 0 && (
+            <div className="mt-05">
+              <p className="kicker mb-02 text-navy-700">Marcas de Core en esta noticia</p>
+              <div className="flex flex-wrap gap-02">
+                {vendorTags.map((v) => (
+                  <VendorTag key={v} name={v} />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {otherTags.length > 0 && (
             <div className="mt-05 flex flex-wrap gap-02">
-              {item.tags.map((tag) => (
+              {otherTags.map((tag) => (
                 <span key={tag} className="pill">
                   {tag}
                 </span>
@@ -103,7 +118,7 @@ export function NewsDrawer({
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary w-full"
+            className="btn-primary w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-300 focus-visible:ring-offset-2"
           >
             Ver noticia original →
           </a>

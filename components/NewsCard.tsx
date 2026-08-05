@@ -1,8 +1,10 @@
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
+import { getCoreVendorTags } from "@/data/vendorColors";
 import { CategoryIcon } from "./icons";
 import { MeshThumb } from "./MeshThumb";
 import { SeverityBadge } from "./SeverityBadge";
+import { VendorTag } from "./VendorTag";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
@@ -22,9 +24,15 @@ export function NewsCard({
   onSelect: (item: NewsItem) => void;
 }) {
   const category = getCategory(item.category);
+  const vendorTags = getCoreVendorTags(item.tags);
+  const otherTags = item.tags.filter((t) => !vendorTags.includes(t));
 
   return (
-    <button type="button" onClick={() => onSelect(item)} className="group flex w-full flex-col text-left">
+    <button
+      type="button"
+      onClick={() => onSelect(item)}
+      className="group flex h-full w-full flex-col text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 focus-visible:ring-offset-2"
+    >
       <div className="flex items-center gap-02 text-ink-500">
         <CategoryIcon name={category?.icon ?? "shield"} className="h-4 w-4 shrink-0" />
         <span className="kicker">{category?.short ?? "Core"}</span>
@@ -49,21 +57,31 @@ export function NewsCard({
         {item.summary}
       </p>
 
-      <div className="mt-03 flex items-center gap-02 text-xs text-ink-400">
-        <span>{item.source}</span>
-        <span aria-hidden>·</span>
-        <time className="font-mono">{formatDate(item.publishedAt)}</time>
-      </div>
-
-      {item.tags.length > 0 && (
+      {vendorTags.length > 0 && (
         <div className="mt-03 flex flex-wrap gap-02">
-          {item.tags.slice(0, 3).map((tag) => (
-            <span key={tag} className="pill">
-              {tag}
-            </span>
+          {vendorTags.map((v) => (
+            <VendorTag key={v} name={v} />
           ))}
         </div>
       )}
+
+      <div className="mt-auto flex flex-col gap-03 pt-04">
+        <div className="flex items-center gap-02 text-xs text-ink-400">
+          <span>{item.source}</span>
+          <span aria-hidden>·</span>
+          <time className="font-mono">{formatDate(item.publishedAt)}</time>
+        </div>
+
+        {otherTags.length > 0 && (
+          <div className="flex flex-wrap gap-02">
+            {otherTags.slice(0, 3).map((tag) => (
+              <span key={tag} className="pill">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
     </button>
   );
 }
