@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
 import { NewsCard } from "./NewsCard";
 import { NewsDrawer } from "./NewsDrawer";
+
+const MAX_VENDOR_CHIPS = 10;
 
 export function NewsExplorer({
   items,
@@ -13,11 +15,75 @@ export function NewsExplorer({
   showFeatured?: boolean;
 }) {
   const [selected, setSelected] = useState<NewsItem | null>(null);
-  const [featured, ...rest] = items;
+  const [query, setQuery] = useState("");
+  const [vendor, setVendor] = useState<string | null>(null);
+
+  const vendorChips = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const item of items) {
+      for (const tag of item.tags) {
+        counts.set(tag, (counts.get(tag) ?? 0) + 1);
+      }
+    }
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, MAX_VENDOR_CHIPS)
+      .map(([tag]) => tag);
+  }, [items]);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return items.filter((item) => {
+      if (vendor && !item.tags.includes(vendor)) return false;
+      if (!q) return true;
+      return (
+        item.title.toLowerCase().includes(q) ||
+        item.summary.toLowerCase().includes(q) ||
+        item.source.toLowerCase().includes(q) ||
+        item.tags.some((t) => t.toLowerCase().includes(q))
+      );
+    });
+  }, [items, query, vendor]);
+
+  const useFeaturedLayout = showFeatured && !query && !vendor;
+  const [featured, ...rest] = filtered;
 
   return (
     <>
-      {showFeatured && featured ? (
+      <div className="mb-06 flex flex-col gap-04 sm:flex-row sm:items-center sm:justify-between">
+        <input
+          type="search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+          placeholder="Buscar por título, fabricante o palabra clave…"
+          className="hairline w-full max-w-sm bg-white px-05 py-03 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none"
+        />
+        {vendorChips.length > 0 && (
+          <div className="flex flex-wrap gap-02">
+            {vendorChips.map((tag) => (
+              <button
+                key={tag}
+                type="button"
+                onClick={() => setVendor(vendor === tag ? null : tag)}
+                className={`pill transition-colors ${
+                  vendor === tag ? "border-navy-950 bg-navy-950 text-white" : "hover:border-navy-950"
+                }`}
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {filtered.length === 0 ? (
+        <div className="hairline flex flex-col items-center gap-03 bg-ink-50 px-06 py-10 text-center">
+          <span className="font-mono text-xs uppercase tracking-wide text-ink-500">Sin resultados</span>
+          <p className="max-w-md text-ink-600">
+            Ningún artículo coincide con “{query || vendor}”. Prueba con otra palabra clave o quita el filtro.
+          </p>
+        </div>
+      ) : useFeaturedLayout && featured ? (
         <div className="space-y-09">
           <div>
             <p className="kicker mb-03 text-navy-700">Destacado</p>
@@ -35,7 +101,7 @@ export function NewsExplorer({
         </div>
       ) : (
         <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
-          {items.map((item) => (
+          {filtered.map((item) => (
             <NewsCard key={item.id} item={item} onSelect={setSelected} />
           ))}
         </div>

@@ -1,5 +1,6 @@
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
+import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
@@ -27,7 +28,10 @@ export function NewsCard({
       className={`card group w-full text-left ${featured ? "p-07" : "p-05"}`}
     >
       <div className="flex items-center justify-between gap-03">
-        <span className="kicker text-navy-700">{category?.short ?? "Core"}</span>
+        <div className="flex items-center gap-02">
+          <span className="kicker text-navy-700">{category?.short ?? "Core"}</span>
+          <SeverityBadge severity={item.severity} />
+        </div>
         <time className="font-mono text-xs text-ink-400">{formatDate(item.publishedAt)}</time>
       </div>
 

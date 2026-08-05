@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
+import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
@@ -52,7 +53,10 @@ export function NewsDrawer({
         className="relative flex h-full w-full max-w-md flex-col overflow-y-auto border-l border-ink-200 bg-white shadow-2xl animate-[slide-in_0.2s_ease-out]"
       >
         <div className="flex items-center justify-between border-b border-ink-200 px-06 py-05">
-          <span className="kicker text-navy-700">{category?.label ?? "Core"}</span>
+          <div className="flex items-center gap-02">
+            <span className="kicker text-navy-700">{category?.label ?? "Core"}</span>
+            <SeverityBadge severity={item.severity} />
+          </div>
           <button
             type="button"
             onClick={onClose}
@@ -87,13 +91,15 @@ export function NewsDrawer({
             <p className="text-base leading-relaxed text-ink-800">{item.summary}</p>
           </div>
 
-          <div className="mt-06 hairline bg-ink-50 p-05">
-            <p className="text-sm text-ink-600">
-              Este es un resumen curado automáticamente. Para leer la nota completa,
-              con todo el contexto y las fuentes citadas por el medio original,
-              visita el enlace a continuación.
-            </p>
+          <div className="mt-06 border-l-2 border-navy-950 bg-navy-50 p-05">
+            <p className="kicker mb-02 text-navy-700">Por qué le importa a Core</p>
+            <p className="text-sm leading-relaxed text-navy-950">{item.relevance}</p>
           </div>
+
+          <p className="mt-05 text-xs text-ink-500">
+            Resumen curado automáticamente a partir de la fuente original. Para el
+            artículo completo, con todo el contexto, visita el enlace a continuación.
+          </p>
         </div>
 
         <div className="border-t border-ink-200 px-06 py-05">

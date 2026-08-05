@@ -30,6 +30,10 @@ export const metadata: Metadata = {
   description:
     "Noticias diarias seleccionadas para Coresolutions: ciberseguridad, virtualización, redes, storage y continuidad operativa sobre las tecnologías que implementamos.",
   metadataBase: new URL("https://corenews.coresolutions.com.ec"),
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default function RootLayout({

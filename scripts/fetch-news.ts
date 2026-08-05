@@ -3,12 +3,15 @@ import { writeFile, readFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { SOURCES } from "../data/sources";
 import { matchKeywords } from "../data/keywords";
+import { pickRelevance } from "../data/relevance";
 import type { CategorySlug } from "../data/categories";
 
 const OUT_PATH = path.join(process.cwd(), "data", "news.json");
 const MAX_ITEMS = 300;
 const MAX_AGE_DAYS = 45;
 const FEED_TIMEOUT_MS = 15000;
+
+export type Severity = "critica" | "alta" | "media";
 
 export interface NewsItem {
   id: string;
@@ -19,6 +22,8 @@ export interface NewsItem {
   sourceId: string;
   category: CategorySlug;
   tags: string[];
+  severity?: Severity;
+  relevance: string;
   publishedAt: string;
   fetchedAt: string;
 }
@@ -43,6 +48,27 @@ function truncate(input: string, max = 220): string {
 
 function slugId(link: string): string {
   return Buffer.from(link).toString("base64url").slice(0, 24);
+}
+
+function detectSeverity(text: string): NewsItem["severity"] {
+  const cvssMatch = text.match(/cvss[^0-9]{0,15}([0-9]{1,2}(?:\.[0-9])?)/i);
+  if (cvssMatch) {
+    const score = parseFloat(cvssMatch[1]);
+    if (score >= 9) return "critica";
+    if (score >= 7) return "alta";
+    if (score >= 4) return "media";
+  }
+  const lower = text.toLowerCase();
+  if (/(vulnerabilidad cr[ií]tica|critical vulnerability|zero-day|zero day|explotad[ao] activamente|actively exploited)/.test(lower)) {
+    return "critica";
+  }
+  if (/(alta severidad|high severity|ransomware|rce\b|remote code execution)/.test(lower)) {
+    return "alta";
+  }
+  if (/(vulnerabilidad|vulnerability|\bcve-)/.test(lower)) {
+    return "media";
+  }
+  return undefined;
 }
 
 async function fetchFeed(source: (typeof SOURCES)[number]): Promise<NewsItem[]> {
@@ -78,6 +104,8 @@ async function fetchFeed(source: (typeof SOURCES)[number]): Promise<NewsItem[]> 
       }
 
       const tags = [...new Set(matches.map((m) => m.label))].slice(0, 5);
+      const severity = category === "ciberseguridad" ? detectSeverity(haystack) : undefined;
+      const relevance = pickRelevance(tags, category);
 
       items.push({
         id: slugId(link),
@@ -88,6 +116,8 @@ async function fetchFeed(source: (typeof SOURCES)[number]): Promise<NewsItem[]> 
         sourceId: source.id,
         category,
         tags,
+        severity,
+        relevance,
         publishedAt: new Date(publishedAt).toISOString(),
         fetchedAt: new Date().toISOString(),
       });

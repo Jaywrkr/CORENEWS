@@ -15,7 +15,8 @@
         "Broadcom"
       ],
       "publishedAt": "2026-08-03T09:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Puede anticipar cambios de licenciamiento o soporte de VMware que afectan directo los contratos que Core gestiona con sus clientes."
     },
     {
       "id": "aHR0cHM6Ly9pbmZvc2VydGVj",
@@ -29,7 +30,8 @@
         "Ransomware"
       ],
       "publishedAt": "2026-08-01T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Contexto útil para dimensionar el riesgo de ransomware al conversar con clientes sobre continuidad operativa y respaldo."
     },
     {
       "id": "aHR0cHM6Ly92ZXJhY3J1emVu",
@@ -45,7 +47,9 @@
         "Continuidad Operativa"
       ],
       "publishedAt": "2026-08-01T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "alta",
+      "relevance": "Ejemplo concreto de por qué el respaldo por sí solo no basta sin monitoreo activo: argumento directo para vender servicios gestionados de continuidad operativa."
     },
     {
       "id": "aHR0cHM6Ly9jb21lcmNpby50",
@@ -61,7 +65,8 @@
         "Cloud"
       ],
       "publishedAt": "2026-07-30T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Contexto de inversión y crecimiento de Azure, relevante para las conversaciones de Core sobre nube híbrida con clientes."
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
@@ -77,7 +82,9 @@
         "Broadcom"
       ],
       "publishedAt": "2026-07-29T12:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Core administra clústeres VMware para varios clientes; aplicar este parche de inmediato evita que un atacante tome control total del hipervisor."
     },
     {
       "id": "aHR0cHM6Ly93d3cucXVlLmVz",
@@ -91,7 +98,8 @@
         "Ransomware"
       ],
       "publishedAt": "2026-07-28T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Caso real de cómo un proveedor tecnológico externo puede ser la puerta de entrada; útil para reforzar con clientes la segmentación de accesos de terceros."
     },
     {
       "id": "aHR0cHM6Ly90aHJlYXQtbW9k",
@@ -107,7 +115,9 @@
         "CVE"
       ],
       "publishedAt": "2026-07-25T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Explotación activa confirmada: si algún cliente de Core corre PeopleSoft, es prioridad máxima de parcheo."
     },
     {
       "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
@@ -123,7 +133,8 @@
         "Servidores"
       ],
       "publishedAt": "2026-07-24T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Oportunidad comercial directa: los clientes de Core con Power S914/S814 antiguos son candidatos naturales a una propuesta de renovación."
     },
     {
       "id": "aHR0cHM6Ly9tYXJpdXNob3N0",
@@ -138,7 +149,8 @@
         "NAS"
       ],
       "publishedAt": "2026-07-23T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Actualización recomendada para los NAS Synology que Core despliega como solución de backup en clientes medianos."
     },
     {
       "id": "aHR0cHM6Ly9ibG9nLmVsaGFj",
@@ -154,7 +166,9 @@
         "Vulnerabilidad"
       ],
       "publishedAt": "2026-07-22T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Check Point es uno de los firewalls que Core opera; esta falla ya está siendo explotada, así que amerita parchear los servidores de gestión expuestos de inmediato."
     },
     {
       "id": "aHR0cHM6Ly93d3cubW9uY2xv",
@@ -170,7 +184,9 @@
         "Parche"
       ],
       "publishedAt": "2026-07-22T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Los clientes de Core con bases Oracle deben priorizar este parche: gran parte de las fallas son explotables sin autenticación."
     },
     {
       "id": "aHR0cHM6Ly9uZXdzLmJyb2Fk",
@@ -185,7 +201,8 @@
         "Broadcom"
       ],
       "publishedAt": "2026-07-20T10:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Evento clave para anticipar la hoja de ruta de producto de VMware/Broadcom antes de renovar contratos con clientes."
     },
     {
       "id": "aHR0cHM6Ly93d3cuaW5jaWJl",
@@ -201,7 +218,9 @@
         "Vulnerabilidad"
       ],
       "publishedAt": "2026-07-18T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Mismo fabricante que Core despliega en clientes: un bypass de autenticación en el servidor de gestión pone en riesgo toda la política de firewall."
     },
     {
       "id": "aHR0cHM6Ly9kcGxuZXdzLmNv",
@@ -216,7 +235,8 @@
         "Servidores"
       ],
       "publishedAt": "2026-07-15T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Señal de la capacidad de suministro de Lenovo, uno de los fabricantes de servidores más usados en los proyectos de Core."
     },
     {
       "id": "aHR0cHM6Ly94LmNvbS9Nc2Z0",
@@ -232,7 +252,9 @@
         "CVE"
       ],
       "publishedAt": "2026-07-14T14:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "alta",
+      "relevance": "Active Directory es la base de identidad en casi todos los clientes de Core; esta falla permite comprometer todo el dominio."
     },
     {
       "id": "aHR0cHM6Ly93d3cubnV0YW5p",
@@ -248,7 +270,8 @@
         "HCI"
       ],
       "publishedAt": "2026-07-01T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Alternativa relevante para clientes que hoy evalúan salir de VMware por los cambios de licenciamiento de Broadcom."
     },
     {
       "id": "aHR0cHM6Ly9hcmN0aWN3b2xm",
@@ -264,7 +287,9 @@
         "Ciberataque"
       ],
       "publishedAt": "2026-06-20T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "critica",
+      "relevance": "Si algún cliente de Core usa Fortinet, vale la pena auditar credenciales expuestas antes de que queden dentro de esta campaña masiva."
     },
     {
       "id": "aHR0cHM6Ly93d3cuaGVscG5l",
@@ -281,7 +306,9 @@
         "Vulnerabilidad"
       ],
       "publishedAt": "2026-06-16T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "alta",
+      "relevance": "Core diseña e implementa soluciones SD-WAN; esta falla explotada activamente exige revisar accesos administrativos expuestos."
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
@@ -297,7 +324,9 @@
         "CVE"
       ],
       "publishedAt": "2026-06-10T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "severity": "alta",
+      "relevance": "Veeam es la plataforma de backup que Core opera; esta falla podría permitir que un atacante ya dentro de la red destruya o cifre los respaldos."
     },
     {
       "id": "aHR0cHM6Ly93d3cudGhlcmVn",
@@ -312,7 +341,8 @@
         "Redes Wi-Fi"
       ],
       "publishedAt": "2026-05-08T08:00:00.000Z",
-      "fetchedAt": "2026-08-05T16:15:05.911Z"
+      "fetchedAt": "2026-08-05T16:15:05.911Z",
+      "relevance": "Núcleo del catálogo de networking que Core instala; relevante para propuestas de renovación de Wi-Fi empresarial."
     }
   ]
 }
