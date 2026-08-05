@@ -42,12 +42,12 @@ export function NewsCard({
       <MeshThumb
         tags={item.tags}
         category={item.category}
-        className={`mt-03 w-full transition-opacity group-hover:opacity-90 ${featured ? "aspect-[21/9]" : "aspect-[16/10]"}`}
+        className={`mt-03 w-full shadow-none transition-shadow duration-300 group-hover:shadow-lift ${featured ? "aspect-[21/9]" : "aspect-[16/10]"}`}
       />
 
       <h3
-        className={`mt-04 font-semibold leading-snug text-ink-900 group-hover:text-navy-950 ${
-          featured ? "text-2xl" : "text-base"
+        className={`mt-04 font-serif font-semibold leading-snug text-ink-900 transition-colors group-hover:text-navy-950 ${
+          featured ? "text-3xl" : "text-lg"
         }`}
       >
         {item.title}
