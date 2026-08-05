@@ -33,7 +33,7 @@ export function NewsCard({
       onClick={() => onSelect(item)}
       className="group flex h-full w-full flex-col text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 focus-visible:ring-offset-2"
     >
-      <div className="flex items-center gap-02 text-ink-500">
+      <div className="flex min-h-[26px] items-center gap-02 text-ink-500">
         <CategoryIcon name={category?.icon ?? "shield"} className="h-4 w-4 shrink-0" />
         <span className="kicker">{category?.short ?? "Core"}</span>
         <SeverityBadge severity={item.severity} />
