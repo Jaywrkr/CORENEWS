@@ -25,12 +25,15 @@ export async function getNews(): Promise<NewsPayload> {
 
   if (remoteUrl) {
     try {
-      const res = await fetch(remoteUrl, { next: { revalidate: 3600 } });
+      const res = await fetch(remoteUrl, {
+        next: { revalidate: 3600 },
+        signal: AbortSignal.timeout(5000),
+      });
       if (res.ok) {
         return (await res.json()) as NewsPayload;
       }
     } catch {
-      // sigue al respaldo local
+      // remoto lento, caído o inalcanzable: sigue al respaldo local sin bloquear el build
     }
   }
 
