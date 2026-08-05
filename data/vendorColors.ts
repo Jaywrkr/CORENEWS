@@ -31,20 +31,23 @@ export const VENDOR_COLORS: Record<string, string> = {
 
 /** Cuando no hay tag de fabricante, se usa un par de colores por categoría. */
 export const CATEGORY_FALLBACK_COLORS: Record<CategorySlug, [string, string]> = {
-  ciberseguridad: ["#3C1E5C", "#C42A2A"],
-  "virtualizacion-cloud": ["#141C70", "#2B3EF0"],
-  redes: ["#0A1252", "#3C48AD"],
-  "storage-backup": ["#141C70", "#5C68C9"],
-  "servidores-hardware": ["#0A1252", "#8590DE"],
-  fabricantes: ["#141C70", "#5C68C9"],
+  ciberseguridad: ["#6B4AA0", "#E4453D"],
+  "virtualizacion-cloud": ["#3C48AD", "#2B3EF0"],
+  redes: ["#242E8C", "#5C68C9"],
+  "storage-backup": ["#3C48AD", "#8590DE"],
+  "servidores-hardware": ["#242E8C", "#AEB7EC"],
+  fabricantes: ["#3C48AD", "#8590DE"],
 };
+
+/** Base más clara del azul Core, usada para no oscurecer de más las miniaturas. */
+const MESH_BASE = "#3C48AD";
 
 export function pickMeshColors(tags: string[], category: CategorySlug): [string, string, string] {
   const matches = tags.map((t) => VENDOR_COLORS[t]).filter(Boolean) as string[];
-  if (matches.length >= 2) return [matches[0], matches[1], "#01095C"];
-  if (matches.length === 1) return [matches[0], "#01095C", "#141C70"];
+  if (matches.length >= 2) return [matches[0], matches[1], MESH_BASE];
+  if (matches.length === 1) return [matches[0], MESH_BASE, "#5C68C9"];
   const [a, b] = CATEGORY_FALLBACK_COLORS[category];
-  return [a, b, "#01095C"];
+  return [a, b, MESH_BASE];
 }
 
 /** Tags que corresponden a marcas/fabricantes que Core vende e implementa. */
