@@ -56,16 +56,16 @@ export function NewsExplorer({
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Buscar…"
-          className="hairline w-full max-w-sm bg-white px-05 py-03 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none"
+          className="hairline h-11 w-full max-w-sm bg-white px-05 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
         />
         {vendorChips.length > 0 && (
-          <div className="flex flex-wrap gap-02">
+          <div className="flex flex-wrap items-center gap-02">
             {vendorChips.map((tag) => (
               <button
                 key={tag}
                 type="button"
                 onClick={() => setVendor(vendor === tag ? null : tag)}
-                className={`pill transition-colors ${
+                className={`pill transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
                   vendor === tag ? "bg-navy-950 text-white" : "hover:bg-navy-100"
                 }`}
               >
@@ -92,7 +92,7 @@ export function NewsExplorer({
 
           <div>
             <p className="kicker mb-03 text-navy-700">Últimas noticias</p>
-            <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid items-stretch gap-05 md:grid-cols-2 lg:grid-cols-3">
               {rest.map((item) => (
                 <NewsCard key={item.id} item={item} onSelect={setSelected} />
               ))}
@@ -100,7 +100,7 @@ export function NewsExplorer({
           </div>
         </div>
       ) : (
-        <div className="grid gap-05 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-stretch gap-05 md:grid-cols-2 lg:grid-cols-3">
           {filtered.map((item) => (
             <NewsCard key={item.id} item={item} onSelect={setSelected} />
           ))}

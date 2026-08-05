@@ -19,7 +19,7 @@ export function Header() {
             <Link
               key={c.slug}
               href={`/categoria/${c.slug}`}
-              className="text-sm font-medium text-ink-700 transition-colors hover:text-navy-950"
+              className="text-sm font-medium text-ink-700 transition-colors hover:text-navy-950 focus-visible:outline-none focus-visible:underline"
             >
               {c.short}
             </Link>
