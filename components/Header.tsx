@@ -4,7 +4,7 @@ import { CATEGORIES } from "@/data/categories";
 export function Header() {
   return (
     <header className="border-b border-ink-200 bg-white">
-      <div className="container-content flex h-20 items-center justify-between">
+      <div className="container-content flex h-24 items-center justify-between">
         <Link href="/" className="flex items-center gap-3">
           <span className="flex h-8 w-8 items-center justify-center bg-navy-950 font-mono text-sm font-bold text-white">
             C

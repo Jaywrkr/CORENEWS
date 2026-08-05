@@ -73,6 +73,9 @@ const config: Config = {
       backgroundSize: {
         grid: "24px 24px",
       },
+      boxShadow: {
+        lift: "0 16px 32px -16px rgba(1, 9, 92, 0.35)",
+      },
     },
   },
   plugins: [],

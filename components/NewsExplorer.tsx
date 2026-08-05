@@ -84,7 +84,7 @@ export function NewsExplorer({
           </p>
         </div>
       ) : useFeaturedLayout && featured ? (
-        <div className="space-y-09">
+        <div className="space-y-10">
           <div>
             <p className="kicker mb-03 text-navy-700">Destacado</p>
             <NewsCard item={featured} featured onSelect={setSelected} />
@@ -92,7 +92,7 @@ export function NewsExplorer({
 
           <div>
             <p className="kicker mb-03 text-navy-700">Últimas noticias</p>
-            <div className="grid items-stretch gap-05 md:grid-cols-2 lg:grid-cols-3">
+            <div className="grid items-stretch gap-06 md:grid-cols-2 lg:grid-cols-3">
               {rest.map((item) => (
                 <NewsCard key={item.id} item={item} onSelect={setSelected} />
               ))}
@@ -100,7 +100,7 @@ export function NewsExplorer({
           </div>
         </div>
       ) : (
-        <div className="grid items-stretch gap-05 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid items-stretch gap-06 md:grid-cols-2 lg:grid-cols-3">
           {filtered.map((item) => (
             <NewsCard key={item.id} item={item} onSelect={setSelected} />
           ))}
