@@ -11,6 +11,21 @@
   }
 }
 
+@keyframes mesh-drift {
+  0% {
+    transform: translate(0%, 0%) scale(1);
+  }
+  33% {
+    transform: translate(-3%, 2.5%) scale(1.04);
+  }
+  66% {
+    transform: translate(2.5%, -3%) scale(1.03);
+  }
+  100% {
+    transform: translate(0%, 0%) scale(1);
+  }
+}
+
 @layer base {
   html {
     @apply scroll-smooth;
@@ -52,5 +67,15 @@
     opacity: 0.15;
     mix-blend-mode: overlay;
     pointer-events: none;
+  }
+
+  .mesh-field {
+    will-change: transform;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .mesh-field {
+      animation: mesh-drift 20s ease-in-out infinite;
+    }
   }
 }
