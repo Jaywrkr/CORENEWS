@@ -7,7 +7,6 @@ export type CategorySlug =
   | "fabricantes";
 
 export type IconName = "shield" | "cloud" | "network" | "database" | "server" | "building";
-export type ThumbVariant = "navy" | "accent" | "ink" | "light" | "navy-light" | "ink-light";
 
 export interface Category {
   slug: CategorySlug;
@@ -15,7 +14,6 @@ export interface Category {
   short: string;
   description: string;
   icon: IconName;
-  thumb: ThumbVariant;
 }
 
 export const CATEGORIES: Category[] = [
@@ -26,7 +24,6 @@ export const CATEGORIES: Category[] = [
     description:
       "Vulnerabilidades, CVEs, ransomware y protección de datos sobre las plataformas que Core asegura.",
     icon: "shield",
-    thumb: "navy",
   },
   {
     slug: "virtualizacion-cloud",
@@ -34,7 +31,6 @@ export const CATEGORIES: Category[] = [
     short: "Cloud",
     description: "VMware, NSX, vSAN, HCI y servicios en la nube.",
     icon: "cloud",
-    thumb: "accent",
   },
   {
     slug: "redes",
@@ -42,7 +38,6 @@ export const CATEGORIES: Category[] = [
     short: "Redes",
     description: "Firewalls, SD-WAN, switching y conectividad empresarial.",
     icon: "network",
-    thumb: "ink",
   },
   {
     slug: "storage-backup",
@@ -50,7 +45,6 @@ export const CATEGORIES: Category[] = [
     short: "Storage",
     description: "Almacenamiento, respaldos y continuidad operativa.",
     icon: "database",
-    thumb: "light",
   },
   {
     slug: "servidores-hardware",
@@ -58,7 +52,6 @@ export const CATEGORIES: Category[] = [
     short: "Hardware",
     description: "Servidores, procesadores y equipos de datacenter.",
     icon: "server",
-    thumb: "navy-light",
   },
   {
     slug: "fabricantes",
@@ -66,7 +59,6 @@ export const CATEGORIES: Category[] = [
     short: "Marcas",
     description: "Anuncios oficiales de los fabricantes con los que Core trabaja.",
     icon: "building",
-    thumb: "ink-light",
   },
 ];
 

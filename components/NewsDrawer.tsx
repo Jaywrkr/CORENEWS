@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
 import { CategoryIcon } from "./icons";
-import { CategoryThumb } from "./CategoryThumb";
+import { MeshThumb } from "./MeshThumb";
 import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
@@ -54,11 +54,7 @@ export function NewsDrawer({
         className="relative flex h-full w-full max-w-md flex-col overflow-y-auto border-l border-ink-200 bg-white animate-[slide-in_0.2s_ease-out]"
       >
         <div className="relative">
-          <CategoryThumb
-            variant={category?.thumb ?? "navy"}
-            icon={category?.icon ?? "shield"}
-            className="aspect-[16/9] w-full"
-          />
+          <MeshThumb tags={item.tags} category={item.category} className="aspect-[16/9] w-full" />
           <button
             type="button"
             onClick={onClose}

@@ -1,7 +1,7 @@
 import type { NewsItem } from "@/scripts/fetch-news";
 import { getCategory } from "@/data/categories";
 import { CategoryIcon } from "./icons";
-import { CategoryThumb } from "./CategoryThumb";
+import { MeshThumb } from "./MeshThumb";
 import { SeverityBadge } from "./SeverityBadge";
 
 function formatDate(iso: string) {
@@ -31,9 +31,9 @@ export function NewsCard({
         <SeverityBadge severity={item.severity} />
       </div>
 
-      <CategoryThumb
-        variant={category?.thumb ?? "navy"}
-        icon={category?.icon ?? "shield"}
+      <MeshThumb
+        tags={item.tags}
+        category={item.category}
         className={`mt-03 w-full transition-opacity group-hover:opacity-90 ${featured ? "aspect-[21/9]" : "aspect-[16/10]"}`}
       />
 
