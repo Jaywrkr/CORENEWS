@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-ink-0 text-ink-900 font-sans antialiased;
+  }
+  ::selection {
+    @apply bg-navy-950 text-white;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply mx-auto w-full max-w-content px-05 md:px-06;
+  }
+
+  .hairline {
+    @apply border border-ink-200;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 bg-navy-950 px-06 py-04 text-sm font-semibold text-white transition-colors hover:bg-navy-800;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 border border-navy-950 px-06 py-04 text-sm font-semibold text-navy-950 transition-colors hover:bg-navy-950 hover:text-white;
+  }
+
+  .pill {
+    @apply inline-flex items-center rounded-pill border border-ink-200 px-03 py-02 text-xs font-medium uppercase tracking-wide text-ink-600;
+  }
+
+  .kicker {
+    @apply font-mono text-xs uppercase tracking-[0.14em] text-ink-500;
+  }
+
+  .card {
+    @apply hairline flex flex-col bg-white transition-shadow duration-150 hover:shadow-[0_2px_16px_rgba(1,9,92,0.10)];
+  }
+}
