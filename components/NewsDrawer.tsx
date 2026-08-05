@@ -8,6 +8,7 @@ import { CategoryIcon } from "./icons";
 import { MeshThumb } from "./MeshThumb";
 import { SeverityBadge } from "./SeverityBadge";
 import { VendorTag } from "./VendorTag";
+import { ShareBar } from "./ShareBar";
 
 function formatDate(iso: string) {
   return new Date(iso).toLocaleDateString("es-EC", {
@@ -63,7 +64,7 @@ export function NewsDrawer({
             type="button"
             onClick={onClose}
             aria-label="Cerrar panel"
-            className="absolute right-05 top-05 flex h-8 w-8 items-center justify-center bg-white/90 text-ink-700 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
+            className="absolute right-05 top-05 flex h-11 w-11 items-center justify-center bg-white/90 text-ink-700 transition-colors hover:bg-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
           >
             ✕
           </button>
@@ -113,15 +114,16 @@ export function NewsDrawer({
           )}
         </div>
 
-        <div className="border-t border-ink-200 px-06 py-05">
+        <div className="flex flex-col gap-03 border-t border-ink-200 px-06 py-05">
           <a
             href={item.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary w-full focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-300 focus-visible:ring-offset-2"
+            className="btn-primary w-full justify-center focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-300 focus-visible:ring-offset-2"
           >
             Ver noticia original →
           </a>
+          <ShareBar path={`/noticia/${item.id}`} title={item.title} />
         </div>
       </aside>
     </div>

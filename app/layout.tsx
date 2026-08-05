@@ -3,6 +3,7 @@ import { IBM_Plex_Sans, IBM_Plex_Serif, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
+import { SITE_URL } from "@/lib/site";
 
 const plexSans = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -29,7 +30,7 @@ export const metadata: Metadata = {
   title: "CoreNews — Inteligencia diaria de infraestructura y ciberseguridad",
   description:
     "Noticias diarias seleccionadas para Coresolutions: ciberseguridad, virtualización, redes, storage y continuidad operativa sobre las tecnologías que implementamos.",
-  metadataBase: new URL("https://corenews.coresolutions.com.ec"),
+  metadataBase: new URL(SITE_URL),
   robots: {
     index: false,
     follow: false,
