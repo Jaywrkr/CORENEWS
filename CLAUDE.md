@@ -11,17 +11,30 @@ para que una sesión nueva de Claude Code retome el trabajo sin perder contexto.
 
 ## Estado actual (referencia rápida)
 
+- **⚠️ Workflow de git — cambió (instrucción directa del usuario, agosto
+  2026):** Claude **solo hace `commit` + `push` a la rama de trabajo**
+  (`claude/coresolutions-news-app-2z6fub`). **Nunca**:
+  - mergear a `main` (antes se hacía fast-forward automático — ya no),
+  - abrir ni gestionar PRs,
+  - incluir `[deploy]` en el mensaje del commit,
+  - ni disparar/verificar un deploy en Vercel.
+  El usuario dijo explícitamente: *"quiero que de ahora en adelante solo
+  hagas commit en esto... que el deploy no se haga... que tanto pr, merge
+  y deploy hago yo mismo."* Todo eso (PR, merge a main, deploy) lo hace él
+  a mano. Si el usuario pide un deploy explícitamente en el momento, ahí sí
+  se puede usar `[deploy]` — pero por defecto, no.
 - **Repo**: `Jaywrkr/CORENEWS` en GitHub. Rama por defecto: `main`. Rama de
-  desarrollo activa: `claude/coresolutions-news-app-2z6fub`. Ambas se mantienen
-  sincronizadas con fast-forward merge después de cada cambio — no diverjas.
+  desarrollo activa: `claude/coresolutions-news-app-2z6fub` (acá se
+  commitea siempre; `main` la actualiza el usuario, no Claude).
 - **Vercel**: proyecto `corenews` (id `prj_UCu0vJDkSo4rBLS8vTonxBMUjIEE`, team
   `jaywrkr-1498's projects` / `team_wRgcLCRUOPA8bcpYIpvZZ042`). Dominio de
   producción: `corenews-tau.vercel.app`. Conectado por Git al repo de arriba.
 - **Deploy 100% manual**: `vercel.json` tiene un `ignoreCommand` que corre
   `scripts/vercel-ignore-build.sh` — solo construye si el mensaje del commit
-  incluye `[deploy]`. Todo commit de código que deba publicarse necesita ese
-  tag en el mensaje. Los commits automáticos del bot de noticias (GitHub
-  Action) **no** lo incluyen a propósito.
+  incluye `[deploy]`. Con el nuevo workflow esto es casi redundante (Claude
+  ya no mergea a `main` ni deploya), pero se deja como segunda capa de
+  seguridad. Los commits automáticos del bot de noticias (GitHub Action)
+  tampoco lo incluyen.
 - **`NEWS_DATA_URL` (pendiente):** la variable de entorno que le permite al
   sitio ya desplegado leer `data/news.json` en vivo desde GitHub (revalidate
   1h, sin necesidad de redeploy) **todavía no está configurada** en Vercel.
@@ -103,7 +116,6 @@ Antes de dar por buena una tarea de UI: correr `npm run build`, levantar
 preinstalado en `/opt/pw-browsers/chromium-1194/chrome-linux/chrome`) para
 verificar visualmente — no asumir que se ve bien solo porque compila.
 
-Para publicar: commit con `[deploy]` en el mensaje + push a
-`claude/coresolutions-news-app-2z6fub`, luego fast-forward merge a `main` y
-push también. Confirmar el resultado con `mcp__Vercel__list_deployments` /
-`get_deployment` antes de avisarle al usuario que ya quedó en vivo.
+Al terminar un cambio: `git add` + `git commit` + `git push origin
+claude/coresolutions-news-app-2z6fub`. **Ahí termina el trabajo de Claude.**
+No mergear a `main`, no abrir PR, no tocar Vercel — eso lo hace el usuario.
