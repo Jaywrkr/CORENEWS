@@ -3,7 +3,7 @@ import type { Severity } from "@/scripts/fetch-news";
 const STYLES: Record<Severity, { label: string; className: string }> = {
   critica: { label: "Crítica", className: "border-danger/30 bg-danger/10 text-danger" },
   alta: { label: "Alta", className: "border-warning/40 bg-warning/10 text-warning" },
-  media: { label: "Media", className: "border-ink-300 bg-ink-100 text-ink-600" },
+  media: { label: "Media", className: "border-ink-300 bg-ink-100 text-ink-600 dark:border-ink-700 dark:bg-ink-800 dark:text-ink-300" },
 };
 
 export function SeverityBadge({ severity }: { severity?: Severity }) {

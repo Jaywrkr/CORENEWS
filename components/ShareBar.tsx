@@ -74,7 +74,7 @@ export function ShareBar({ path, title }: { path: string; title: string }) {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Compartir en WhatsApp"
-        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
+        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 dark:text-ink-300 dark:hover:border-white dark:hover:text-white"
       >
         <WhatsAppIcon className="h-4 w-4" />
       </a>
@@ -83,7 +83,7 @@ export function ShareBar({ path, title }: { path: string; title: string }) {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Compartir en X"
-        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
+        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 dark:text-ink-300 dark:hover:border-white dark:hover:text-white"
       >
         <XIcon className="h-4 w-4" />
       </a>
@@ -92,7 +92,7 @@ export function ShareBar({ path, title }: { path: string; title: string }) {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Compartir en LinkedIn"
-        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
+        className="hairline flex h-11 w-11 shrink-0 items-center justify-center text-ink-700 transition-colors hover:border-navy-950 hover:text-navy-950 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 dark:text-ink-300 dark:hover:border-white dark:hover:text-white"
       >
         <LinkedInIcon className="h-4 w-4" />
       </a>

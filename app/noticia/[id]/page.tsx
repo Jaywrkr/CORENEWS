@@ -66,22 +66,22 @@ export default async function NoticiaPage({
 
   return (
     <div className="container-content py-10 md:py-14">
-      <Link href="/" className="kicker text-navy-700 hover:text-navy-950">
+      <Link href="/" className="kicker text-navy-700 hover:text-navy-950 dark:text-navy-300 dark:hover:text-white">
         ← CoreNews
       </Link>
 
       <article className="mx-auto mt-06 max-w-2xl">
-        <div className="flex items-center gap-02 text-ink-500">
+        <div className="flex items-center gap-02 text-ink-500 dark:text-ink-400">
           <CategoryIcon name={category?.icon ?? "shield"} className="h-4 w-4 shrink-0" />
           <span className="kicker">{category?.label ?? "Core"}</span>
           <SeverityBadge severity={item.severity} />
         </div>
 
-        <h1 className="mt-04 font-serif text-3xl font-semibold leading-tight text-navy-950 md:text-4xl">
+        <h1 className="mt-04 font-serif text-3xl font-semibold leading-tight text-navy-950 dark:text-white md:text-4xl">
           {item.title}
         </h1>
 
-        <div className="mt-03 flex items-center gap-02 text-sm text-ink-500">
+        <div className="mt-03 flex items-center gap-02 text-sm text-ink-500 dark:text-ink-400">
           <span>{item.source}</span>
           <span aria-hidden>·</span>
           <time className="font-mono">{formatDate(item.publishedAt)}</time>
@@ -89,16 +89,16 @@ export default async function NoticiaPage({
 
         <MeshThumb tags={item.tags} category={item.category} className="mt-06 aspect-[16/9] w-full" />
 
-        <p className="mt-06 text-lg leading-relaxed text-ink-800">{item.summary}</p>
+        <p className="mt-06 text-lg leading-relaxed text-ink-800 dark:text-ink-200">{item.summary}</p>
 
-        <div className="mt-06 border-l-2 border-navy-950 pl-05">
-          <p className="kicker mb-02 text-navy-700">Por qué le importa a Core</p>
-          <p className="text-sm leading-relaxed text-ink-800">{item.relevance}</p>
+        <div className="mt-06 border-l-2 border-navy-950 pl-05 dark:border-navy-300">
+          <p className="kicker mb-02 text-navy-700 dark:text-navy-300">Por qué le importa a Core</p>
+          <p className="text-sm leading-relaxed text-ink-800 dark:text-ink-200">{item.relevance}</p>
         </div>
 
         {vendorTags.length > 0 && (
           <div className="mt-06">
-            <p className="kicker mb-02 text-navy-700">Marcas de Core en esta noticia</p>
+            <p className="kicker mb-02 text-navy-700 dark:text-navy-300">Marcas de Core en esta noticia</p>
             <div className="flex flex-wrap gap-02">
               {vendorTags.map((v) => (
                 <VendorTag key={v} name={v} />
@@ -117,7 +117,7 @@ export default async function NoticiaPage({
           </div>
         )}
 
-        <div className="mt-08 flex flex-col gap-03 border-t border-ink-200 pt-06">
+        <div className="mt-08 flex flex-col gap-03 border-t border-ink-200 pt-06 dark:border-ink-800">
           <a
             href={item.link}
             target="_blank"

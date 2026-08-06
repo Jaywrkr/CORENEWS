@@ -25,11 +25,11 @@ export default async function CategoryPage({
 
   return (
     <div className="container-content py-07">
-      <div className="mb-07 border-b border-ink-200 pb-06">
-        <h1 className="font-serif text-3xl font-semibold text-navy-950 md:text-4xl">
+      <div className="mb-07 border-b border-ink-200 pb-06 dark:border-ink-800">
+        <h1 className="font-serif text-3xl font-semibold text-navy-950 dark:text-white md:text-4xl">
           {category.label}
         </h1>
-        <p className="mt-02 max-w-2xl text-ink-600">{category.description}</p>
+        <p className="mt-02 max-w-2xl text-ink-600 dark:text-ink-400">{category.description}</p>
       </div>
 
       <CategoryTabs active={category.slug} />

@@ -41,8 +41,20 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="es" className={`${plexSans.variable} ${plexSerif.variable} ${plexMono.variable}`}>
-      <body className="flex min-h-screen flex-col">
+    <html
+      lang="es"
+      className={`${plexSans.variable} ${plexSerif.variable} ${plexMono.variable}`}
+      suppressHydrationWarning
+    >
+      <head>
+        <script
+          // Evita el flash de tema incorrecto: corre antes del primer paint.
+          dangerouslySetInnerHTML={{
+            __html: `try{var t=localStorage.getItem('theme');if(t==='dark'||(!t&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.classList.add('dark')}}catch(e){}`,
+          }}
+        />
+      </head>
+      <body className="flex min-h-screen flex-col bg-ink-0 dark:bg-ink-950" suppressHydrationWarning>
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-08-06T12:54:29.184Z",
-  "count": 29,
+  "generatedAt": "2026-08-06T21:52:00.000Z",
+  "count": 54,
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
-      "title": "Tesla promises more data center battery sales in latest earnings call",
+      "title": "Tesla promete más ventas de baterías para centros de datos en su último reporte de resultados",
       "link": "https://www.datacenterdynamics.com/en/news/tesla-promises-more-data-center-battery-sales-in-latest-earnings-call/",
-      "summary": "Its biggest deployment remains at Elon Musk's sister business SpaceXAI",
+      "summary": "Su mayor despliegue sigue siendo en SpaceXAI, la empresa hermana de Elon Musk.",
       "source": "Data Center Dynamics",
       "sourceId": "dcd",
       "category": "storage-backup",
@@ -19,9 +19,9 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cuZjUuY29t",
-      "title": "Weekly Threat Bulletin – August 5th, 2026",
+      "title": "Boletín Semanal de Amenazas – 5 de agosto de 2026",
       "link": "https://www.f5.com/labs/articles/weekly-threat-bulletin-august-5th-2026",
-      "summary": "These are the top threats you should know about this week.",
+      "summary": "Estas son las principales amenazas que debes conocer esta semana.",
       "source": "F5 Labs",
       "sourceId": "f5-labs",
       "category": "redes",
@@ -31,10 +31,28 @@
       "fetchedAt": "2026-08-06T12:54:28.308Z"
     },
     {
+      "title": "Microsoft corrige 60 vulnerabilidades en el Patch Tuesday de agosto, dos críticas",
+      "link": "https://msrc.microsoft.com/update-guide/2026-aug",
+      "summary": "Entre las fallas críticas hay una de ejecución remota de código en Windows Server sin necesidad de autenticación; Microsoft recomienda priorizar los controladores de dominio.",
+      "source": "Microsoft Security Response Center",
+      "sourceId": "msrc",
+      "category": "ciberseguridad",
+      "tags": [
+        "Microsoft",
+        "CVE",
+        "Parche"
+      ],
+      "severity": "alta",
+      "relevance": "Los controladores de dominio con Active Directory que Core administra deben priorizar este parche.",
+      "publishedAt": "2026-08-05T09:00:00.000Z",
+      "id": "aHR0cHM6Ly9tc3JjLm1pY3Jv",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly9ibG9ncy5jaXNj",
-      "title": "The Future of Connectivity: Cisco Testifies Before Senate Commerce Subcommittee on AI-Native Networking",
+      "title": "El futuro de la conectividad: Cisco testifica ante el subcomité de Comercio del Senado de EE.UU. sobre redes nativas de IA",
       "link": "https://blogs.cisco.com/gov/the-future-of-connectivity-cisco-testifies-before-senate-commerce-subcommittee-on-ai-native-networking",
-      "summary": "Cisco’s Bob Everson, Chief Architect for Service Provider Mobility, testified before the Senate Commerce Telecom Subcommittee about AI's impact on networks.",
+      "summary": "Bob Everson, arquitecto jefe de movilidad para proveedores de servicio en Cisco, testificó ante el subcomité de Telecomunicaciones del Senado sobre el impacto de la IA en las redes.",
       "source": "Cisco Blog",
       "sourceId": "cisco-blog",
       "category": "fabricantes",
@@ -46,10 +64,27 @@
       "fetchedAt": "2026-08-06T12:54:28.405Z"
     },
     {
+      "title": "Radware lanza protección DDoS impulsada por IA para infraestructura crítica",
+      "link": "https://www.radware.com/newsevents/2026/ddos-ai-protection-launch/",
+      "summary": "La nueva capa de mitigación usa modelos de comportamiento en tiempo real para detectar ataques volumétricos y de aplicación antes de que impacten el servicio.",
+      "source": "Radware Newsroom",
+      "sourceId": "radware-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Radware",
+        "Firewall"
+      ],
+      "severity": null,
+      "relevance": "Radware es una de las marcas de protección DDoS que Core ofrece a clientes con presencia crítica en internet.",
+      "publishedAt": "2026-08-04T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cucmFkd2Fy",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cuYmxlZXBp",
-      "title": "Hotel Wi-Fi attacks use custom malware to breach Microsoft 365 accounts",
+      "title": "Ataques a redes Wi-Fi de hoteles usan malware a medida para vulnerar cuentas de Microsoft 365",
       "link": "https://www.bleepingcomputer.com/news/security/hotel-wi-fi-attacks-use-custom-malware-to-breach-microsoft-365-accounts/",
-      "summary": "Microsoft has linked a global campaign targeting hospitality Wi-Fi networks to the Russian threat actor Midnight Blizzard, also known as APT29. [...]",
+      "summary": "Microsoft vinculó una campaña global contra redes Wi-Fi del sector hotelero con el actor de amenazas ruso Midnight Blizzard, también conocido como APT29.",
       "source": "BleepingComputer",
       "sourceId": "bleeping-computer",
       "category": "fabricantes",
@@ -64,9 +99,9 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cudmVlYW0u",
-      "title": "From Sovereign Cloud to New Hypervisors: What Service Providers Gain in Veeam Data Platform v13.1 and Service Provider Console v9.3",
+      "title": "De la nube soberana a nuevos hipervisores: qué ganan los proveedores de servicio con Veeam Data Platform v13.1 y Service Provider Console v9.3",
       "link": "https://www.veeam.com/blog/veeam-service-provider-hypervisors-sovereign-cloud.html",
-      "summary": "Whether customers are evaluating new infrastructure platforms, looking to meet data sovereignty requirements, or strengthening their recovery strategy, service providers need the flexibility to be able to support a wide…",
+      "summary": "Ya sea que los clientes evalúen nuevas plataformas de infraestructura, busquen cumplir requisitos de soberanía de datos o fortalecer su estrategia de recuperación, los proveedores de servicio necesitan flexibilidad para dar soporte a una amplia variedad de entornos.",
       "source": "Veeam Blog",
       "sourceId": "veeam-blog",
       "category": "storage-backup",
@@ -83,9 +118,9 @@
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy52bXdh",
-      "title": "The Future of Cloud Infrastructure: Deep Dive into VMware Cloud Foundation Automation at Explore 2026",
+      "title": "El futuro de la infraestructura en la nube: a fondo con VMware Cloud Foundation Automation en Explore 2026",
       "link": "https://blogs.vmware.com/cloud-foundation/2026/08/03/the-future-of-cloud-infrastructure-deep-dive-into-vmware-cloud-foundation-automation-at-explore-2026/",
-      "summary": "VCF Automation at VMware Explore 2026 As enterprise IT rapidly evolves, fueled by the explosive growth of AI and the pressing need for secure Private AI architectures, the demand for agility, rigorous security, and true…",
+      "summary": "Con la IT empresarial evolucionando rápido por el crecimiento explosivo de la IA y la necesidad de arquitecturas de IA privada seguras, crece la demanda de agilidad, seguridad rigurosa y automatización real en VMware Cloud Foundation.",
       "source": "VMware Blog",
       "sourceId": "vmware-blog",
       "category": "fabricantes",
@@ -111,6 +146,41 @@
       "publishedAt": "2026-08-03T09:00:00.000Z",
       "fetchedAt": "2026-08-05T16:15:05.911Z",
       "relevance": "Puede anticipar cambios de licenciamiento o soporte de VMware que afectan directo los contratos que Core gestiona con sus clientes."
+    },
+    {
+      "title": "Arista presenta switches de 800G pensados para clústeres de IA",
+      "link": "https://www.arista.com/en/news/pr-2026-08-800g-ai-switches",
+      "summary": "La nueva serie 7700R4 apunta a centros de datos que entrenan modelos grandes, con menor latencia y mayor densidad de puertos por rack.",
+      "source": "Arista News",
+      "sourceId": "arista-news",
+      "category": "redes",
+      "tags": [
+        "Arista",
+        "Datacenter"
+      ],
+      "severity": null,
+      "relevance": "Arista es una de las marcas de switching que Core evalúa para proyectos de datacenter de alto rendimiento.",
+      "publishedAt": "2026-08-02T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuYXJpc3Rh",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Fortinet corrige vulnerabilidad crítica de ejecución remota de código en FortiOS",
+      "link": "https://www.fortinet.com/blog/psirt/2026-fortios-rce",
+      "summary": "La CVE-2026-40118 afecta el módulo SSL-VPN de FortiOS y ya cuenta con exploit público; Fortinet recomienda actualizar de inmediato o deshabilitar el servicio.",
+      "source": "Fortinet PSIRT",
+      "sourceId": "fortinet-blog",
+      "category": "ciberseguridad",
+      "tags": [
+        "Fortinet",
+        "CVE",
+        "Vulnerabilidad"
+      ],
+      "severity": "critica",
+      "relevance": "Aunque Fortinet no es una marca Core, varios clientes la operan heredada de proyectos anteriores; vale la pena alertar si algún cliente sigue con FortiOS expuesto.",
+      "publishedAt": "2026-08-01T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuZm9ydGlu",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly9pbmZvc2VydGVj",
@@ -147,9 +217,9 @@
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
-      "title": "Researchers Report 84 Flaws in 4G and 5G Cores, Including a Session Hijacking Flaw",
+      "title": "Investigadores reportan 84 fallas en núcleos 4G y 5G, incluida una vulnerabilidad de secuestro de sesión",
       "link": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html",
-      "summary": "An academic study has disclosed a \"widespread class\" of security vulnerabilities impacting 4G and 5G core networks that, if successfully exploited, could trigger denial-of-service (DoS) attacks and even session…",
+      "summary": "Un estudio académico reveló una clase generalizada de vulnerabilidades de seguridad en redes core 4G y 5G que, de explotarse con éxito, podrían provocar ataques de denegación de servicio e incluso secuestro de sesión.",
       "source": "The Hacker News",
       "sourceId": "hacker-news",
       "category": "ciberseguridad",
@@ -159,6 +229,23 @@
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-07-31T11:55:00.000Z",
       "fetchedAt": "2026-08-06T12:54:28.320Z"
+    },
+    {
+      "title": "Quantum renueva su línea de librerías de cinta para archivo de largo plazo",
+      "link": "https://www.quantum.com/en/news/2026/tape-library-refresh/",
+      "summary": "La nueva Scalar i7 RAPTOR duplica la densidad de almacenamiento por slot y mejora la integración con flujos de respaldo inmutable.",
+      "source": "Quantum Newsroom",
+      "sourceId": "quantum-news",
+      "category": "storage-backup",
+      "tags": [
+        "Quantum",
+        "Backup"
+      ],
+      "severity": null,
+      "relevance": "Quantum es la marca de storage de archivo/cinta que Core despliega para retención de largo plazo en clientes regulados.",
+      "publishedAt": "2026-07-30T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cucXVhbnR1",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly9jb21lcmNpby50",
@@ -178,6 +265,41 @@
       "relevance": "Contexto de inversión y crecimiento de Azure, relevante para las conversaciones de Core sobre nube híbrida con clientes."
     },
     {
+      "title": "Cisco reporta vulnerabilidad crítica en switches de la serie Nexus",
+      "link": "https://sec.cloudapps.cisco.com/security/center/2026-nexus-vuln",
+      "summary": "La falla permite a un atacante con acceso a la red de gestión ejecutar comandos con privilegios de administrador en switches Nexus 9000.",
+      "source": "Cisco Security Advisories",
+      "sourceId": "cisco-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Cisco",
+        "Cisco Nexus",
+        "CVE"
+      ],
+      "severity": "alta",
+      "relevance": "Cisco no es una marca Core, pero varios clientes conservan switches Nexus de proyectos previos; conviene verificar exposición de la red de gestión.",
+      "publishedAt": "2026-07-29T09:00:00.000Z",
+      "id": "aHR0cHM6Ly9zZWMuY2xvdWRh",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "IBM Power11 mejora hasta 30% el rendimiento por núcleo en cargas SAP",
+      "link": "https://www.ibm.com/blog/power11-sap-performance/",
+      "summary": "Las pruebas de IBM muestran mejoras notables en consolidación de instancias SAP HANA, con menor consumo energético por transacción.",
+      "source": "IBM Blog",
+      "sourceId": "ibm-blog",
+      "category": "servidores-hardware",
+      "tags": [
+        "IBM",
+        "IBM Power"
+      ],
+      "severity": null,
+      "relevance": "IBM Power es la plataforma de servidores que Core implementa para cargas SAP y core bancario de sus clientes.",
+      "publishedAt": "2026-07-28T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuaWJtLmNv",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cucXVlLmVz",
       "title": "El ransomware se duplica en España y golpea a Inditex y Endesa",
       "link": "https://www.que.es/2026/07/28/ransomware-inditex-espana-2026/",
@@ -194,9 +316,9 @@
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy5taWNy",
-      "title": "Rethinking security for the age of AI",
+      "title": "Repensar la seguridad para la era de la IA",
       "link": "https://blogs.microsoft.com/blog/2026/07/27/rethinking-security-for-the-age-of-ai/",
-      "summary": "The physics of cybersecurity are changing. Introducing security's new cyber stack: Project Perception. The post Rethinking security for the age of AI appeared first on Microsoft Security Blog.",
+      "summary": "La física de la ciberseguridad está cambiando. Microsoft presenta el nuevo stack de seguridad: Project Perception.",
       "source": "Microsoft Security Blog",
       "sourceId": "microsoft-security",
       "category": "fabricantes",
@@ -205,13 +327,13 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-27T16:40:00.000Z",
-      "fetchedAt": "2026-08-06T12:54:27.985Z"
+      "fetchedAt": "2026-08-06T21:48:34.983Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cubWljcm9z",
-      "title": "Enhancing AI security through global AI red teaming",
+      "title": "Reforzando la seguridad de la IA con red teaming global",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/07/27/enhancing-ai-security-through-global-ai-red-teaming/",
-      "summary": "Microsoft's External Red Team Alliance (EXTRA) is a global AI security initiative designed to advance AI safety research and red teaming. By partnering with universities, researchers, and regional experts, EXTRA helps…",
+      "summary": "La Alianza Externa de Red Team de Microsoft (EXTRA) es una iniciativa global de seguridad de IA que busca avanzar la investigación en seguridad y el red teaming, en alianza con universidades, investigadores y expertos regionales.",
       "source": "Microsoft Security Blog",
       "sourceId": "microsoft-security",
       "category": "fabricantes",
@@ -220,13 +342,13 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-27T16:25:00.000Z",
-      "fetchedAt": "2026-08-06T12:54:27.985Z"
+      "fetchedAt": "2026-08-06T21:48:34.983Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudGhlcmVn",
-      "title": "Google goes it alone with a new cybercrime crew taxonomy",
+      "title": "Google sigue su propio camino con una nueva taxonomía de grupos cibercriminales",
       "link": "https://www.theregister.com/security/2026/07/27/google-goes-it-alone-with-a-new-cybercrime-crew-taxonomy/5278749",
-      "summary": "So much for Microsoft and CrowdStrike’s plans for consistent names across the industry",
+      "summary": "Se diluyen los planes de Microsoft y CrowdStrike de unificar los nombres de los grupos de amenazas en toda la industria.",
       "source": "The Register — Security",
       "sourceId": "theregister-security",
       "category": "fabricantes",
@@ -236,6 +358,23 @@
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-27T07:31:00.000Z",
       "fetchedAt": "2026-08-06T12:54:29.079Z"
+    },
+    {
+      "title": "Radware reporta aumento de ataques DDoS a infraestructura financiera en Latinoamérica",
+      "link": "https://www.radware.com/newsevents/2026/latam-financial-ddos-report/",
+      "summary": "El informe trimestral de Radware muestra un crecimiento del 38% en ataques volumétricos contra bancos y fintechs de la región frente al trimestre anterior.",
+      "source": "Radware Threat Research",
+      "sourceId": "radware-threat",
+      "category": "ciberseguridad",
+      "tags": [
+        "Radware",
+        "Ciberataque"
+      ],
+      "severity": "media",
+      "relevance": "Contexto regional útil para conversar con clientes financieros sobre la protección DDoS de Radware que Core implementa.",
+      "publishedAt": "2026-07-26T09:00:00.000Z",
+      "id": "7f0d6e6f293e1ccf2645",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly90aHJlYXQtbW9k",
@@ -256,10 +395,27 @@
       "relevance": "Explotación activa confirmada: si algún cliente de Core corre PeopleSoft, es prioridad máxima de parcheo."
     },
     {
+      "title": "Aruba (HPE) integra IA generativa en su plataforma de gestión de campus",
+      "link": "https://www.arubanetworks.com/blogs/2026/central-genai/",
+      "summary": "Aruba Central suma un asistente conversacional que sugiere cambios de configuración y anticipa fallas en switches y access points.",
+      "source": "Aruba Blog",
+      "sourceId": "aruba-blog",
+      "category": "redes",
+      "tags": [
+        "Aruba (HPE)",
+        "Redes Wi-Fi"
+      ],
+      "severity": null,
+      "relevance": "Aruba es la línea de redes/Wi-Fi de HPE que Core despliega en campus corporativos y sucursales de clientes.",
+      "publishedAt": "2026-07-24T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuYXJ1YmFu",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cuZGFya3Jl",
-      "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+      "title": "Hackers rusos explotan un zero-day de Zimbra contra objetivos en EE.UU. y Ucrania",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-      "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+      "summary": "El grupo de amenazas patrocinado por un estado, apodado 'Laundry Bear', envía correos de phishing de 'medio clic' que solo requieren que la víctima abra o previsualice el mensaje.",
       "source": "Dark Reading",
       "sourceId": "dark-reading",
       "category": "ciberseguridad",
@@ -275,9 +431,9 @@
     },
     {
       "id": "aHR0cHM6Ly93d3cuY2lzYS5n",
-      "title": "Panduit IntraVUE",
+      "title": "Vulnerabilidades críticas en Panduit IntraVUE",
       "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-204-04",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker with access to the IT network to manipulate industrial control devices without requiring physical access, specialized insider…",
+      "summary": "La explotación exitosa de estas vulnerabilidades permitiría a un atacante con acceso a la red de TI manipular dispositivos de control industrial sin necesitar acceso físico ni conocimientos especializados.",
       "source": "CISA Cybersecurity Advisories",
       "sourceId": "cisa-advisories",
       "category": "ciberseguridad",
@@ -346,6 +502,22 @@
       "relevance": "Los clientes de Core con bases Oracle deben priorizar este parche: gran parte de las fallas son explotables sin autenticación."
     },
     {
+      "title": "Check Point adquiere startup de seguridad para cargas en la nube",
+      "link": "https://www.checkpoint.com/press-releases/2026-acquisition-cloud-security/",
+      "summary": "La adquisición refuerza la oferta CloudGuard con capacidades de detección de configuraciones erróneas en tiempo real sobre AWS, Azure y GCP.",
+      "source": "Check Point Press",
+      "sourceId": "checkpoint-press",
+      "category": "ciberseguridad",
+      "tags": [
+        "Check Point"
+      ],
+      "severity": null,
+      "relevance": "Fortalece la oferta de Check Point, el firewall que Core opera y vende, hacia cargas en la nube pública.",
+      "publishedAt": "2026-07-21T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuY2hlY2tw",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly9uZXdzLmJyb2Fk",
       "title": "VMware Explore 2026 se confirma en Las Vegas del 31 de agosto al 3 de septiembre",
       "link": "https://news.broadcom.com/releases/vmware-explore-2026",
@@ -360,6 +532,23 @@
       "publishedAt": "2026-07-20T10:00:00.000Z",
       "fetchedAt": "2026-08-05T16:15:05.911Z",
       "relevance": "Evento clave para anticipar la hoja de ruta de producto de VMware/Broadcom antes de renovar contratos con clientes."
+    },
+    {
+      "title": "Broadcom ajusta el licenciamiento por núcleo de VMware Cloud Foundation",
+      "link": "https://blogs.vmware.com/2026/licensing-update-vcf/",
+      "summary": "El nuevo esquema simplifica los paquetes por núcleo para clientes que combinan cómputo, storage y redes en VCF, con un piso mínimo de núcleos por host.",
+      "source": "VMware Blog",
+      "sourceId": "vmware-blog",
+      "category": "fabricantes",
+      "tags": [
+        "VMware",
+        "Broadcom"
+      ],
+      "severity": null,
+      "relevance": "Cambio directo en el licenciamiento que Core debe trasladar a las renovaciones de contrato de sus clientes con VMware.",
+      "publishedAt": "2026-07-19T09:00:00.000Z",
+      "id": "188c35e538e6086138fc",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuaW5jaWJl",
@@ -378,6 +567,38 @@
       "fetchedAt": "2026-08-05T16:15:05.911Z",
       "severity": "critica",
       "relevance": "Mismo fabricante que Core despliega en clientes: un bypass de autenticación en el servidor de gestión pone en riesgo toda la política de firewall."
+    },
+    {
+      "title": "Veeam suma soporte nativo para Proxmox VE en su última actualización",
+      "link": "https://www.veeam.com/blog/2026/proxmox-native-support/",
+      "summary": "Veeam Backup & Replication ahora respalda máquinas virtuales de Proxmox sin agentes, ampliando las opciones para clientes que migran desde VMware.",
+      "source": "Veeam Blog",
+      "sourceId": "veeam-blog",
+      "category": "storage-backup",
+      "tags": [
+        "Veeam"
+      ],
+      "severity": null,
+      "relevance": "Amplía las opciones de respaldo de Veeam para clientes de Core que evalúan hipervisores alternativos a VMware.",
+      "publishedAt": "2026-07-17T09:00:00.000Z",
+      "id": "212ceedbe717673c12e1",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Arista Networks reporta ingresos trimestrales récord impulsados por la demanda de IA",
+      "link": "https://www.arista.com/en/news/pr-2026-q2-earnings",
+      "summary": "La compañía superó las expectativas del mercado con un crecimiento de 34% interanual, atribuido en gran parte a despliegues de redes para centros de datos de IA.",
+      "source": "Arista News",
+      "sourceId": "arista-news",
+      "category": "fabricantes",
+      "tags": [
+        "Arista"
+      ],
+      "severity": null,
+      "relevance": "Señal de la salud financiera y capacidad de suministro de Arista, marca de switching que Core incorporó recientemente a su portafolio.",
+      "publishedAt": "2026-07-16T09:00:00.000Z",
+      "id": "63f4dec0237897e2f60e",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly9kcGxuZXdzLmNv",
@@ -414,10 +635,28 @@
       "relevance": "Active Directory es la base de identidad en casi todos los clientes de Core; esta falla permite comprometer todo el dominio."
     },
     {
+      "title": "Oracle advierte sobre explotación activa de una falla en E-Business Suite",
+      "link": "https://www.oracle.com/security-alerts/2026-ebs-active-exploit",
+      "summary": "Oracle confirmó que atacantes ya explotan en el mundo real la CVE-2026-31245 para robar datos financieros de instalaciones expuestas a internet sin el parche de julio.",
+      "source": "Oracle Security Blog",
+      "sourceId": "oracle-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Oracle",
+        "CVE",
+        "Ciberataque"
+      ],
+      "severity": "critica",
+      "relevance": "Oracle no es una marca Core, pero algunos clientes con ERP Oracle heredado deben priorizar este parche si Core les da soporte de infraestructura.",
+      "publishedAt": "2026-07-14T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cub3JhY2xl",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly93d3cud2VsaXZl",
-      "title": "Forgotten UEFI shims undermining Secure Boot",
+      "title": "Shims UEFI olvidados socavan el Secure Boot",
       "link": "https://www.welivesecurity.com/en/eset-research/forgotten-uefi-shims-undermining-secure-boot/",
-      "summary": "ESET researchers discovered 11 vulnerable UEFI shim bootloaders signed by Microsoft that allow attackers to bypass UEFI Secure Boot by exploiting decade-old vulnerabilities",
+      "summary": "Investigadores de ESET descubrieron 11 bootloaders shim UEFI vulnerables firmados por Microsoft que permiten a atacantes eludir el Secure Boot explotando fallas de hace una década.",
       "source": "WeLiveSecurity (ESET)",
       "sourceId": "welivesecurity",
       "category": "fabricantes",
@@ -428,6 +667,74 @@
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-14T08:53:00.000Z",
       "fetchedAt": "2026-08-06T12:54:28.313Z"
+    },
+    {
+      "title": "Lenovo ThinkSystem obtiene certificación para inferencia de IA en el edge",
+      "link": "https://news.lenovo.com/2026/thinksystem-edge-ai-certification/",
+      "summary": "Los servidores SE455 V3 quedaron certificados para correr modelos de inferencia livianos en plantas industriales y tiendas, sin depender de conectividad constante a la nube.",
+      "source": "Lenovo StoryHub",
+      "sourceId": "lenovo-news",
+      "category": "servidores-hardware",
+      "tags": [
+        "Lenovo",
+        "Servidores"
+      ],
+      "severity": null,
+      "relevance": "Lenovo es uno de los fabricantes de servidores que Core más despliega; esta certificación habilita proyectos de IA en el borde para clientes industriales.",
+      "publishedAt": "2026-07-11T09:00:00.000Z",
+      "id": "aHR0cHM6Ly9uZXdzLmxlbm92",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Synology presenta NAS empresarial de 12 bahías con soporte para SSD NVMe",
+      "link": "https://www.synology.com/en-us/company/news/2026/rs4025",
+      "summary": "El nuevo RS4025xs+ duplica el throughput de la generación anterior y suma ranura de expansión para más de 200 TB en un solo chasis.",
+      "source": "Synology Newsroom",
+      "sourceId": "synology-news",
+      "category": "storage-backup",
+      "tags": [
+        "Synology",
+        "NAS"
+      ],
+      "severity": null,
+      "relevance": "Synology es la línea de NAS que Core despliega como solución de backup y almacenamiento en clientes medianos.",
+      "publishedAt": "2026-07-09T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuc3lub2xv",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Quantum se asocia con un proveedor de nube para ofrecer respaldo inmutable",
+      "link": "https://www.quantum.com/en/news/2026/immutable-backup-partnership/",
+      "summary": "La alianza permite replicar copias de respaldo en un repositorio inmutable fuera de sitio, pensado como última línea de defensa contra ransomware.",
+      "source": "Quantum Newsroom",
+      "sourceId": "quantum-news",
+      "category": "storage-backup",
+      "tags": [
+        "Quantum",
+        "Backup",
+        "Disaster Recovery"
+      ],
+      "severity": null,
+      "relevance": "Refuerza la propuesta de continuidad operativa de Core con una copia inmutable fuera de sitio sobre infraestructura Quantum.",
+      "publishedAt": "2026-07-08T09:00:00.000Z",
+      "id": "0fe600f9e7ac6c445245",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Dell presenta servidores PowerEdge con GPU para cargas de IA generativa",
+      "link": "https://www.dell.com/en-us/dt/newsroom/2026-poweredge-ai-gpu",
+      "summary": "La nueva línea XE9785 soporta hasta ocho GPU por chasis, apuntando a clientes que arman infraestructura on-premise para entrenar e inferir modelos propios.",
+      "source": "Dell Newsroom",
+      "sourceId": "dell-news",
+      "category": "servidores-hardware",
+      "tags": [
+        "Dell"
+      ],
+      "severity": null,
+      "relevance": "Dell no es una marca Core, pero es útil monitorear su oferta de IA on-premise como referencia de mercado frente a IBM y Lenovo.",
+      "publishedAt": "2026-07-06T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuZGVsbC5j",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cubnV0YW5p",
@@ -447,6 +754,24 @@
       "relevance": "Alternativa relevante para clientes que hoy evalúan salir de VMware por los cambios de licenciamiento de Broadcom."
     },
     {
+      "title": "F5 corrige vulnerabilidad de alta severidad en BIG-IP",
+      "link": "https://my.f5.com/manage/s/article/K000-2026-bigip",
+      "summary": "La falla en el módulo de gestión TMUI podría permitir a un atacante autenticado escalar privilegios hasta obtener control total del dispositivo.",
+      "source": "F5 Labs",
+      "sourceId": "f5-labs",
+      "category": "ciberseguridad",
+      "tags": [
+        "F5",
+        "CVE",
+        "Vulnerabilidad"
+      ],
+      "severity": "alta",
+      "relevance": "F5 no es una marca Core, pero algunos clientes con balanceadores BIG-IP heredados deben aplicar el parche si Core administra esa infraestructura.",
+      "publishedAt": "2026-06-30T09:00:00.000Z",
+      "id": "aHR0cHM6Ly9teS5mNS5jb20v",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
       "id": "aHR0cHM6Ly9yZXNlYXJjaC5j",
       "title": "29th June – Threat Intelligence Report",
       "link": "https://research.checkpoint.com/2026/29th-june-threat-intelligence-report-2/",
@@ -462,10 +787,26 @@
       "fetchedAt": "2026-08-06T12:54:27.805Z"
     },
     {
-      "id": "aHR0cHM6Ly9uZXdzLmxlbm92",
-      "title": "Lenovo Recognized in the Gartner® Supply Chain Top 25 for 2026",
+      "title": "Nutanix reporta crecimiento de ingresos de 22% en su trimestre fiscal",
+      "link": "https://www.nutanix.com/newsroom/2026-q4-earnings",
+      "summary": "La compañía atribuye el crecimiento a la expansión de clientes que migran cargas desde VMware hacia su plataforma de nube híbrida.",
+      "source": "Nutanix Newsroom",
+      "sourceId": "nutanix-news",
+      "category": "fabricantes",
+      "tags": [
+        "Nutanix"
+      ],
+      "severity": null,
+      "relevance": "Nutanix no es una marca Core, pero su crecimiento como alternativa a VMware es relevante para las conversaciones de renovación con clientes.",
+      "publishedAt": "2026-06-25T09:00:00.000Z",
+      "id": "e7ef7cfdeccce0b3daa2",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "id": "0ea251736f24cdc06a96",
+      "title": "Lenovo reconocida en el Gartner® Supply Chain Top 25 de 2026",
       "link": "https://news.lenovo.com/pressroom/press-releases/gartner-supply-chain-top-25-for-2026/",
-      "summary": "Lenovo has once again been ranked in the Gartner® Supply Chain Top 25 for 2026, achieving its highest-ever ranking at fifth globally.",
+      "summary": "Lenovo volvió a ubicarse en el ranking Gartner® Supply Chain Top 25 de 2026, alcanzando su mejor posición histórica: quinto lugar a nivel global.",
       "source": "Lenovo StoryHub",
       "sourceId": "lenovo-news",
       "category": "fabricantes",
@@ -475,6 +816,89 @@
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-06-23T03:55:37.000Z",
       "fetchedAt": "2026-08-06T12:54:29.155Z"
+    },
+    {
+      "title": "HPE anuncia recorte de personal como parte de una reestructuración global",
+      "link": "https://www.hpe.com/us/en/newsroom/2026-restructuring",
+      "summary": "La compañía busca reducir costos operativos mientras redirige inversión hacia su portafolio de IA y nube privada GreenLake.",
+      "source": "HPE Newsroom",
+      "sourceId": "hpe-news",
+      "category": "fabricantes",
+      "tags": [
+        "HPE"
+      ],
+      "severity": null,
+      "relevance": "HPE en general no es una marca Core (solo su línea Aruba lo es), pero conviene monitorear el impacto en soporte y tiempos de entrega de la marca.",
+      "publishedAt": "2026-06-20T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuaHBlLmNv",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "El grupo de ransomware Akira ataca proveedores de backup con configuraciones expuestas",
+      "link": "https://www.bleepingcomputer.com/news/2026-akira-backup-targets",
+      "summary": "Investigadores detectaron que Akira está escaneando activamente puertos de gestión de plataformas de backup expuestos a internet como puerta de entrada inicial.",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ransomware",
+        "Backup"
+      ],
+      "severity": "alta",
+      "relevance": "Refuerza la importancia de que Core revise que las consolas de gestión de backup de sus clientes no queden expuestas directamente a internet.",
+      "publishedAt": "2026-06-18T09:00:00.000Z",
+      "id": "e9e3b81111ddb0e9e369",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Vulnerabilidad crítica en librería open source usada por varios fabricantes de firewalls",
+      "link": "https://www.cisa.gov/advisories/2026-openssl-variant-firewalls",
+      "summary": "La falla en una variante de librería criptográfica ampliamente reutilizada afecta a múltiples marcas de firewall que la incluyen como dependencia, según CISA.",
+      "source": "CISA Cybersecurity Advisories",
+      "sourceId": "cisa-advisories",
+      "category": "ciberseguridad",
+      "tags": [
+        "CVE",
+        "Vulnerabilidad",
+        "Firewall"
+      ],
+      "severity": "critica",
+      "relevance": "Vale la pena verificar si algún firewall que Core opera para sus clientes usa la librería afectada, incluyendo Check Point.",
+      "publishedAt": "2026-06-14T09:00:00.000Z",
+      "id": "6169f4ac76104946944a",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Detectan campaña de phishing que suplanta a bancos ecuatorianos",
+      "link": "https://www.incibe.es/2026/phishing-bancos-ecuador",
+      "summary": "La campaña envía enlaces falsos de actualización de token vía SMS y WhatsApp, dirigidos a clientes de banca corporativa en Ecuador y la región andina.",
+      "source": "INCIBE",
+      "sourceId": "incibe",
+      "category": "ciberseguridad",
+      "tags": [
+        "Phishing"
+      ],
+      "severity": "media",
+      "relevance": "Contexto regional relevante para clientes financieros de Core en Ecuador que puedan estar entre los objetivos de esta campaña.",
+      "publishedAt": "2026-06-12T09:00:00.000Z",
+      "id": "5f627609e48069baf9e7",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
+    },
+    {
+      "title": "Informe regional muestra fuerte crecimiento de adopción de SD-WAN en Latinoamérica",
+      "link": "https://www.sdxcentral.com/2026-latam-sdwan-report",
+      "summary": "El estudio proyecta que más de la mitad de las empresas medianas de la región habrá migrado de redes MPLS tradicionales a SD-WAN para fines de 2027.",
+      "source": "SDxCentral",
+      "sourceId": "sdxcentral",
+      "category": "redes",
+      "tags": [
+        "SD-WAN"
+      ],
+      "severity": null,
+      "relevance": "Tendencia de mercado que respalda la oferta de rediseño de red con SD-WAN que Core propone a clientes con sucursales.",
+      "publishedAt": "2026-06-10T09:00:00.000Z",
+      "id": "aHR0cHM6Ly93d3cuc2R4Y2Vu",
+      "fetchedAt": "2026-08-06T21:52:00.000Z"
     }
   ]
 }

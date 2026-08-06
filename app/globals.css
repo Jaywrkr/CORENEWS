@@ -31,10 +31,10 @@
     @apply scroll-smooth;
   }
   body {
-    @apply bg-ink-0 text-ink-900 font-sans antialiased;
+    @apply bg-ink-0 text-ink-900 font-sans antialiased dark:bg-ink-950 dark:text-ink-100;
   }
   ::selection {
-    @apply bg-navy-950 text-white;
+    @apply bg-navy-950 text-white dark:bg-navy-300 dark:text-navy-950;
   }
 }
 
@@ -44,19 +44,19 @@
   }
 
   .hairline {
-    @apply border border-ink-200;
+    @apply border border-ink-200 dark:border-ink-800;
   }
 
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 bg-navy-950 px-06 py-04 text-sm font-semibold text-white transition-colors hover:bg-navy-800;
+    @apply inline-flex items-center justify-center gap-2 bg-navy-950 px-06 py-04 text-sm font-semibold text-white transition-colors hover:bg-navy-800 dark:bg-accent dark:hover:bg-accent-hover;
   }
 
   .pill {
-    @apply inline-flex items-center rounded-pill bg-navy-50 px-03 py-02 text-xs font-medium text-navy-700;
+    @apply inline-flex items-center rounded-pill bg-navy-50 px-03 py-02 text-xs font-medium text-navy-700 dark:bg-navy-900/50 dark:text-navy-200;
   }
 
   .kicker {
-    @apply font-mono text-xs uppercase tracking-[0.14em] text-ink-500;
+    @apply font-mono text-xs uppercase tracking-[0.14em] text-ink-500 dark:text-ink-400;
   }
 
   .grain::after {
