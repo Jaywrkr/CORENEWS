@@ -33,7 +33,7 @@ export function NewsCard({
       onClick={() => onSelect(item)}
       className="group flex h-full w-full flex-col text-left focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 focus-visible:ring-offset-2"
     >
-      <div className="flex min-h-[26px] items-center gap-02 text-ink-500">
+      <div className="flex min-h-[26px] items-center gap-02 text-ink-500 dark:text-ink-400">
         <CategoryIcon name={category?.icon ?? "shield"} className="h-4 w-4 shrink-0" />
         <span className="kicker">{category?.short ?? "Core"}</span>
         <SeverityBadge severity={item.severity} />
@@ -46,14 +46,14 @@ export function NewsCard({
       />
 
       <h3
-        className={`mt-04 font-serif font-semibold leading-snug text-ink-900 transition-colors group-hover:text-navy-950 ${
+        className={`mt-04 font-serif font-semibold leading-snug text-ink-900 transition-colors group-hover:text-navy-950 dark:text-ink-50 dark:group-hover:text-white ${
           featured ? "text-3xl" : "text-lg"
         }`}
       >
         {item.title}
       </h3>
 
-      <p className={`mt-02 text-ink-500 ${featured ? "text-base" : "text-sm"} line-clamp-2`}>
+      <p className={`mt-02 text-ink-500 dark:text-ink-400 ${featured ? "text-base" : "text-sm"} line-clamp-2`}>
         {item.summary}
       </p>
 
@@ -66,7 +66,7 @@ export function NewsCard({
       )}
 
       <div className="mt-auto flex flex-col gap-03 pt-04">
-        <div className="flex items-center gap-02 text-xs text-ink-400">
+        <div className="flex items-center gap-02 text-xs text-ink-400 dark:text-ink-500">
           <span>{item.source}</span>
           <span aria-hidden>·</span>
           <time className="font-mono">{formatDate(item.publishedAt)}</time>

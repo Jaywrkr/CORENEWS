@@ -52,10 +52,18 @@ export const CORE_VENDOR_TAGS = new Set([
   "Quantum",
   "Arista",
   "Check Point",
+  "Microsoft",
+  "Microsoft Azure",
+  "Active Directory",
 ]);
 
 export function isCoreVendorTag(tag: string): boolean {
   return CORE_VENDOR_TAGS.has(tag);
+}
+
+/** true si la noticia menciona alguna marca Core (aunque también mencione otras). */
+export function hasCoreVendorTag(tags: string[]): boolean {
+  return tags.some((t) => CORE_VENDOR_TAGS.has(t));
 }
 
 /** true si la noticia menciona explícitamente una marca que NO es de Core. */
