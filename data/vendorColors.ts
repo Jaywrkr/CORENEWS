@@ -27,7 +27,41 @@ export const VENDOR_COLORS: Record<string, string> = {
   Nutanix: "#7C3AED",
   Veeam: "#00B336",
   Dell: "#007DB8",
+  Radware: "#E30613",
+  Quantum: "#0072CE",
+  Arista: "#0068B4",
 };
+
+/**
+ * Marcas que Core efectivamente vende/implementa (lista confirmada por el
+ * cliente en ago 2026, no todo lo que tiene feed dedicado en data/sources.ts
+ * es realmente una marca Core — ej. Cisco/Oracle/Nutanix tienen feed pero
+ * NO son marcas Core). De HPE solo cuenta la línea Aruba, no HPE genérico.
+ */
+export const CORE_VENDOR_TAGS = new Set([
+  "IBM",
+  "IBM Power",
+  "Lenovo",
+  "VMware",
+  "Broadcom",
+  "Synology",
+  "Radware",
+  "Veeam",
+  "Aruba (HPE)",
+  "Aruba ClearPass",
+  "Quantum",
+  "Arista",
+  "Check Point",
+]);
+
+export function isCoreVendorTag(tag: string): boolean {
+  return CORE_VENDOR_TAGS.has(tag);
+}
+
+/** true si la noticia menciona explícitamente una marca que NO es de Core. */
+export function hasOtherVendorTag(tags: string[]): boolean {
+  return tags.some((t) => t in VENDOR_COLORS && !CORE_VENDOR_TAGS.has(t));
+}
 
 /** Cuando no hay tag de fabricante, se usa un par de colores por categoría. */
 export const CATEGORY_FALLBACK_COLORS: Record<CategorySlug, [string, string]> = {
@@ -52,5 +86,5 @@ export function pickMeshColors(tags: string[], category: CategorySlug): [string,
 
 /** Tags que corresponden a marcas/fabricantes que Core vende e implementa. */
 export function getCoreVendorTags(tags: string[]): string[] {
-  return tags.filter((t) => t in VENDOR_COLORS);
+  return tags.filter((t) => CORE_VENDOR_TAGS.has(t));
 }

@@ -2,8 +2,10 @@
 
 import { useMemo, useState } from "react";
 import type { NewsItem } from "@/scripts/fetch-news";
+import { hasOtherVendorTag } from "@/data/vendorColors";
 import { NewsCard } from "./NewsCard";
 import { NewsDrawer } from "./NewsDrawer";
+import { VendorScopeToggle, type VendorScope } from "./VendorScopeToggle";
 
 const MAX_VENDOR_CHIPS = 10;
 
@@ -17,10 +19,16 @@ export function NewsExplorer({
   const [selected, setSelected] = useState<NewsItem | null>(null);
   const [query, setQuery] = useState("");
   const [vendor, setVendor] = useState<string | null>(null);
+  const [scope, setScope] = useState<VendorScope>("core");
+
+  const scopedItems = useMemo(
+    () => items.filter((item) => hasOtherVendorTag(item.tags) === (scope === "other")),
+    [items, scope]
+  );
 
   const vendorChips = useMemo(() => {
     const counts = new Map<string, number>();
-    for (const item of items) {
+    for (const item of scopedItems) {
       for (const tag of item.tags) {
         counts.set(tag, (counts.get(tag) ?? 0) + 1);
       }
@@ -29,11 +37,16 @@ export function NewsExplorer({
       .sort((a, b) => b[1] - a[1])
       .slice(0, MAX_VENDOR_CHIPS)
       .map(([tag]) => tag);
-  }, [items]);
+  }, [scopedItems]);
+
+  function handleScopeChange(next: VendorScope) {
+    setScope(next);
+    setVendor(null);
+  }
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return items.filter((item) => {
+    return scopedItems.filter((item) => {
       if (vendor && !item.tags.includes(vendor)) return false;
       if (!q) return true;
       return (
@@ -43,7 +56,7 @@ export function NewsExplorer({
         item.tags.some((t) => t.toLowerCase().includes(q))
       );
     });
-  }, [items, query, vendor]);
+  }, [scopedItems, query, vendor]);
 
   const useFeaturedLayout = showFeatured && !query && !vendor;
   const [featuredMain, featuredA, featuredB, ...rest] = filtered;
@@ -53,6 +66,8 @@ export function NewsExplorer({
 
   return (
     <>
+      <VendorScopeToggle scope={scope} onChange={handleScopeChange} />
+
       <div className="mb-06 flex flex-col gap-04 sm:flex-row sm:items-center sm:justify-between">
         <input
           type="search"
@@ -116,6 +131,8 @@ export function NewsExplorer({
           ))}
         </div>
       )}
+
+      <div className="h-16 sm:hidden" aria-hidden />
 
       <NewsDrawer item={selected} onClose={() => setSelected(null)} />
     </>

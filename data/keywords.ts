@@ -41,6 +41,9 @@ export const KEYWORDS: KeywordDef[] = [
   { term: "fortinet", label: "Fortinet", weight: 3, categories: ["fabricantes", "redes", "ciberseguridad"], vendor: true },
   { term: "dell", label: "Dell", weight: 2, categories: ["fabricantes", "servidores-hardware"], vendor: true },
   { term: "nutanix", label: "Nutanix", weight: 3, categories: ["fabricantes", "virtualizacion-cloud"], vendor: true },
+  { term: "radware", label: "Radware", weight: 3, categories: ["fabricantes", "ciberseguridad", "redes"], vendor: true },
+  { term: "quantum", label: "Quantum", weight: 3, categories: ["fabricantes", "storage-backup"], vendor: true },
+  { term: "arista", label: "Arista", weight: 3, categories: ["fabricantes", "redes"], vendor: true },
 
   // Tecnologías / disciplinas — señal media
   { term: "firewall", label: "Firewall", weight: 2, categories: ["redes", "ciberseguridad"] },
