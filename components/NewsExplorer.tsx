@@ -46,7 +46,10 @@ export function NewsExplorer({
   }, [items, query, vendor]);
 
   const useFeaturedLayout = showFeatured && !query && !vendor;
-  const [featured, ...rest] = filtered;
+  const [featuredMain, featuredA, featuredB, ...rest] = filtered;
+  const featuredSecondary = [featuredA, featuredB].filter(
+    (item): item is NewsItem => Boolean(item)
+  );
 
   return (
     <>
@@ -59,20 +62,18 @@ export function NewsExplorer({
           className="hairline h-11 w-full max-w-sm bg-white px-05 text-sm text-ink-900 placeholder:text-ink-400 focus:border-navy-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
         />
         {vendorChips.length > 0 && (
-          <div className="flex max-w-full gap-02 overflow-x-auto py-01 [-ms-overflow-style:none] [scrollbar-width:none] sm:max-w-md [&::-webkit-scrollbar]:hidden">
+          <select
+            value={vendor ?? ""}
+            onChange={(e) => setVendor(e.target.value || null)}
+            className="hairline h-11 w-full max-w-[220px] bg-white px-05 text-sm text-ink-900 focus:border-navy-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-navy-950"
+          >
+            <option value="">Todas las etiquetas</option>
             {vendorChips.map((tag) => (
-              <button
-                key={tag}
-                type="button"
-                onClick={() => setVendor(vendor === tag ? null : tag)}
-                className={`pill shrink-0 whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-navy-950 ${
-                  vendor === tag ? "bg-navy-950 text-white" : "hover:bg-navy-100"
-                }`}
-              >
+              <option key={tag} value={tag}>
                 {tag}
-              </button>
+              </option>
             ))}
-          </div>
+          </select>
         )}
       </div>
 
@@ -83,11 +84,20 @@ export function NewsExplorer({
             Ningún artículo coincide con “{query || vendor}”. Prueba con otra palabra clave o quita el filtro.
           </p>
         </div>
-      ) : useFeaturedLayout && featured ? (
+      ) : useFeaturedLayout && featuredMain ? (
         <div className="space-y-10">
           <div>
             <p className="kicker mb-03 text-navy-700">Destacado</p>
-            <NewsCard item={featured} featured onSelect={setSelected} />
+            <div className="grid items-stretch gap-06 lg:grid-cols-3">
+              <div className="lg:col-span-2">
+                <NewsCard item={featuredMain} featured onSelect={setSelected} />
+              </div>
+              <div className="flex flex-col gap-06">
+                {featuredSecondary.map((item) => (
+                  <NewsCard key={item.id} item={item} onSelect={setSelected} />
+                ))}
+              </div>
+            </div>
           </div>
 
           <div>
