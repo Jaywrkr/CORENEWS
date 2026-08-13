@@ -71,9 +71,28 @@ function detectSeverity(text: string): NewsItem["severity"] {
   return undefined;
 }
 
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+  return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => reject(new Error(`timeout duro de ${ms}ms alcanzado (${label})`)), ms);
+    promise.then(
+      (value) => {
+        clearTimeout(timer);
+        resolve(value);
+      },
+      (err) => {
+        clearTimeout(timer);
+        reject(err);
+      }
+    );
+  });
+}
+
 async function fetchFeed(source: (typeof SOURCES)[number]): Promise<NewsItem[]> {
   try {
-    const feed = await parser.parseURL(source.url);
+    // El `timeout` de rss-parser no siempre aborta la conexión subyacente
+    // (ej. servidor que mantiene el socket abierto goteando datos): este
+    // timeout duro garantiza que una fuente colgada nunca bloquee el resto.
+    const feed = await withTimeout(parser.parseURL(source.url), FEED_TIMEOUT_MS + 5000, source.name);
     const items: NewsItem[] = [];
 
     for (const entry of feed.items ?? []) {
@@ -174,7 +193,9 @@ async function main() {
   console.log(`\nListo. ${merged.length} artículos guardados en data/news.json`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+main()
+  .then(() => process.exit(0))
+  .catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
