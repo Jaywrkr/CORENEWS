@@ -1,36 +1,37 @@
 {
-  "generatedAt": "2026-08-17T11:22:00.160Z",
+  "generatedAt": "2026-08-18T11:22:41.782Z",
   "count": 45,
   "items": [
     {
       "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
-      "title": "When AI hoards flash: the storage playbook that protects budget and performance in turbulent times",
-      "link": "https://www.datacenterdynamics.com/en/opinions/when-ai-hoards-flash-the-storage-playbook-that-protects-budget-and-performance-in-turbulent-times/",
-      "summary": "Storage for the future",
+      "title": "Enterprise quantum spend surpassed combined academic and gov’t investments in 2025, Boston Consulting Group reports",
+      "link": "https://www.datacenterdynamics.com/en/news/enterprise-quantum-spend-surpassed-combined-academic-and-govt-investments-in-2025-boston-consulting-group-reports/",
+      "summary": "Findings based on responses from more than 200 companies",
       "source": "Data Center Dynamics",
       "sourceId": "dcd",
-      "category": "storage-backup",
+      "category": "fabricantes",
       "tags": [
-        "Storage"
+        "Quantum"
       ],
-      "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
-      "publishedAt": "2026-08-16T10:00:33.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.806Z"
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-17T16:00:42.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.036Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuYmxlZXBp",
-      "title": "RingCentral data breach exposed info of 1.6 million accounts",
-      "link": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/",
-      "summary": "The ShinyHunters extortion group stole personal information from 1.6 million RingCentral accounts after hacking the company in July, according to the data breach notification service Have I Been Pwned. [...]",
+      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
+      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
+      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be…",
       "source": "BleepingComputer",
       "sourceId": "bleeping-computer",
       "category": "ciberseguridad",
       "tags": [
+        "Exploit",
         "Brecha de Seguridad"
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-08-14T10:52:05.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.759Z"
+      "publishedAt": "2026-08-16T23:47:06.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.014Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuZjUuY29t",
@@ -43,13 +44,13 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-12T18:07:12.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.707Z"
+      "fetchedAt": "2026-08-18T11:22:40.245Z"
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy52bXdh",
-      "title": "VMware Explore 2026: Top VCF Edge Sessions in Las Vegas",
-      "link": "https://blogs.vmware.com/cloud-foundation/2026/08/11/vmware-explore-2026-top-vcf-edge-sessions-in-las-vegas/",
-      "summary": "Get ready for VMware Explore Las Vegas, August 31 – September 3, 2026. We’ve put together an exceptional lineup of VCF Edge sessions at VMware Explore Las Vegas designed to deliver immediate, real-world value. Today,…",
+      "title": "Hands-on Labs at Explore: The Admin’s Ultimate Playbook",
+      "link": "https://blogs.vmware.com/explore/hands-on-labs-overview/",
+      "summary": "Whether you want to explore new feature sets, dissect the architecture of our event infrastructure, or challenge your skills, here is your playbook for the Hands-on Labs at Explore this year. REGISTER NOW Written By:…",
       "source": "VMware Blog",
       "sourceId": "vmware-blog",
       "category": "fabricantes",
@@ -57,42 +58,38 @@
         "VMware"
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
-      "publishedAt": "2026-08-11T14:38:56.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.184Z"
+      "publishedAt": "2026-08-12T17:07:00.000Z",
+      "fetchedAt": "2026-08-18T11:22:39.906Z"
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy5jaXNj",
-      "title": "Build agentic networking experiences with Meraki and Catalyst Center MCP servers",
-      "link": "https://blogs.cisco.com/developer/build-agentic-networking-experiences-with-meraki-and-catalyst-center-mcp-servers",
-      "summary": "Use Cisco's beta Meraki and Catalyst Center MCP servers to bring supported, read-only network data into the AI agents and applications you build.",
+      "title": "Remote, Not Distant: How One Week in Raleigh Proved My Internship Was Never Really Virtual",
+      "link": "https://blogs.cisco.com/wearecisco/remote-not-distant-how-one-week-in-raleigh-proved-my-internship-was-never-really-virtual",
+      "summary": "Culture isn't a location. Ethan O., Technical Sales Engineer Intern, shares how he built real connections and a true Cisco experience remotely.",
       "source": "Cisco Blog",
       "sourceId": "cisco-blog",
       "category": "fabricantes",
       "tags": [
-        "Cisco",
-        "Servidores"
+        "Cisco"
       ],
       "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
-      "publishedAt": "2026-08-10T16:00:40.000Z",
-      "fetchedAt": "2026-08-17T11:22:00.159Z"
+      "publishedAt": "2026-08-11T12:00:13.000Z",
+      "fetchedAt": "2026-08-18T11:22:41.780Z"
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
-      "title": "TrueConf Server Flaws Exploited to Replace Client Installers with PhantomCore",
-      "link": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html",
-      "summary": "The threat actor known as Head Mare has been observed weaponizing security flaws in unpatched TrueConf servers once again in attacks targeting Russian companies spanning instrumentation, electronics, transport, energy,…",
+      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
+      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
+      "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can…",
       "source": "The Hacker News",
       "sourceId": "hacker-news",
-      "category": "ciberseguridad",
+      "category": "servidores-hardware",
       "tags": [
-        "Servidores",
-        "Vulnerabilidad",
-        "Exploit"
+        "Servidores"
       ],
-      "severity": "media",
-      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-08-10T11:33:41.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.715Z"
+      "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
+      "publishedAt": "2026-08-11T10:24:00.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.302Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudGhlcmVn",
@@ -107,7 +104,22 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-07T11:32:00.000Z",
-      "fetchedAt": "2026-08-17T11:21:59.345Z"
+      "fetchedAt": "2026-08-18T11:22:41.457Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cudmVlYW0u",
+      "title": "Six Data Security Missteps Leadership Teams Don’t See Coming",
+      "link": "https://www.veeam.com/blog/data-security-missteps.html",
+      "summary": "Every executive team believes its data security program is solid, until an audit, a breach, or a regulator proves otherwise. The failures that cause the most damage are rarely about missing technology. They're about how…",
+      "source": "Veeam Blog",
+      "sourceId": "veeam-blog",
+      "category": "fabricantes",
+      "tags": [
+        "Veeam"
+      ],
+      "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.291Z"
     },
     {
       "title": "Microsoft corrige 60 vulnerabilidades en el Patch Tuesday de agosto, dos críticas",
@@ -128,19 +140,24 @@
       "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
-      "id": "aHR0cHM6Ly93d3cudmVlYW0u",
-      "title": "Veeam Joins the Open Secure AI Alliance to Drive Agentic AI with a foundation of Trusted Data",
-      "link": "https://www.veeam.com/blog/veeam-open-secure-ai-alliance.html",
-      "summary": "Veeam is proud to join the Open Secure AI Alliance alongside NVIDIA and other industry leaders to advance secure, open innovation in agentic Al. As the Data and Al Trust company, Veeam is helping organizations…",
-      "source": "Veeam Blog",
-      "sourceId": "veeam-blog",
-      "category": "fabricantes",
+      "id": "aHR0cHM6Ly93d3cuY2lzYS5n",
+      "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
+      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results. The following versions of…",
+      "source": "CISA Cybersecurity Advisories",
+      "sourceId": "cisa-advisories",
+      "category": "ciberseguridad",
       "tags": [
-        "Veeam"
+        "Firewall",
+        "Storage",
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit"
       ],
-      "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
-      "publishedAt": "2026-08-04T13:05:49.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.885Z"
+      "severity": "media",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-04T12:00:00.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.144Z"
     },
     {
       "title": "Radware lanza protección DDoS impulsada por IA para infraestructura crítica",
@@ -160,22 +177,22 @@
       "fetchedAt": "2026-08-06T21:52:00.000Z"
     },
     {
-      "id": "aHR0cHM6Ly93d3cuY2lzYS5n",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "link": "https://www.cisa.gov/news-events/alerts/2026/08/03/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-18577 N-able N-central Authentication Bypass Using an Alternate Path or…",
-      "source": "CISA Cybersecurity Advisories",
-      "sourceId": "cisa-advisories",
+      "id": "aHR0cHM6Ly93d3cuZGFya3Jl",
+      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+      "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+      "source": "Dark Reading",
+      "sourceId": "dark-reading",
       "category": "ciberseguridad",
       "tags": [
-        "Vulnerabilidad",
+        "Servidores",
         "CVE",
         "Exploit"
       ],
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-08-03T12:00:00.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.882Z"
+      "publishedAt": "2026-08-03T21:21:11.000Z",
+      "fetchedAt": "2026-08-18T11:22:40.476Z"
     },
     {
       "id": "aHR0cHM6Ly9teC5pbnZlc3Rp",
@@ -262,21 +279,6 @@
       "relevance": "Ejemplo concreto de por qué el respaldo por sí solo no basta sin monitoreo activo: argumento directo para vender servicios gestionados de continuidad operativa."
     },
     {
-      "id": "aHR0cHM6Ly93d3cuZGFya3Jl",
-      "title": "AI Harnesses Burst With Potential Exploit Opps",
-      "link": "https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps",
-      "summary": "A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.",
-      "source": "Dark Reading",
-      "sourceId": "dark-reading",
-      "category": "ciberseguridad",
-      "tags": [
-        "Exploit"
-      ],
-      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-07-30T19:40:40.000Z",
-      "fetchedAt": "2026-08-17T11:21:59.028Z"
-    },
-    {
       "title": "Quantum renueva su línea de librerías de cinta para archivo de largo plazo",
       "link": "https://www.quantum.com/en/news/2026/tape-library-refresh/",
       "summary": "La nueva Scalar i7 RAPTOR duplica la densidad de almacenamiento por slot y mejora la integración con flujos de respaldo inmutable.",
@@ -323,7 +325,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-29T16:00:00.000Z",
-      "fetchedAt": "2026-08-14T11:42:21.579Z"
+      "fetchedAt": "2026-08-18T11:22:39.638Z"
     },
     {
       "title": "Cisco reporta vulnerabilidad crítica en switches de la serie Nexus",
@@ -659,7 +661,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-14T08:53:00.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.838Z"
+      "fetchedAt": "2026-08-18T11:22:40.069Z"
     },
     {
       "title": "Synology presenta NAS empresarial de 12 bahías con soporte para SSD NVMe",
@@ -709,7 +711,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-07T04:00:42.000Z",
-      "fetchedAt": "2026-08-17T11:21:59.047Z"
+      "fetchedAt": "2026-08-18T11:22:40.088Z"
     },
     {
       "id": "aHR0cHM6Ly9yZXNlYXJjaC5j",
@@ -726,7 +728,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-06T12:01:54.000Z",
-      "fetchedAt": "2026-08-17T11:21:58.391Z"
+      "fetchedAt": "2026-08-18T11:22:39.576Z"
     },
     {
       "title": "Dell presenta servidores PowerEdge con GPU para cargas de IA generativa",
