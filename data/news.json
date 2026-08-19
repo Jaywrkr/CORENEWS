@@ -1,71 +1,58 @@
 {
-  "generatedAt": "2026-08-18T11:22:41.782Z",
+  "generatedAt": "2026-08-19T11:21:52.343Z",
   "count": 45,
   "items": [
     {
-      "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
-      "title": "Enterprise quantum spend surpassed combined academic and gov’t investments in 2025, Boston Consulting Group reports",
-      "link": "https://www.datacenterdynamics.com/en/news/enterprise-quantum-spend-surpassed-combined-academic-and-govt-investments-in-2025-boston-consulting-group-reports/",
-      "summary": "Findings based on responses from more than 200 companies",
-      "source": "Data Center Dynamics",
-      "sourceId": "dcd",
-      "category": "fabricantes",
-      "tags": [
-        "Quantum"
-      ],
-      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
-      "publishedAt": "2026-08-17T16:00:42.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.036Z"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cuYmxlZXBp",
-      "title": "SafePal data breach impacts 39,798 customers, stolen info for sale",
-      "link": "https://www.bleepingcomputer.com/news/security/safepal-data-breach-impacts-39-798-customers-stolen-info-for-sale/",
-      "summary": "Cryptocurrency hardware wallet provider SafePal is warning of a data breach affecting about 39,798 customers after a flaw was exploited to steal customer order information, and a threat actor is now claiming to be…",
-      "source": "BleepingComputer",
-      "sourceId": "bleeping-computer",
-      "category": "ciberseguridad",
-      "tags": [
-        "Exploit",
-        "Brecha de Seguridad"
-      ],
-      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-08-16T23:47:06.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.014Z"
-    },
-    {
       "id": "aHR0cHM6Ly93d3cuZjUuY29t",
-      "title": "Weekly Threat Bulletin – August 12th, 2026",
-      "link": "https://www.f5.com/labs/articles/weekly-threat-bulletin-august-12th-2026",
+      "title": "Weekly Threat Bulletin – August 19th, 2026",
+      "link": "https://www.f5.com/labs/articles/weekly-threat-bulletin-august-19th-2026",
       "summary": "These are the top threats you should know about this week.",
       "source": "F5 Labs",
       "sourceId": "f5-labs",
       "category": "redes",
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
-      "publishedAt": "2026-08-12T18:07:12.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.245Z"
+      "publishedAt": "2026-08-19T18:46:43.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.621Z"
     },
     {
-      "id": "aHR0cHM6Ly9ibG9ncy52bXdh",
-      "title": "Hands-on Labs at Explore: The Admin’s Ultimate Playbook",
-      "link": "https://blogs.vmware.com/explore/hands-on-labs-overview/",
-      "summary": "Whether you want to explore new feature sets, dissect the architecture of our event infrastructure, or challenge your skills, here is your playbook for the Hands-on Labs at Explore this year. REGISTER NOW Written By:…",
-      "source": "VMware Blog",
-      "sourceId": "vmware-blog",
-      "category": "fabricantes",
+      "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
+      "title": "ABB launches ultracapacitor storage system to meet Ireland's grid code for data centers",
+      "link": "https://www.datacenterdynamics.com/en/news/abb-launches-ultracapacitor-storage-system-to-meet-irelands-grid-code-for-data-centers/",
+      "summary": "Will combine its ultracapacitor energy storage system with grid-forming power conversion",
+      "source": "Data Center Dynamics",
+      "sourceId": "dcd",
+      "category": "storage-backup",
       "tags": [
-        "VMware"
+        "Storage"
       ],
-      "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
-      "publishedAt": "2026-08-12T17:07:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:39.906Z"
+      "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
+      "publishedAt": "2026-08-18T16:20:21.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.300Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuYmxlZXBp",
+      "title": "Windows Server 2022 reaches end of mainstream support in 60 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2022-reaches-end-of-mainstream-support-in-60-days/",
+      "summary": "Microsoft has reminded IT administrators that Windows Server 2022 is rapidly approaching its mainstream end date of October 2026, when it will switch to extended support. [...]",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "servidores-hardware",
+      "tags": [
+        "Microsoft",
+        "Windows Server",
+        "Servidores",
+        "Switching"
+      ],
+      "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
+      "publishedAt": "2026-08-17T12:33:11.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.206Z"
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy5jaXNj",
-      "title": "Remote, Not Distant: How One Week in Raleigh Proved My Internship Was Never Really Virtual",
-      "link": "https://blogs.cisco.com/wearecisco/remote-not-distant-how-one-week-in-raleigh-proved-my-internship-was-never-really-virtual",
-      "summary": "Culture isn't a location. Ethan O., Technical Sales Engineer Intern, shares how he built real connections and a true Cisco experience remotely.",
+      "title": "How Autonoma and Cisco are reimagining air travel",
+      "link": "https://blogs.cisco.com/our-corporate-purpose/how-autonoma-and-cisco-are-reimagining-air-travel",
+      "summary": "Autonoma is using AI to help airport teams make more confident operational decisions. Learn more about their partnership with Cisco's Country Digital Acceleration program.",
       "source": "Cisco Blog",
       "sourceId": "cisco-blog",
       "category": "fabricantes",
@@ -73,38 +60,58 @@
         "Cisco"
       ],
       "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
-      "publishedAt": "2026-08-11T12:00:13.000Z",
-      "fetchedAt": "2026-08-18T11:22:41.780Z"
+      "publishedAt": "2026-08-13T15:44:24.000Z",
+      "fetchedAt": "2026-08-19T11:21:52.342Z"
+    },
+    {
+      "id": "aHR0cHM6Ly9ibG9ncy52bXdh",
+      "title": "VCF Breakroom Chats Episode 93: From Day-One Deployment to Day-Two Confidence, VMware vSphere Kubernetes Service 3.7 Packs the Punch",
+      "link": "https://blogs.vmware.com/cloud-foundation/2026/08/13/vcf-breakroom-chats-episode-93-from-day-one-deployment-to-day-two-confidence-vmware-vsphere-kubernetes-service-3-7-packs-the-punch/",
+      "summary": "Deploying a secure Kubernetes cluster on day one is hard enough. Keeping it secure, compliant, and resilient through every upgrade, scaling event, and lifecycle change is where most platform teams struggle. That gap…",
+      "source": "VMware Blog",
+      "sourceId": "vmware-blog",
+      "category": "virtualizacion-cloud",
+      "tags": [
+        "VMware",
+        "vSphere"
+      ],
+      "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
+      "publishedAt": "2026-08-13T13:00:00.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.154Z"
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
-      "title": "Malicious MCP Servers Can Split Instructions to Make AI Coding Agents Exfiltrate Secrets",
-      "link": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html",
-      "summary": "A malicious tool server connected to an AI coding assistant can quietly walk off with SSH keys, environment secrets, source code, and customer data without ever sending one obviously harmful instruction. The trick can…",
+      "title": "Microsoft Patches 398 Flaws Including a Windows Driver Zero-Day Under Active Attack",
+      "link": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html",
+      "summary": "Microsoft released its monthly security updates on Tuesday, and one of the flaws it closed is already being used in attacks. The bug sits in a core Windows kernel driver that handles network socket operations. An…",
       "source": "The Hacker News",
       "sourceId": "hacker-news",
-      "category": "servidores-hardware",
+      "category": "ciberseguridad",
       "tags": [
-        "Servidores"
+        "Microsoft",
+        "CVE",
+        "Zero-Day"
       ],
-      "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
-      "publishedAt": "2026-08-11T10:24:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.302Z"
+      "severity": "alta",
+      "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
+      "publishedAt": "2026-08-11T20:10:55.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.379Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudGhlcmVn",
-      "title": "Attacker phished way into US defense supplier's Microsoft 365 account",
-      "link": "https://www.theregister.com/security/2026/08/07/ieh-corp-says-phished-staffer-opened-gates-to-company-m365/5284523",
-      "summary": "Intruder gained access to engineering files and potentially export-controlled technical data",
+      "title": "Ransomware gangs skip the CEO, head straight for the 40-something IT manager",
+      "link": "https://www.theregister.com/security/2026/08/09/ransomware-gangs-skip-the-ceo-head-straight-for-the-40-something-it-manager/5284499",
+      "summary": "Gen Xers who feel triggered by this should remember to unplug the network cable and call the cops",
       "source": "The Register — Security",
       "sourceId": "theregister-security",
-      "category": "fabricantes",
+      "category": "ciberseguridad",
       "tags": [
-        "Microsoft"
+        "Ransomware"
       ],
-      "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
-      "publishedAt": "2026-08-07T11:32:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:41.457Z"
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-09T09:33:00.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.772Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudmVlYW0u",
@@ -119,7 +126,25 @@
       ],
       "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
       "publishedAt": "2026-08-05T12:00:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.291Z"
+      "fetchedAt": "2026-08-19T11:21:51.393Z"
+    },
+    {
+      "id": "aHR0cHM6Ly93d3cuY2lzYS5n",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/05/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-63077 JetBrains TeamCity Deserialization of Untrusted Data Vulnerability This…",
+      "source": "CISA Cybersecurity Advisories",
+      "sourceId": "cisa-advisories",
+      "category": "ciberseguridad",
+      "tags": [
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit"
+      ],
+      "severity": "media",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-05T12:00:00.000Z",
+      "fetchedAt": "2026-08-19T11:21:51.483Z"
     },
     {
       "title": "Microsoft corrige 60 vulnerabilidades en el Patch Tuesday de agosto, dos críticas",
@@ -138,26 +163,6 @@
       "publishedAt": "2026-08-05T09:00:00.000Z",
       "id": "aHR0cHM6Ly9tc3JjLm1pY3Jv",
       "fetchedAt": "2026-08-06T21:52:00.000Z"
-    },
-    {
-      "id": "aHR0cHM6Ly93d3cuY2lzYS5n",
-      "title": "Thermo Fisher Applied Biosystems Genetic Analyzers",
-      "link": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-216-01",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to modify .fsa/.hid output files, tampering with DNA data and resulting in inaccurate test results. The following versions of…",
-      "source": "CISA Cybersecurity Advisories",
-      "sourceId": "cisa-advisories",
-      "category": "ciberseguridad",
-      "tags": [
-        "Firewall",
-        "Storage",
-        "Vulnerabilidad",
-        "CVE",
-        "Exploit"
-      ],
-      "severity": "media",
-      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
-      "publishedAt": "2026-08-04T12:00:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.144Z"
     },
     {
       "title": "Radware lanza protección DDoS impulsada por IA para infraestructura crítica",
@@ -192,7 +197,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-03T21:21:11.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.476Z"
+      "fetchedAt": "2026-08-19T11:21:51.587Z"
     },
     {
       "id": "aHR0cHM6Ly9teC5pbnZlc3Rp",
@@ -661,7 +666,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-14T08:53:00.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.069Z"
+      "fetchedAt": "2026-08-19T11:21:51.325Z"
     },
     {
       "title": "Synology presenta NAS empresarial de 12 bahías con soporte para SSD NVMe",
@@ -711,7 +716,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-07T04:00:42.000Z",
-      "fetchedAt": "2026-08-18T11:22:40.088Z"
+      "fetchedAt": "2026-08-19T11:21:51.400Z"
     },
     {
       "id": "aHR0cHM6Ly9yZXNlYXJjaC5j",
@@ -728,7 +733,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-06T12:01:54.000Z",
-      "fetchedAt": "2026-08-18T11:22:39.576Z"
+      "fetchedAt": "2026-08-19T11:21:50.857Z"
     },
     {
       "title": "Dell presenta servidores PowerEdge con GPU para cargas de IA generativa",
