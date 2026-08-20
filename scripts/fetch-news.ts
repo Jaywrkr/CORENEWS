@@ -1,5 +1,6 @@
 import Parser from "rss-parser";
 import { writeFile, readFile, mkdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
 import path from "node:path";
 import { SOURCES } from "../data/sources";
 import { matchKeywords } from "../data/keywords";
@@ -47,7 +48,13 @@ function truncate(input: string, max = 220): string {
 }
 
 function slugId(link: string): string {
-  return Buffer.from(link).toString("base64url").slice(0, 24);
+  // Un hash (no el base64 crudo del link truncado) evita colisiones entre
+  // artículos de la misma fuente/mes: links de un mismo dominio comparten
+  // un prefijo largo (ej. "https://thehackernews.com/2026/08/"), así que
+  // truncar el base64 directo del link cortaba antes de llegar a la parte
+  // que distingue un artículo de otro y pisaba noticias distintas bajo el
+  // mismo id.
+  return createHash("sha256").update(link).digest("base64url").slice(0, 24);
 }
 
 function detectSeverity(text: string): NewsItem["severity"] {
