@@ -1,7 +1,637 @@
 {
-  "generatedAt": "2026-08-20T11:23:32.942Z",
-  "count": 248,
+  "generatedAt": "2026-08-21T11:23:04.672Z",
+  "count": 282,
   "items": [
+    {
+      "id": "SvtuPS7KdvXGcMtVjjabv1Ye",
+      "title": "Microsoft warns of max severity Entra ID flaw exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-warns-of-max-severity-entra-id-flaw-exploited-in-attacks/",
+      "summary": "Microsoft has patched a maximum-severity vulnerability in the Entra ID identity and access management (IAM) platform that has been exploited in attacks. [...]",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Microsoft",
+        "Vulnerabilidad",
+        "Exploit"
+      ],
+      "severity": "media",
+      "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
+      "publishedAt": "2026-08-21T11:04:10.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "JN4c_8vAfa7IG3EdcQpvSXha",
+      "title": "Hackers abuse FTP server banners to deliver new Windows malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/",
+      "summary": "Threat actors are abusing FTP banners to hide commands that deliver two previously undocumented remote access trojans named E4del and PINHOLE. [...]",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "servidores-hardware",
+      "tags": [
+        "Servidores",
+        "Malware"
+      ],
+      "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
+      "publishedAt": "2026-08-21T11:00:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "Nct43kdaxJJvawFeyXbPyc2d",
+      "title": "Prometheus Hyperscale partners with Istmo to develop up to 2.5GW gas powered data center in Reeves County, Texas",
+      "link": "https://www.datacenterdynamics.com/en/news/prometheus-hyperscale-partners-with-istmo-to-develop-up-to-25gw-gas-powered-data-center-in-reeves-county-texas/",
+      "summary": "First power is slated for next year",
+      "source": "Data Center Dynamics",
+      "sourceId": "dcd",
+      "category": "storage-backup",
+      "tags": [
+        "SLA"
+      ],
+      "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
+      "publishedAt": "2026-08-21T10:33:49.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.055Z"
+    },
+    {
+      "id": "wog3F4pCJ6XhV38IztdzA8rB",
+      "title": "SickKids data breach exposes employee and job applicant info",
+      "link": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/",
+      "summary": "Toronto's Hospital for Sick Children (SickKids) says a cybersecurity incident exposed the personal information of some current and former employees and job applicants, stemming from a flaw in third-party software.…",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Brecha de Seguridad"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-21T10:10:42.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "UcjUUfbrk28IrFiWoXUMEtp-",
+      "title": "Cisco Patches Nine Crosswork and Secure Workload Flaws, Five Scoring CVSS 10.0",
+      "link": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html",
+      "summary": "Cisco has published another round of security updates for Crosswork platforms and Secure Workload Software as part of a continued comprehensive internal security review. Four of the security vulnerabilities affect…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "fabricantes",
+      "tags": [
+        "Cisco"
+      ],
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-21T10:03:11.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "Bo8GeRz1noxNa7YnZKR4tN-T",
+      "title": "Singapore gov't allocates 200MW of power for four data center developers on Jurong Island",
+      "link": "https://www.datacenterdynamics.com/en/news/singapore-govt-allocates-200mw-of-power-for-four-data-center-developers-on-jurong-island/",
+      "summary": "Digital Realty, Equinix, Keppel Data Centers, and ST Telemedia Global Data Centers will each be allocated 50MW of new capacity",
+      "source": "Data Center Dynamics",
+      "sourceId": "dcd",
+      "category": "storage-backup",
+      "tags": [
+        "SLA"
+      ],
+      "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
+      "publishedAt": "2026-08-21T09:43:54.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.055Z"
+    },
+    {
+      "id": "eFD7UpFG2zwS1M9amLFHVV0v",
+      "title": "GitLab CVE-2026-19478 Comes Under Active Exploitation Within Days of Disclosure",
+      "link": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html",
+      "summary": "A newly disclosed security flaw in GitLab has come under active exploitation within days of public disclosure, according to watchTowr. The vulnerability in question is CVE-2026-19478 (CVSS score: 9.4), a case of code…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit"
+      ],
+      "severity": "critica",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-21T07:04:25.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "YwrT_tA2Nk4fP0hp7iKcB4sX",
+      "title": "Microsoft Entra ID Flaw (CVSS 10.0) Exploited in Wild, Allows Remote Code Execution",
+      "link": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html",
+      "summary": "Microsoft on Thursday warned of a maximum-severity security flaw in Entra ID that it said has been exploited in the wild, but noted that no customer action is required. The vulnerability, tracked as CVE-2026-69836 (CVSS…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Microsoft",
+        "Microsoft Azure",
+        "Active Directory",
+        "Vulnerabilidad",
+        "CVE"
+      ],
+      "severity": "critica",
+      "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
+      "publishedAt": "2026-08-21T06:06:11.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "rSGsv2dTElbkRCG5Tw0kpD1B",
+      "title": "Cisco bug severity warning reads like Olympic gymnastics scores: 10, 10, 9.9, 9.6, and 7.5.",
+      "link": "https://www.theregister.com/security/2026/08/21/cisco-bug-severity-warning-reads-like-olympic-gymnastics-scores-10-10-99-96-and-75/5290838",
+      "summary": "Secure Workload Software has five nasty flaws and even SaaS users have updates to install",
+      "source": "The Register — Security",
+      "sourceId": "theregister-security",
+      "category": "fabricantes",
+      "tags": [
+        "Cisco",
+        "NAS"
+      ],
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-21T05:33:08.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
+    },
+    {
+      "id": "i9tm7WBFX1pFYlDcrTq8psHP",
+      "title": "Russian snoops add OAuth abuse to targeted phishing campaigns",
+      "link": "https://www.theregister.com/security/2026/08/21/russian-snoops-add-oauth-abuse-to-targeted-phishing-campaigns/5290706",
+      "summary": "Don't click on that State Department meeting invite",
+      "source": "The Register — Security",
+      "sourceId": "theregister-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Phishing"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-21T00:19:25.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
+    },
+    {
+      "id": "4VMI3tkwzo-4ZEEBkuyq3vaH",
+      "title": "Migrate VMware to Proxmox: A Technical Guide for Conversion, Cutover, and Continuity",
+      "link": "https://www.veeam.com/blog/vmware-to-proxmox-migration.html",
+      "summary": "Neither networking nor storage carries over on its own. Both need a decision to be made before the first VM converts, because a VM that lands on Proxmox VE with the wrong bridge or an unplanned storage backend has to be…",
+      "source": "Veeam Blog",
+      "sourceId": "veeam-blog",
+      "category": "fabricantes",
+      "tags": [
+        "VMware",
+        "Veeam",
+        "Storage"
+      ],
+      "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
+      "publishedAt": "2026-08-20T21:40:24.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.520Z"
+    },
+    {
+      "id": "QYULDeqichwoz5iHfqaoOWiG",
+      "title": "Rust Supply Chain Attack Puts Build-Time Malware in Crates with 245 Million Downloads",
+      "link": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html",
+      "summary": "The Rust Project has deleted malicious versions of three widely used Rust crates from crates.io after a compromised maintainer account published releases that added a typosquatted dependency whose build script…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Malware"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T20:22:35.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "H3FjHiUUE6icIwwemRLy1cMd",
+      "title": "What We Missed: Delta Flight Disrupted With Wi-Fi Hack",
+      "link": "https://www.darkreading.com/cyber-risk/delta-flight-disrupted-wi-fi-hack",
+      "summary": "In this video, Dark Reading editors discuss some of the news they didn't get a chance to cover, including some scary airplane security risks and the US government's newest \"hack back\" strategy.",
+      "source": "Dark Reading",
+      "sourceId": "dark-reading",
+      "category": "redes",
+      "tags": [
+        "Redes Wi-Fi"
+      ],
+      "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
+      "publishedAt": "2026-08-20T19:11:15.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
+    },
+    {
+      "id": "AAspLlN6jJOFNyVXSMN3GQ1H",
+      "title": "Hackers poison arrayref Rust crate to push infostealer malware",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-poison-arrayref-rust-crate-to-push-infostealer-malware/",
+      "summary": "Hackers compromised the maintainer account behind the widely used Rust crate arrayref to introduce malware that executed on developers' systems during compilation. [...]",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Malware"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T17:53:52.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "-A7IMwVao2oigAb4DkvmseGd",
+      "title": "Let’s Talk Tokenomics at VMware Explore 2026",
+      "link": "https://blogs.vmware.com/cloud-foundation/2026/08/20/lets-talk-tokenomics-at-vmware-explore-2026/",
+      "summary": "A new session just landed in the VMware Explore 2026 Content Catalog, and it’s worth prioritizing. J.R. Storment, Executive Director of the FinOps Foundation and Tokenomics Foundation, will join Broadcom experts for a…",
+      "source": "VMware Blog",
+      "sourceId": "vmware-blog",
+      "category": "fabricantes",
+      "tags": [
+        "VMware",
+        "Broadcom"
+      ],
+      "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
+      "publishedAt": "2026-08-20T17:45:57.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
+    },
+    {
+      "id": "AP2WKoqwpnFGiu7KMe2EN0H3",
+      "title": "US Bank investigates LockBit's claims as ransomware crims set pay-or-leak deadline",
+      "link": "https://www.theregister.com/security/2026/08/20/us-bank-investigates-lockbits-claims-as-ransomware-crims-set-pay-or-leak-deadline/5290560",
+      "summary": "Follow the money",
+      "source": "The Register — Security",
+      "sourceId": "theregister-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ransomware"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T17:30:39.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
+    },
+    {
+      "id": "5wcssaGjIPPxhHHndGvpb-RN",
+      "title": "Take Your VCF Upgrade Further: Meet the Hyperscalers at VMware Explore 2026",
+      "link": "https://blogs.vmware.com/cloud-foundation/2026/08/20/take-your-vcf-upgrade-further-meet-the-hyperscalers-at-vmware-explore-2026/",
+      "summary": "In July, AWS announced support for VMware Cloud Foundation (VCF) 9.0 and 9.1 on Amazon Elastic VMware Service (EVS), giving customers the ability to run VCF 9.x directly in their Amazon VPC on EC2 bare-metal…",
+      "source": "VMware Blog",
+      "sourceId": "vmware-blog",
+      "category": "fabricantes",
+      "tags": [
+        "VMware"
+      ],
+      "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
+      "publishedAt": "2026-08-20T17:27:07.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
+    },
+    {
+      "id": "nlGzcolMhFaLaIgrETxyQeSO",
+      "title": "Resilience Without Blind Spots: Veeam’s Q3 Innovation Pulse",
+      "link": "https://www.veeam.com/blog/q3-2026-innovation-pulse-resilience-blind-spots.html",
+      "summary": "Right now, do you know what's actually at risk in your environment? Most leaders can't answer that fast enough. Not because the answer doesn't exist, but because the data they need to inform their answer is scattered.…",
+      "source": "Veeam Blog",
+      "sourceId": "veeam-blog",
+      "category": "fabricantes",
+      "tags": [
+        "Veeam",
+        "Ransomware"
+      ],
+      "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
+      "publishedAt": "2026-08-20T17:24:04.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.520Z"
+    },
+    {
+      "id": "ULz8toE_k5THnlxed8inycXL",
+      "title": "ThreatsDay: Gogs 10.0 RCE, n8n Workflow-to-RCE, $10M Reward, GLM-5.3 AI Exploit, and More",
+      "link": "https://thehackernews.com/2026/08/threatsday-gogs-100-rce-n8n-workflow-to.html",
+      "summary": "A lot of this week’s trouble starts with something trusted doing exactly what it was allowed to do. Signed drivers get turned against defenses. Legitimate apps help malware blend in. A weak header check opens a path to…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Exploit",
+        "Malware"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T17:23:48.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "gn7ztF79TkcYHFHkin9ADSSy",
+      "title": "AI-Generated Exploit Scripts Target Siemens S7 PLCs in U.S. Critical Infrastructure",
+      "link": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html",
+      "summary": "The U.S. government on Wednesday warned of an \"active threat\" targeting critical infrastructure organizations in the country using artificial intelligence (AI)-generated exploit scripts. The activity is targeting…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Exploit"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T16:59:44.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "gh3tVPPtVOxVu9a29AdsNex0",
+      "title": "Powering the Scale Engine for Cisco: How AI is Revolutionizing Digital Customer Experience",
+      "link": "https://blogs.cisco.com/ai/powering-the-scale-engine-for-cisco-how-ai-is-revolutionizing-digital-customer-experience",
+      "summary": "A few years ago, I wrote a blog called “The Rise of Digital Customer Experience,” in which I boldly predicted that digital customer experience (DCX) would be the most important function in your company for the next…",
+      "source": "Cisco Blog",
+      "sourceId": "cisco-blog",
+      "category": "fabricantes",
+      "tags": [
+        "Cisco"
+      ],
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-20T15:25:26.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
+    },
+    {
+      "id": "1Yu5rQPsYd_214NsivvHRXaE",
+      "title": "Miercom validates Cisco 8000 Series Secure Routers for direct internet access",
+      "link": "https://blogs.cisco.com/networking/miercom-validates-cisco-8000-series-secure-routers-for-direct-internet-access",
+      "summary": "Miercom validation confirms Cisco 8000 Series Secure Routers deliver high-performance direct internet access (DIA) with integrated security built in.",
+      "source": "Cisco Blog",
+      "sourceId": "cisco-blog",
+      "category": "fabricantes",
+      "tags": [
+        "Cisco"
+      ],
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-20T15:00:04.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
+    },
+    {
+      "id": "A-8hIGimfdHZgcNasd5ElDXU",
+      "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
+      "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+      "source": "Dark Reading",
+      "sourceId": "dark-reading",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ciberataque"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T14:59:22.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
+    },
+    {
+      "id": "VB4DCdELfaeQwfa5Si4-e2mo",
+      "title": "Critical Elementor Pro bug exposes WordPress sites to RCE attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/",
+      "summary": "A critical vulnerability in the Elementor Pro WordPress plugin could allow attackers to upload executable files for remote code execution on the server. [...]",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Servidores",
+        "Vulnerabilidad"
+      ],
+      "severity": "critica",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T14:39:48.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "6q7UKQt5T5LEdw91TOxGDHbo",
+      "title": "New Cryptographic Context Injection Attack Could Let Web Pages Steal Grok Chat Data",
+      "link": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html",
+      "summary": "Adversa AI has disclosed an attack technique that it says can cause xAI's Grok chatbot to send a user's name, approximate location, subscription tier, and the prompts from the ongoing conversation to an…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "servidores-hardware",
+      "tags": [
+        "Servidores"
+      ],
+      "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
+      "publishedAt": "2026-08-20T14:36:27.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "jOo5Boy1NM_-lvk0JpSV8KAF",
+      "title": "Veeam Data Cloud Vault for AWS Backup: Immutable Storage Outside Your AWS Account",
+      "link": "https://www.veeam.com/blog/vault-storage-for-aws.html",
+      "summary": "For most AWS architects, going offsite with backups isn’t the question. The real decision is where those backups land, and how much ongoing work it takes to keep that landing zone secure, immutable, and isolated from…",
+      "source": "Veeam Blog",
+      "sourceId": "veeam-blog",
+      "category": "storage-backup",
+      "tags": [
+        "Veeam",
+        "Storage",
+        "Backup"
+      ],
+      "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
+      "publishedAt": "2026-08-20T14:28:12.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.520Z"
+    },
+    {
+      "id": "pNg53VBuzdVAdFMPOG4WBnxT",
+      "title": "Ransomware crook poses as recovery firm to steal payments from fellow extortionists",
+      "link": "https://www.theregister.com/cyber-crime/2026/08/20/ransomware-crook-poses-as-recovery-firm-to-steal-payments-from-fellow-extortionists/5290344",
+      "summary": "Because apparently even ransomware gangs can't trust the people they do business with",
+      "source": "The Register — Security",
+      "sourceId": "theregister-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Ransomware"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T14:27:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
+    },
+    {
+      "id": "QdRdNjo26Fc0E1djySbcUj6q",
+      "title": "How MSPs can catch phishing attacks email filters miss",
+      "link": "https://www.bleepingcomputer.com/news/security/how-msps-can-catch-phishing-attacks-email-filters-miss/",
+      "summary": "AI is making phishing attacks more personalized, convincing, and difficult for traditional email filters to detect. Kaseya explains how MSPs can monitor identity, email, and endpoint activity to detect and contain…",
+      "source": "BleepingComputer",
+      "sourceId": "bleeping-computer",
+      "category": "ciberseguridad",
+      "tags": [
+        "Phishing"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T14:01:11.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
+    },
+    {
+      "id": "Ab7Q0XEx-BjrLyWyvKYYawm3",
+      "title": "Isolated-vm Flaw Lets Sandboxed JavaScript Escape to Host for Potential RCE",
+      "link": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html",
+      "summary": "Cybersecurity researchers have disclosed a critical security flaw in isolated-vm, a popular open-source sandbox with more than 2,900 stars and 190 forks on GitHub, that could allow attackers to escape the confines of…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Vulnerabilidad"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T13:48:24.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "iMiVfu1I3k87ZSrmyJsrnwJE",
+      "title": "Critical NetScaler Flaw Can Bypass Authentication on Certain Gateway and AAA Servers",
+      "link": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html",
+      "summary": "Citrix has released updates to address two security flaws impacting NetScaler ADC and NetScaler Gateway deployments, including a critical-severity authentication bypass vulnerability. According to the cloud computing…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Servidores",
+        "Virtualización",
+        "Vulnerabilidad"
+      ],
+      "severity": "media",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T13:35:13.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "tDwIkCkcUJKO-OifgD_aQKsO",
+      "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
+      "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
+      "source": "Dark Reading",
+      "sourceId": "dark-reading",
+      "category": "ciberseguridad",
+      "tags": [
+        "Malware"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T13:30:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
+    },
+    {
+      "id": "Vy4Efs0AkDoTmmLMxPF5Tj_r",
+      "title": "Attackers Exploit Zimbra SNMP Flaw for Unauthenticated Remote Code Execution",
+      "link": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html",
+      "summary": "A now-patched security flaw impacting Zimbra Collaboration (ZCS) has come under active exploitation in the wild, according to the Polish Computer Emergency Response Team (CERT Polska). The vulnerability in question is…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T13:24:28.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "PJsyXIMXatLDogHdtg3NaaLZ",
+      "title": "BTR Reforged: Weaponizing Defender’s Remediation Driver as a Kernel Operation Primitive",
+      "link": "https://research.checkpoint.com/2026/btr-reforged-weaponizing-defenders-remediation-driver-as-a-kernel-operation-primitive/",
+      "summary": "Research by: Jiří Vinopal (@vinopaljiri) Abstract What if a trusted security component could be repurposed into an attacker-controlled kernel primitive? What if a signed Microsoft remediation driver could be instructed…",
+      "source": "Check Point Research",
+      "sourceId": "checkpoint-research",
+      "category": "fabricantes",
+      "tags": [
+        "Check Point",
+        "Microsoft",
+        "Exploit"
+      ],
+      "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
+      "publishedAt": "2026-08-20T13:07:13.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.646Z"
+    },
+    {
+      "id": "WSu3mLnFWZAZvTuomPNXsoaR",
+      "title": "Grok chat duped into swallowing injected instructions",
+      "link": "https://www.theregister.com/ai-and-ml/2026/08/20/grok-chat-duped-into-swallowing-injected-instructions/5290019",
+      "summary": "A spoonful of encryption helps the malware go down",
+      "source": "The Register — Security",
+      "sourceId": "theregister-security",
+      "category": "ciberseguridad",
+      "tags": [
+        "Malware"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T13:00:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
+    },
+    {
+      "id": "CMVCmI7hSTr2QeYE3RHqJ4_B",
+      "title": "AI Workforce Consortium: Building a cybersecurity workforce ready for what’s next",
+      "link": "https://blogs.cisco.com/our-corporate-purpose/ai-workforce-consortium-building-a-cybersecurity-workforce-ready-for-whats-next",
+      "summary": "The Cisco-led AI Workforce Consortium shares new research on AI agents and cybersecurity. This spotlight report covers the shifting threat landscape, evolving job roles, critical skills, and how learning must adapt to…",
+      "source": "Cisco Blog",
+      "sourceId": "cisco-blog",
+      "category": "fabricantes",
+      "tags": [
+        "Cisco"
+      ],
+      "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
+      "publishedAt": "2026-08-20T12:15:27.000Z",
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
+    },
+    {
+      "id": "HexvKYnAGxW4H9P_yVa_NoBX",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "link": "https://www.cisa.gov/news-events/alerts/2026/08/20/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation. CVE-2026-72529 TrueConf Server Missing Authentication for Critical Function…",
+      "source": "CISA Cybersecurity Advisories",
+      "sourceId": "cisa-advisories",
+      "category": "ciberseguridad",
+      "tags": [
+        "Servidores",
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit"
+      ],
+      "severity": "media",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.936Z"
+    },
+    {
+      "id": "cPInf7aiKO8nn7BHJffue2bv",
+      "title": "Johnson Controls Simplex Incident Manager",
+      "link": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-232-01",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a local attacker with low privileges to extract user credentials (passwords and authentication tokens) from system memory, potentially leading…",
+      "source": "CISA Cybersecurity Advisories",
+      "sourceId": "cisa-advisories",
+      "category": "ciberseguridad",
+      "tags": [
+        "Storage",
+        "Vulnerabilidad",
+        "CVE",
+        "Exploit",
+        "Phishing"
+      ],
+      "severity": "alta",
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T12:00:00.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.936Z"
+    },
+    {
+      "id": "Z0DQPrxe5hI0PqabDJ3hkYyV",
+      "title": "CDN Tsunami Attack Abuses HTTP/3 Translation for Up to 350x DoS Amplification",
+      "link": "https://thehackernews.com/2026/08/cdn-tsunami-attack-abuses-http3.html",
+      "summary": "Cybersecurity researchers have disclosed two denial-of-service (DoS) attacks that exploit how major content delivery networks (CDNs) convert client-facing HTTP/3 traffic into HTTP/1.1 requests to the websites they…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Servidores",
+        "Exploit",
+        "SLA"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T11:39:35.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
+    {
+      "id": "zeWT3Xq4DN4RmOcBN3915JPQ",
+      "title": "Manic Android Malware Exfiltrates Data From Offline Phones via Nearby Infected Devices",
+      "link": "https://thehackernews.com/2026/08/manic-android-malware-exfiltrates-data.html",
+      "summary": "A new Android threat codenamed Manic has been observed actively targeting Ukrainian banks, government and identity services, and messaging applications, as well as Russian and European financial institutions, global…",
+      "source": "The Hacker News",
+      "sourceId": "hacker-news",
+      "category": "ciberseguridad",
+      "tags": [
+        "Malware"
+      ],
+      "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
+      "publishedAt": "2026-08-20T11:26:08.000Z",
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
+    },
     {
       "id": "6a8yDZDFRK4Gl8cX3kofDM4-",
       "title": "CISA warns of hackers exploiting critical MLflow vulnerability",
@@ -17,7 +647,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T11:06:14.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.641Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "DUZe7GMVMYV_ATOrFZdSXzg9",
@@ -32,7 +662,7 @@
       ],
       "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
       "publishedAt": "2026-08-20T11:05:11.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.729Z"
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
     },
     {
       "id": "I30m4_HyyhZpOiownpe5GQRv",
@@ -47,7 +677,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T10:38:28.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.729Z"
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
     },
     {
       "id": "eqEBVOLKPNDp_nYuZtIKAk1M",
@@ -62,7 +692,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T10:02:02.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.641Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "Om44MUkNcNE6xRGjK8xFyVAI",
@@ -79,7 +709,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T09:46:54.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.641Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "0O_-AVdjvFVt3FFM_RfF_6zo",
@@ -95,7 +725,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T07:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "LJ0xeMJ-yQDShnlhEGSioZHL",
@@ -110,7 +740,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-20T06:51:03.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.641Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "sdpVugE0HIiCxAyxPq6wybJd",
@@ -128,7 +758,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-20T06:04:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.729Z"
+      "fetchedAt": "2026-08-21T11:23:03.982Z"
     },
     {
       "id": "mUK7uLuR8Lb0ZTuql-2CCwpP",
@@ -144,7 +774,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T21:59:59.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "Ky-HeLdWme8GgPV73tk4RrX0",
@@ -160,7 +790,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T20:59:58.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.641Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "_ZqleQyEzuJJ2flNfg_Z4Fh4",
@@ -175,7 +805,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T20:07:12.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.642Z"
+      "fetchedAt": "2026-08-21T11:23:03.851Z"
     },
     {
       "id": "fT4CFOMvNO9jf68N5cteNKhj",
@@ -192,7 +822,7 @@
       ],
       "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
       "publishedAt": "2026-08-19T19:56:59.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.913Z"
+      "fetchedAt": "2026-08-21T11:23:04.520Z"
     },
     {
       "id": "eyKHF1AlCjQ779Mv2Ua8ySnH",
@@ -207,7 +837,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T19:09:36.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.247Z"
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuZjUuY29t",
@@ -233,7 +863,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-19T18:46:43.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "DzyB4HAGPc7Q_-ZuCO-GD1W9",
@@ -248,7 +878,7 @@
       ],
       "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
       "publishedAt": "2026-08-19T18:09:49.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "zIJ_spi2kk8VO-9hz9A_W0tb",
@@ -264,7 +894,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T18:09:02.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.247Z"
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
     },
     {
       "id": "j1hmPglLpyFXX45B8iAGImhM",
@@ -279,7 +909,7 @@
       ],
       "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
       "publishedAt": "2026-08-19T18:06:50.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "hU5rVq_RKGtCTwErT0k0D1E0",
@@ -296,7 +926,7 @@
       ],
       "relevance": "Veeam es la plataforma de backup que Core opera para la continuidad operativa de sus clientes.",
       "publishedAt": "2026-08-19T18:06:49.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.913Z"
+      "fetchedAt": "2026-08-21T11:23:04.520Z"
     },
     {
       "id": "cfxpldae0o8SO6ld7BDos6YO",
@@ -326,7 +956,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-19T17:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "cHHxdKYFh_qrb39A0bPbObSB",
@@ -342,13 +972,13 @@
       ],
       "relevance": "Core mantiene switching Cisco Nexus en varios centros de datos; puede requerir revisar configuración o parches.",
       "publishedAt": "2026-08-19T17:13:09.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "V5BVnKtJELWJMlxzR_xx2yG5",
       "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
       "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
-      "summary": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+      "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
       "source": "Dark Reading",
       "sourceId": "dark-reading",
       "category": "redes",
@@ -358,7 +988,7 @@
       ],
       "relevance": "Core mantiene switching Cisco Nexus en varios centros de datos; puede requerir revisar configuración o parches.",
       "publishedAt": "2026-08-19T16:58:23.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "e_evbHM1SKdtr0mbXoXsqrq_",
@@ -374,7 +1004,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T16:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.247Z"
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
     },
     {
       "id": "X54U3f4I7NHIOqOPLKSq2Xh9",
@@ -387,7 +1017,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-19T15:00:26.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "NIDEdUZxOb-JYTXAen3W3JC4",
@@ -419,7 +1049,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T13:48:21.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.248Z"
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
     },
     {
       "id": "WcbI9joJD3Et0-wb7eKrkGRA",
@@ -434,7 +1064,7 @@
       ],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-19T13:14:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "RwmHKhCLfL7QPPXymkTsH_5e",
@@ -450,7 +1080,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T13:06:47.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.248Z"
+      "fetchedAt": "2026-08-21T11:23:03.592Z"
     },
     {
       "id": "qN3CJ-hiBIZ7czIiyyD1OPUJ",
@@ -469,7 +1099,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.946Z"
+      "fetchedAt": "2026-08-21T11:23:03.936Z"
     },
     {
       "id": "lc_9NWjQYOQcQ2tthnRGWG7L",
@@ -489,7 +1119,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.947Z"
+      "fetchedAt": "2026-08-21T11:23:03.938Z"
     },
     {
       "id": "j-q1QrA5ZWxJpiyE-GrnbjyB",
@@ -504,7 +1134,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T11:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "0UexZ3dSf2asi3dEBWpi7daF",
@@ -519,7 +1149,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T11:25:28.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "kGmU3r6_QFKjDvU0TIOO1pcc",
@@ -553,7 +1183,7 @@
       "severity": "critica",
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-19T11:01:48.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "pMpqbHfmgvhKlA51rK2-Q0qw",
@@ -568,7 +1198,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-19T11:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.248Z"
+      "fetchedAt": "2026-08-21T11:23:03.593Z"
     },
     {
       "id": "P-HUCO3eZ2uo1rXBDWOJQorK",
@@ -615,7 +1245,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-19T06:01:53.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "CjY7z7xdlX2EiOW-jfgtTR7p",
@@ -631,7 +1261,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-19T05:39:25.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "yB8FGFLTeZjS-G9po4mkm7C3",
@@ -648,7 +1278,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T21:25:58.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "Pbh11Qfq0YNCUjhZLn5-ngbD",
@@ -663,7 +1293,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-18T17:47:22.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "yWD4Ok4foFfunOd4J1LJIkgX",
@@ -679,7 +1309,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T17:44:05.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "yaI7wLel5cipKRl6KJtpqQIT",
@@ -694,7 +1324,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-18T17:34:19.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.278Z"
     },
     {
       "id": "zWOpH9KS9IdObc6p3zxDilcq",
@@ -709,7 +1339,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-18T17:08:28.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "7ho3YN0m-InFK2vwnADCqbIn",
@@ -726,7 +1356,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T16:58:16.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuZGF0YWNl",
@@ -758,7 +1388,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T15:26:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "5S7xgiZ92Oubrd8azXfNOigQ",
@@ -773,7 +1403,7 @@
       ],
       "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
       "publishedAt": "2026-08-18T15:00:56.000Z",
-      "fetchedAt": "2026-08-20T11:23:32.939Z"
+      "fetchedAt": "2026-08-21T11:23:04.330Z"
     },
     {
       "id": "u381fUngTaTE_F_9kNGw1e6l",
@@ -818,7 +1448,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-18T13:05:44.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.323Z"
+      "fetchedAt": "2026-08-21T11:23:03.646Z"
     },
     {
       "id": "mr0LeU32aJVOMVP3xnkyV8_B",
@@ -833,7 +1463,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-18T13:00:40.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.278Z"
     },
     {
       "id": "9iat0GvgxJWz-vqdmOuMTJMr",
@@ -849,7 +1479,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-18T13:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "H2FtBxxmte4uuBYDnihwJvuh",
@@ -865,7 +1495,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T13:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "dwRdgPetaeHeillunHp-3Ri3",
@@ -880,7 +1510,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-18T12:38:20.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "POGCD5p47tLt1NLrrPxSBfzQ",
@@ -908,7 +1538,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-18T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.248Z"
+      "fetchedAt": "2026-08-21T11:23:03.593Z"
     },
     {
       "id": "VbLkTOydufvxnsPQCWnLSMAo",
@@ -928,7 +1558,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.948Z"
+      "fetchedAt": "2026-08-21T11:23:03.938Z"
     },
     {
       "id": "wjbauLIYlNUblPMe-EKOSCCx",
@@ -948,7 +1578,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.949Z"
+      "fetchedAt": "2026-08-21T11:23:03.939Z"
     },
     {
       "id": "SlB5Y-OJBRaUWuHPaqOJP8vy",
@@ -967,7 +1597,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-18T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.949Z"
+      "fetchedAt": "2026-08-21T11:23:03.939Z"
     },
     {
       "id": "b56X9N6GTkaoOd9Rx9HrHMxn",
@@ -982,7 +1612,7 @@
       ],
       "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
       "publishedAt": "2026-08-18T11:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "uqJ-0P4W2MlcFo2_5AHM8mjx",
@@ -997,7 +1627,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T11:20:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "r-2s681q0hsmwnsM5Z37dVmQ",
@@ -1029,7 +1659,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-18T06:34:20.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "6hz3L2D5CZu5QQAN1wVKOD2O",
@@ -1044,7 +1674,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-17T23:12:48.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.248Z"
+      "fetchedAt": "2026-08-21T11:23:03.593Z"
     },
     {
       "id": "Qfkft_ywRZ5nUbCPdQPCDVQ5",
@@ -1059,7 +1689,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T21:37:23.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "ftVHieQ0sjDXZDdquDysGs5v",
@@ -1076,7 +1706,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T21:03:04.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "m2onzNndCvYgYt_Pd9GbN1gv",
@@ -1091,7 +1721,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T20:26:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "SZzYydYjBrx39VG1zybcVhwg",
@@ -1108,7 +1738,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T18:44:17.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "uDrxYnE13fnDMgHaKpCvZfPX",
@@ -1126,7 +1756,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T18:22:09.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.730Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "yq3pN_5E7W9PQgMaqx4JUUi8",
@@ -1141,7 +1771,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-17T17:16:01.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.278Z"
     },
     {
       "id": "MUZOgZ4AX_2xmPAw-edBN30f",
@@ -1156,7 +1786,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T15:44:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "JbnffXs7J1swnuZJpyXaVTRJ",
@@ -1188,7 +1818,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-17T13:37:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "dKS7Cq-sBMB19ctXqIP1n3tt",
@@ -1204,7 +1834,7 @@
       ],
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-17T13:23:51.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cuYmxlZXBp",
@@ -1255,7 +1885,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.949Z"
+      "fetchedAt": "2026-08-21T11:23:03.939Z"
     },
     {
       "id": "WrNmQ6z_SV8MSSxVVHfWsy57",
@@ -1270,7 +1900,7 @@
       ],
       "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
       "publishedAt": "2026-08-17T11:58:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "RnV_D91fFB2LaqVW3UNQYNdL",
@@ -1285,7 +1915,7 @@
       ],
       "relevance": "Core asesora y opera cargas en Azure para clientes en procesos de migración a nube híbrida.",
       "publishedAt": "2026-08-17T11:43:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "eXlGiJUzXVA_K8bdjehk1LFV",
@@ -1301,7 +1931,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T10:52:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "bJgXOAjKmfoRcY9cleWBhZC9",
@@ -1316,7 +1946,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-17T10:47:43.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.278Z"
     },
     {
       "id": "djfpmcZEFkZk18SxwrZb49-J",
@@ -1333,7 +1963,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T09:29:55.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "YbS8BKhGGpZUL5EfhCSgPZ0g",
@@ -1348,7 +1978,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T09:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.768Z"
+      "fetchedAt": "2026-08-21T11:23:04.047Z"
     },
     {
       "id": "9jLle-2MxPwicMge3VcRa8R8",
@@ -1368,7 +1998,7 @@
       "severity": "critica",
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-17T07:36:19.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.983Z"
     },
     {
       "id": "NLaq3FyF0fywe52nrDRimfMp",
@@ -1383,7 +2013,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-17T02:31:58.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "ScD3giTHg4h8AxWymCvGZ5Ap",
@@ -1398,7 +2028,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-17T00:51:21.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "2XleB5P3jZU8RI5wmZD3kyCy",
@@ -1413,7 +2043,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-16T10:06:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "MvTwTZn4DUQQ9EaQFJiEXRwQ",
@@ -1431,7 +2061,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-15T08:38:46.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.984Z"
     },
     {
       "id": "uQ_7T3-bv4I-SfEa6V06ZqyO",
@@ -1449,7 +2079,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-15T07:24:04.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.984Z"
     },
     {
       "id": "_8Vl7BHFG-hneCRqwkNGuZJe",
@@ -1464,7 +2094,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-14T18:48:46.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.731Z"
+      "fetchedAt": "2026-08-21T11:23:03.984Z"
     },
     {
       "id": "-foZMb32vmSLUdtH9Q7WBeY-",
@@ -1480,7 +2110,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-14T17:32:46.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.158Z"
     },
     {
       "id": "n30KQ7mF8qWV37Oxw1yaj0rp",
@@ -1495,7 +2125,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-14T15:58:50.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.982Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "W76KVaQ03s_BvDuORHePT_NY",
@@ -1541,7 +2171,7 @@
       ],
       "relevance": "Anuncio de un fabricante con el que Core trabaja directamente.",
       "publishedAt": "2026-08-14T10:29:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "I8BbNfjiEebmhDSlAhXXOFEG",
@@ -1556,7 +2186,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-14T10:21:24.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "eiD-6F49s6mwol-1OlfMEu3x",
@@ -1575,7 +2205,7 @@
       "severity": "media",
       "relevance": "Core implementa y administra entornos VMware en varios datacenters de clientes: conviene revisar si esta noticia afecta versiones o licenciamiento en uso.",
       "publishedAt": "2026-08-13T20:45:17.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "kts0OI6JUnB9mqZ7sjTOozr1",
@@ -1662,7 +2292,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-13T15:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.377Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "IS_4t29YJDYgKqXAGi0Mx-ns",
@@ -1678,7 +2308,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T14:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.768Z"
+      "fetchedAt": "2026-08-21T11:23:04.047Z"
     },
     {
       "id": "aHR0cHM6Ly9ibG9ncy52bXdh",
@@ -1711,7 +2341,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-13T12:54:35.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "pxa_byVvWowXok93ft00n_Re",
@@ -1730,7 +2360,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.950Z"
+      "fetchedAt": "2026-08-21T11:23:03.941Z"
     },
     {
       "id": "Wik5YW8dI8cRT375m4KjpPKJ",
@@ -1750,7 +2380,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.950Z"
+      "fetchedAt": "2026-08-21T11:23:03.942Z"
     },
     {
       "id": "roSxqrC-tnaAmpBz1pTSNJWt",
@@ -1769,7 +2399,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.950Z"
+      "fetchedAt": "2026-08-21T11:23:03.942Z"
     },
     {
       "id": "tGW_vfaFOYX5H8nZqYpBTyEa",
@@ -1789,7 +2419,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.951Z"
+      "fetchedAt": "2026-08-21T11:23:03.943Z"
     },
     {
       "id": "LXAwM7NJXOFdlUk2TotSy5oP",
@@ -1809,7 +2439,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.951Z"
+      "fetchedAt": "2026-08-21T11:23:03.944Z"
     },
     {
       "id": "51fEa2hDJ_T9qgid6kCTdnW3",
@@ -1829,7 +2459,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.952Z"
+      "fetchedAt": "2026-08-21T11:23:03.944Z"
     },
     {
       "id": "zzu59NAi4CPRsdtWHPdeEMSV",
@@ -1849,7 +2479,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.952Z"
+      "fetchedAt": "2026-08-21T11:23:03.945Z"
     },
     {
       "id": "MmTIqzoLUlPyNjZ5h_LABsCE",
@@ -1868,7 +2498,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.953Z"
+      "fetchedAt": "2026-08-21T11:23:03.945Z"
     },
     {
       "id": "qK2R7bK-oYUICsGVHiYA_cLx",
@@ -1887,7 +2517,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.953Z"
+      "fetchedAt": "2026-08-21T11:23:03.946Z"
     },
     {
       "id": "Gfi4nWMTFjE6Eo2Ir-fYurVA",
@@ -1906,7 +2536,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.953Z"
+      "fetchedAt": "2026-08-21T11:23:03.947Z"
     },
     {
       "id": "Dammx39fIYvAc7fV1i79QdiR",
@@ -1926,7 +2556,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.954Z"
+      "fetchedAt": "2026-08-21T11:23:03.947Z"
     },
     {
       "id": "-mX4s5QEu_wagBLK_seecL9J",
@@ -1946,7 +2576,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.955Z"
+      "fetchedAt": "2026-08-21T11:23:03.948Z"
     },
     {
       "id": "EDQa4K8P_xbYFQr_aiRreXyT",
@@ -1965,7 +2595,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.955Z"
+      "fetchedAt": "2026-08-21T11:23:03.948Z"
     },
     {
       "id": "Ew7dcxfIJU2N8ebFMGWZS22g",
@@ -1984,7 +2614,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-13T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.956Z"
+      "fetchedAt": "2026-08-21T11:23:03.949Z"
     },
     {
       "id": "YuiFLmBvTBCq-B_ugNGz5ml7",
@@ -2033,7 +2663,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-13T04:02:21.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "BP3Cc0UHqTcY8ye4HqY2IY1_",
@@ -2048,7 +2678,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-13T04:02:14.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "0mqxtQ2u4xmUun77XI-IGAKK",
@@ -2061,7 +2691,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-12T18:07:12.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "P9U8tRO4V4dBgy6jc9xYHbkY",
@@ -2096,7 +2726,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-12T14:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "oh1BJqOtRfTgt7nDCPDKqyU6",
@@ -2109,7 +2739,7 @@
       "tags": [],
       "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
       "publishedAt": "2026-08-12T13:00:13.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.999Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "8ln0LfMnOOz4qDEn7OZ6KCOl",
@@ -2125,7 +2755,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-12T13:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.378Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "Ye12JKt_Xm4Al84k2t4V2nG8",
@@ -2140,7 +2770,7 @@
       ],
       "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
       "publishedAt": "2026-08-12T12:41:03.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "PK0Xk_4CRZgrPxtts0r_3dSG",
@@ -2160,7 +2790,7 @@
       "severity": "media",
       "relevance": "Fortinet es una de las marcas de firewall que Core evalúa e instala en clientes.",
       "publishedAt": "2026-08-12T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.956Z"
+      "fetchedAt": "2026-08-21T11:23:03.949Z"
     },
     {
       "id": "_U3nilRxxdSgD3Gul7Usk8yy",
@@ -2173,7 +2803,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-12T00:31:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.604Z"
+      "fetchedAt": "2026-08-21T11:23:04.026Z"
     },
     {
       "id": "oLh4SwqlNZfxeIsiNOMCG0lx",
@@ -2192,7 +2822,7 @@
       "severity": "critica",
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-11T21:42:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "OvHasI_9MWZb6ewkxFMkrTNK",
@@ -2207,7 +2837,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-11T21:31:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.378Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "VVaCir-t1o0EXiZLHbJxwIrK",
@@ -2226,7 +2856,7 @@
       "severity": "alta",
       "relevance": "Fortinet es una de las marcas de firewall que Core evalúa e instala en clientes.",
       "publishedAt": "2026-08-11T21:16:25.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "aHR0cHM6Ly90aGVoYWNrZXJu",
@@ -2261,7 +2891,7 @@
       "severity": "critica",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-11T17:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "65ddEFlav4IAfAYKB5Te7QQf",
@@ -2276,7 +2906,7 @@
       ],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-11T16:27:57.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.378Z"
+      "fetchedAt": "2026-08-21T11:23:04.559Z"
     },
     {
       "id": "2Qxz1Nr4Y_d27LPZZRnjni1g",
@@ -2296,7 +2926,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.957Z"
+      "fetchedAt": "2026-08-21T11:23:03.951Z"
     },
     {
       "id": "7ryvbzUorUETYaHMh6wbztMa",
@@ -2315,7 +2945,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.958Z"
+      "fetchedAt": "2026-08-21T11:23:03.952Z"
     },
     {
       "id": "XpC4HzTnWwltBjD9Jl87R_Zu",
@@ -2335,7 +2965,7 @@
       "severity": "media",
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.958Z"
+      "fetchedAt": "2026-08-21T11:23:03.952Z"
     },
     {
       "id": "4KKrVdMKq1ubLynSpmgIUpnY",
@@ -2355,7 +2985,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-11T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.958Z"
+      "fetchedAt": "2026-08-21T11:23:03.952Z"
     },
     {
       "id": "9Z_MsRFY8ssj8obsrxr5FMic",
@@ -2372,7 +3002,7 @@
       "severity": "critica",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-10T21:02:23.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "l4r5BcivMvCovuMfZs3Ssr7K",
@@ -2402,7 +3032,7 @@
       ],
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-10T17:09:20.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "B3Sk-fXt4B3ZvzUWTgnd755P",
@@ -2417,7 +3047,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-10T16:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "aG2coa67V5E5-aogFvxLp5-M",
@@ -2433,7 +3063,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-10T15:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "H1I9axprHOijTb0CqP_4Krk3",
@@ -2449,7 +3079,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-10T13:53:22.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "cyz5ng5Lf7bsm0lWLDcOMTl3",
@@ -2486,7 +3116,7 @@
       "severity": "alta",
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-10T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.960Z"
+      "fetchedAt": "2026-08-21T11:23:03.955Z"
     },
     {
       "id": "llE4L0UHk279cV9TUTriWQAm",
@@ -2535,7 +3165,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-08T00:42:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.603Z"
+      "fetchedAt": "2026-08-21T11:23:04.025Z"
     },
     {
       "id": "XvLqwiW30kwD-5dgPDaZbQv0",
@@ -2553,7 +3183,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-07T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.961Z"
+      "fetchedAt": "2026-08-21T11:23:03.955Z"
     },
     {
       "id": "5k0PiltvMo_TbR607dl0rrf9",
@@ -2570,7 +3200,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-08-07T12:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.961Z"
+      "fetchedAt": "2026-08-21T11:23:03.956Z"
     },
     {
       "id": "k9SWZ6Lz3dTJA3Ufxvnd1tAe",
@@ -2586,7 +3216,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-06T22:20:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "01ntubGc11btp33CGWV72H2c",
@@ -2601,7 +3231,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-06T13:05:57.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "JVs5iudU5gH_pg9QbYx8obtK",
@@ -2616,7 +3246,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-06T12:54:35.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "5WmSHxxu9Fz1KaGErHlTx_tL",
@@ -2686,7 +3316,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-08-06T11:51:10.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "luwgPHMk-RMDPk7LvkXkU787",
@@ -2701,7 +3331,7 @@
       ],
       "relevance": "Actualización de storage o backup, pilares de la continuidad operativa que Core garantiza a sus clientes.",
       "publishedAt": "2026-08-05T23:35:28.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.983Z"
+      "fetchedAt": "2026-08-21T11:23:04.159Z"
     },
     {
       "id": "dDQbCfSqp9x2XnPrEcohpYCh",
@@ -2729,7 +3359,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-08-05T17:56:50.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "sAoL__Lgo7iYaGb_3Mer3Yg8",
@@ -2744,7 +3374,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-05T16:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "B0iI21MtPDtAJe0_Vsrt-Nby",
@@ -2759,7 +3389,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-05T15:48:39.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cudmVlYW0u",
@@ -2840,7 +3470,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-04T23:46:41.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "qUXf8xibr33lfNPqqKBjYKmE",
@@ -2855,7 +3485,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-04T18:30:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "H8jp6X0Ph25kIn3jKqtxZSRG",
@@ -2871,7 +3501,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-08-04T17:54:04.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "title": "Radware lanza protección DDoS impulsada por IA para infraestructura crítica",
@@ -2937,7 +3567,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-08-03T13:15:55.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "aHR0cHM6Ly9teC5pbnZlc3Rp",
@@ -3037,7 +3667,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-31T21:01:37.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.517Z"
+      "fetchedAt": "2026-08-21T11:23:03.965Z"
     },
     {
       "id": "-n9McnG_eMpmLmearofHiR5Q",
@@ -3053,7 +3683,7 @@
       "severity": "alta",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-07-31T14:14:15.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.768Z"
+      "fetchedAt": "2026-08-21T11:23:04.047Z"
     },
     {
       "id": "q56I8bLXSOcsbu-TPqwySqdb",
@@ -3066,7 +3696,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-30T16:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.603Z"
+      "fetchedAt": "2026-08-21T11:23:04.025Z"
     },
     {
       "id": "k4xol8EJ3CN27-LteoDz9vrQ",
@@ -3081,7 +3711,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-30T13:00:05.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Quantum renueva su línea de librerías de cinta para archivo de largo plazo",
@@ -3128,7 +3758,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-29T21:35:25.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "aHR0cHM6Ly93d3cubWljcm9z",
@@ -3176,7 +3806,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-28T16:22:49.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "olwq9VnuTFWDXvpqNrGyN4XU",
@@ -3191,7 +3821,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-28T09:46:52.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "UCCOxYIR9sgjsCBJkML6Wqzj",
@@ -3207,7 +3837,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-28T09:00:02.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "IBM Power11 mejora hasta 30% el rendimiento por núcleo en cargas SAP",
@@ -3271,7 +3901,7 @@
       "severity": "alta",
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-27T16:00:39.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "DUWEK-RA6TZFsqEl7S5jVMCj",
@@ -3286,7 +3916,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-27T08:00:17.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Radware reporta aumento de ataques DDoS a infraestructura financiera en Latinoamérica",
@@ -3336,7 +3966,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-24T14:00:19.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Aruba (HPE) integra IA generativa en su plataforma de gestión de campus",
@@ -3368,7 +3998,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-23T18:30:25.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "p6UDWPZtKN1-A1rT1Xfk7DNu",
@@ -3383,7 +4013,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-23T18:21:39.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "aHR0cHM6Ly9tYXJpdXNob3N0",
@@ -3412,7 +4042,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-22T18:49:19.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "g6mcV6-eaajKZTDmgqZZkb-a",
@@ -3425,7 +4055,7 @@
       "tags": [],
       "relevance": "Movimiento de hardware de servidores que puede abrir oportunidades de renovación con clientes.",
       "publishedAt": "2026-07-22T17:13:44.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "aHR0cHM6Ly9ibG9nLmVsaGFj",
@@ -3476,7 +4106,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-21T11:57:56.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Check Point adquiere startup de seguridad para cargas en la nube",
@@ -3508,7 +4138,7 @@
       "severity": "media",
       "relevance": "Vulnerabilidad o incidente relevante para la postura de seguridad que Core sostiene en sus clientes.",
       "publishedAt": "2026-07-20T18:09:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.604Z"
+      "fetchedAt": "2026-08-21T11:23:04.025Z"
     },
     {
       "id": "hBWeDnHSsOXsA5mU9YS7rGTR",
@@ -3524,7 +4154,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-20T12:18:41.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.324Z"
+      "fetchedAt": "2026-08-21T11:23:03.647Z"
     },
     {
       "id": "5uhTQOEV3QCk1iV789IYutGJ",
@@ -3539,7 +4169,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-20T11:20:42.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "aHR0cHM6Ly9uZXdzLmJyb2Fk",
@@ -3570,7 +4200,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-19T16:05:45.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Broadcom ajusta el licenciamiento por núcleo de VMware Cloud Foundation",
@@ -3620,7 +4250,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-17T14:36:33.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Veeam suma soporte nativo para Proxmox VE en su última actualización",
@@ -3651,7 +4281,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-16T18:10:36.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "2JMEooRv5kCdR61SJ2giYoyH",
@@ -3666,7 +4296,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-16T11:00:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Arista Networks reporta ingresos trimestrales récord impulsados por la demanda de IA",
@@ -3695,7 +4325,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-15T18:05:44.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "o2OXU0OOZHkKOI7l6JH3B0RK",
@@ -3710,7 +4340,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-15T13:00:36.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "id": "aHR0cHM6Ly9kcGxuZXdzLmNv",
@@ -3739,7 +4369,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-14T15:45:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.604Z"
+      "fetchedAt": "2026-08-21T11:23:04.025Z"
     },
     {
       "id": "aHR0cHM6Ly94LmNvbS9Nc2Z0",
@@ -3807,7 +4437,7 @@
       ],
       "relevance": "Core administra infraestructura Microsoft (Active Directory, Windows Server) en la mayoría de sus clientes.",
       "publishedAt": "2026-07-14T08:53:00.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.768Z"
+      "fetchedAt": "2026-08-21T11:23:04.047Z"
     },
     {
       "id": "IcAyMDs6H4cTPp--8I3mgMYK",
@@ -3822,7 +4452,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-14T00:51:31.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.325Z"
+      "fetchedAt": "2026-08-21T11:23:03.648Z"
     },
     {
       "id": "D0mmIGDxOJUfX1ZsazKNqux8",
@@ -3838,7 +4468,7 @@
       ],
       "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
       "publishedAt": "2026-07-13T13:06:08.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.325Z"
+      "fetchedAt": "2026-08-21T11:23:03.648Z"
     },
     {
       "id": "p_Jya48t9_Dr8fzvv30nK6SI",
@@ -3853,7 +4483,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-10T02:39:03.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.279Z"
     },
     {
       "title": "Synology presenta NAS empresarial de 12 bahías con soporte para SSD NVMe",
@@ -3885,7 +4515,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-09T03:58:17.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.280Z"
     },
     {
       "id": "Q7WxUOGa2SHHl_k5sMH0O0ZX",
@@ -3898,7 +4528,7 @@
       "tags": [],
       "relevance": "Novedad de networking que puede afectar diseños o mantenimientos de red que Core entrega.",
       "publishedAt": "2026-07-08T18:21:46.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.612Z"
+      "fetchedAt": "2026-08-21T11:23:04.033Z"
     },
     {
       "id": "MtbiyRmHRT2yF0Brq8o4ohv7",
@@ -3913,7 +4543,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-08T18:09:34.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.280Z"
     },
     {
       "id": "NVsjnCmbhGNIBIVn3uPXhS80",
@@ -3928,7 +4558,7 @@
       ],
       "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
       "publishedAt": "2026-07-08T17:11:39.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
+      "fetchedAt": "2026-08-21T11:23:04.280Z"
     },
     {
       "title": "Quantum se asocia con un proveedor de nube para ofrecer respaldo inmutable",
@@ -3947,86 +4577,6 @@
       "publishedAt": "2026-07-08T09:00:00.000Z",
       "id": "0fe600f9e7ac6c445245",
       "fetchedAt": "2026-08-06T21:52:00.000Z"
-    },
-    {
-      "id": "aHR0cHM6Ly9uZXdzLmxlbm92",
-      "title": "Lenovo achieves 90% renewable energy in operations’ electricity, announces new aspirations in FY2025-26 ESG Report",
-      "link": "https://news.lenovo.com/pressroom/press-releases/fy2025-26-esg-report/",
-      "summary": "The report highlights measurable gains in climate action, circular economy, social impact, and governance, while reinforcing responsible innovation in the AI era and Lenovo’s continued commitment to ESG programs.",
-      "source": "Lenovo StoryHub",
-      "sourceId": "lenovo-news",
-      "category": "fabricantes",
-      "tags": [
-        "Lenovo"
-      ],
-      "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
-      "publishedAt": "2026-07-07T04:00:42.000Z",
-      "fetchedAt": "2026-08-19T11:21:51.400Z"
-    },
-    {
-      "id": "y0NySheDxG-LVBgK4hCpFWgp",
-      "title": "Lenovo achieves 90% renewable energy in operations’ electricity, announces new aspirations in FY2025-26 ESG Report",
-      "link": "https://news.lenovo.com/pressroom/press-releases/fy2025-26-esg-report/",
-      "summary": "The report highlights measurable gains in climate action, circular economy, social impact, and governance, while reinforcing responsible innovation in the AI era and Lenovo’s continued commitment to ESG programs.",
-      "source": "Lenovo StoryHub",
-      "sourceId": "lenovo-news",
-      "category": "fabricantes",
-      "tags": [
-        "Lenovo"
-      ],
-      "relevance": "Lenovo es uno de los fabricantes de servidores que más aparece en los proyectos de Core; movimientos de producto o suministro afectan tiempos de entrega.",
-      "publishedAt": "2026-07-07T04:00:42.000Z",
-      "fetchedAt": "2026-08-20T11:23:31.000Z"
-    },
-    {
-      "id": "7O0bMiiftDYjufm2JIcXegN3",
-      "title": "Cavern Manticore: Exposing Iran-Linked Modular C2 Framework",
-      "link": "https://research.checkpoint.com/2026/cavern-manticore-exposing-iran-linked-modular-c2-framework/",
-      "summary": "Key Points Introduction Since early 2026, Check Point Research (CPR) has tracked a new modular command-and-control framework used by Cavern Manticore, an Iran-nexus APT group primarily targeting Israeli organizations,…",
-      "source": "Check Point Research",
-      "sourceId": "checkpoint-research",
-      "category": "redes",
-      "tags": [
-        "Check Point",
-        "Cisco Nexus"
-      ],
-      "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
-      "publishedAt": "2026-07-06T12:25:02.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.325Z"
-    },
-    {
-      "id": "aHR0cHM6Ly9yZXNlYXJjaC5j",
-      "title": "6th July – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
-      "summary": "For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a…",
-      "source": "Check Point Research",
-      "sourceId": "checkpoint-research",
-      "category": "ciberseguridad",
-      "tags": [
-        "Check Point",
-        "Ransomware"
-      ],
-      "severity": "alta",
-      "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
-      "publishedAt": "2026-07-06T12:01:54.000Z",
-      "fetchedAt": "2026-08-19T11:21:50.857Z"
-    },
-    {
-      "id": "VI46Ac4S-SotbnrdCha2aPOA",
-      "title": "6th July – Threat Intelligence Report",
-      "link": "https://research.checkpoint.com/2026/6th-july-threat-intelligence-report-2/",
-      "summary": "For the latest discoveries in cyber research for the week of 6th July, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES River Bank & Trust, a US financial institution, has experienced a…",
-      "source": "Check Point Research",
-      "sourceId": "checkpoint-research",
-      "category": "ciberseguridad",
-      "tags": [
-        "Check Point",
-        "Ransomware"
-      ],
-      "severity": "alta",
-      "relevance": "Check Point es uno de los firewalls que Core despliega y mantiene en clientes; un incidente aquí puede requerir acción inmediata.",
-      "publishedAt": "2026-07-06T12:01:54.000Z",
-      "fetchedAt": "2026-08-20T11:23:30.325Z"
     }
   ]
 }
